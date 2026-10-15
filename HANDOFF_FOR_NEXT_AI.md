@@ -111,7 +111,9 @@ README.md                     entry point and navigation
 START_HERE.md                 read-order, evidence-label scheme, safety rules
 PROJECT_CONTEXT.md            objectives, non-goals, reported-vs-verified, Q1–Q10, glossary, storage decisions
 RESOURCE_CATALOG.csv          169 rows × 23 columns — one row per unique component, with the 15-point assessment
-ASSET_MANIFEST.json           871 assets — URL, retrieval date, path, size, SHA-256, commit, licence, status
+ASSET_MANIFEST.json           871 assets — URL, retrieval date, path, size, SHA-256, blob SHA, commit,
+                              licence, status (manifest_version 1.2; the two blob-SHA
+                              fields are explained in §13)
 ATTRIBUTION.md                consolidated attribution and notices
 RESEARCH_REPORT.md            findings by workstream, cross-cutting findings F1–F8, negative results
 TOP_RECOMMENDATIONS.md        the five ranked opportunities, each with a bounded accept/reject experiment
@@ -308,9 +310,9 @@ Non-negotiable. Full checklist in [EVALUATION_PLAN.md](EVALUATION_PLAN.md) §7.
   redistribution status, checked date, evidence status, hardware needs, costs/privacy, integration role,
   priority, classification, and the full 15-point assessment.
 * *"Where did this file come from and is it intact?"* → [ASSET_MANIFEST.json](ASSET_MANIFEST.json). Per
-  asset: id, related component ids, original URL, retrieval date, local path, size, SHA-256, upstream
-  commit, licence, attribution, status (`downloaded` / `inspected` / `tested` / `metadata-only`), and any
-  access, integrity or verification limitation.
+  asset: id, related component ids, original URL, retrieval date, local path, size, SHA-256, local and
+  upstream Git blob SHAs, upstream commit, licence, attribution, status (`downloaded` / `inspected` /
+  `tested` / `metadata-only`), and any access, integrity or verification limitation.
 * *"What am I allowed to do with it?"* → [resources/licenses/INDEX.md](resources/licenses/INDEX.md) (144
   components with bundled licence text, the redistribution-status vocabulary, and an explicit
   "deliberately NOT collected" list) and [ATTRIBUTION.md](ATTRIBUTION.md).
@@ -319,7 +321,7 @@ Non-negotiable. Full checklist in [EVALUATION_PLAN.md](EVALUATION_PLAN.md) §7.
 
 ```bash
 python3 scripts/validate_catalog.py       # structure, vocabularies, cross-checks, links, existence, secret scan
-python3 scripts/verify_asset_hashes.py    # recompute SHA-256 for all 871 assets and compare to the manifest
+python3 scripts/verify_asset_hashes.py    # recompute SHA-256, size and Git blob SHA for all 871 assets
 ```
 
 `validate_catalog.py` exits 0 (clean), 1 (errors) or 2 (usage/IO problem). Every `component_id` in the
@@ -327,16 +329,36 @@ manifest resolves to a catalog row: PyPI distribution names were normalised to t
 time (for example `apache-airflow` → `airflow`, `marker-pdf` → `marker`, `evaluate` → `hf-evaluate`), so a
 new warning of that kind means a genuinely new, unassessed component appeared.
 
-One warning is **expected and correct**: `resources/documentation/trufflehog/README.md` quotes an example
-AWS access key id in its sample scanner output. That key is a canary token published by
-`trufflesecurity/test_keys`, not a live credential and not this project's. It is reviewed and explained in
-the `BUNDLED_CREDENTIAL_LOOKALIKES` table inside the validator. The rule that table enforces is the
-important part: a credential-shaped string in a file **authored here** is always an error, and one in a
-**bundled upstream** file is an error unless someone has read it and written down why it is acceptable.
+**Two warnings are expected and correct**, both in bundled upstream files, both reviewed and explained in
+the `BUNDLED_CREDENTIAL_LOOKALIKES` table inside the validator:
+
+* `resources/documentation/trufflehog/README.md` quotes an example AWS access key id in its sample scanner
+  output. That key is a canary token published by `trufflesecurity/test_keys`, not a live credential and not
+  this project's.
+* `resources/configurations/gitleaks/config__gitleaks.toml` is gitleaks' own published configuration; its
+  `[allowlist]` carries 16 Google-API-key-shaped strings that gitleaks allowlists so its own examples and
+  test fixtures are not reported. They are upstream's, were **not** tested or used, and the file is kept
+  byte-identical to its recorded SHA-256 because editing a bundled asset would misrepresent it.
+
+The rule that table enforces is the important part: a credential-shaped string in a file **authored here**
+is always an error, and one in a **bundled upstream** file is an error unless someone has read it and
+written down why it is acceptable. A third warning would mean something new and unreviewed appeared.
+
+**The two blob-SHA fields.** `local_git_blob_sha` hashes **the bundled bytes** and is recomputed by
+`verify_asset_hashes.py`; it matches this repository's published tree for all 871 assets.
+`upstream_git_blob_sha` is the object SHA GitHub reports for `upstream_path` at `upstream_commit` —
+provenance, and deliberately **not** compared against our copy. For **7** assets the upstream path is a
+symlink, so GitHub reports the link's SHA while serving the resolved target's bytes and the two values
+differ **by design**; those records set `upstream_path_is_symlink: true`, name the target and explain
+themselves, and the validator fails if an unexplained difference ever appears. **124** package-registry
+metadata records have `upstream_git_blob_sha: null` with a recorded reason: there is no upstream Git object
+to point at. When in doubt, verify with `sha256`.
 
 **Before you trust any asset further:**
 
-1. Confirm its SHA-256 matches the manifest (`verify_asset_hashes.py`).
+1. Confirm its SHA-256 matches the manifest (`verify_asset_hashes.py`, which also recomputes
+   `local_git_blob_sha`). If it is flagged `upstream_path_is_symlink`, do not expect
+   `upstream_git_blob_sha` to match anything you compute from the bundled bytes.
 2. Read its bundled licence text under `resources/licenses/` — do not rely on a detector or a README badge.
    GitHub's detector returned `NOASSERTION` for several repositories that do have licences.
 3. Check `checked_date`, `upstream_last_pushed` and `upstream_archived` in its catalog row. Ownership

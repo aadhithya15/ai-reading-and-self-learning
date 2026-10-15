@@ -3,8 +3,10 @@
 
 WHAT THIS SCRIPT DOES
     * Reads ASSET_MANIFEST.json.
-    * Recomputes SHA-256 and byte size for every asset with a local path.
-    * Compares both against the recorded values.
+    * Recomputes SHA-256, byte size and the Git blob SHA for every asset with a
+      local path.
+    * Compares all three against the recorded values (sha256, file_size_bytes,
+      local_git_blob_sha).
     * Reports: missing files, digest mismatches, size mismatches, duplicate
       digests that map to different paths, manifest entries with no local path,
       and files on disk under resources/ that no manifest entry claims.
@@ -15,7 +17,12 @@ WHAT THIS SCRIPT DELIBERATELY DOES NOT DO
       A PDF is hashed as bytes. A Python file is hashed as bytes. Nothing is run.
     * It never touches the network. No re-download, no upstream comparison.
       Provenance (URL, commit, retrieval date) is recorded in the manifest and is
-      checked for presence and shape only -- not re-fetched.
+      checked for presence and shape only -- not re-fetched. In particular
+      `upstream_git_blob_sha` is provenance and is deliberately NOT compared
+      against the bundled bytes: for the 7 assets whose upstream path is a
+      symlink, GitHub reports the link object's SHA while serving the resolved
+      target's content, so a difference there is expected and is documented on
+      the record itself (`upstream_git_blob_sha_note`).
     * It never writes to any file.
 
 This is a deliberate scope limit: every downloaded asset is treated as untrusted,
@@ -73,11 +80,37 @@ def sha256_of(path: str) -> str:
 
 
 def human(n: int) -> str:
-    for unit in ("B", "KB", "MB", "GB"):
-        if abs(n) < 1024 or unit == "GB":
-            return f"{n:.2f} {unit}" if unit != "B" else f"{n} B"
-        n /= 1024.0
+    """Decimal (1000-based) formatting.
+
+    Deliberately base-1000, not base-1024: ASSET_MANIFEST.json reports
+    totals.total_mb = 20.4 for 20,398,632 bytes and every document in this
+    collection quotes "20.40 MB", so this script must print the same number.
+    Base-1024 here used to print 19.45 MB for the same content, which read as a
+    discrepancy in the collection's own totals.
+    """
+    n = float(n)
+    for unit in ("B", "KB", "MB", "GB", "TB"):
+        if abs(n) < 1000 or unit == "TB":
+            return f"{n} B" if unit == "B" else f"{n:.2f} {unit}"
+        n /= 1000.0
     return f"{n} B"
+
+
+def git_blob_sha_of(path: str) -> str:
+    """The Git blob object SHA-1 of a file's bytes: sha1("blob <len>\\0" + data).
+
+    Streamed in two passes so a large file is never held in memory. This is the
+    value `git hash-object` prints and the value that appears next to a path in
+    `git ls-tree`, so it can be cross-checked against this repository's own
+    published tree without any network access.
+    """
+    size = os.path.getsize(path)
+    h = hashlib.sha1()
+    h.update(b"blob " + str(size).encode("ascii") + b"\0")
+    with open(path, "rb") as fh:
+        for block in iter(lambda: fh.read(CHUNK), b""):
+            h.update(block)
+    return h.hexdigest()
 
 
 class Report:
@@ -146,6 +179,8 @@ def verify(man: dict, rep: Report, category: str | None, path: str | None) -> No
     claimed: set[str] = set()
     no_local_path = 0
     structurally_bad = 0
+    blob_ok = 0
+    blob_bad = 0
 
     for a in chosen:
         aid = a.get("asset_id", "<no id>")
@@ -192,6 +227,23 @@ def verify(man: dict, rep: Report, category: str | None, path: str | None) -> No
         if recorded_size is not None and actual_size != recorded_size:
             rep.err(f"{aid}: size mismatch at {lp} (recorded {recorded_size}, actual {actual_size})")
 
+        recorded_blob = a.get("local_git_blob_sha")
+        if not recorded_blob:
+            rep.err(f"{aid}: no local_git_blob_sha recorded for {lp}")
+            blob_bad += 1
+        elif len(recorded_blob) != 40 or any(c not in "0123456789abcdef" for c in recorded_blob.lower()):
+            rep.err(f"{aid}: local_git_blob_sha is not a 40-char hex SHA-1: {recorded_blob!r}")
+            blob_bad += 1
+        else:
+            actual_blob = git_blob_sha_of(abs_path)
+            if actual_blob != recorded_blob.lower():
+                rep.err(f"{aid}: git blob SHA MISMATCH at {lp}\n"
+                        f"          recorded {recorded_blob}\n"
+                        f"          actual   {actual_blob}")
+                blob_bad += 1
+            else:
+                blob_ok += 1
+
         if recorded_sha:
             if len(recorded_sha) != 64 or any(c not in "0123456789abcdef" for c in recorded_sha.lower()):
                 rep.err(f"{aid}: recorded sha256 is not a 64-char hex digest: {recorded_sha!r}")
@@ -209,6 +261,12 @@ def verify(man: dict, rep: Report, category: str | None, path: str | None) -> No
             rep.warn(f"{aid}: no recorded sha256 for {lp}; nothing to compare")
 
     rep.ok(f"{rep.checked} asset digests recomputed and matched ({human(rep.bytes_checked)})")
+    if blob_ok:
+        rep.ok(f"{blob_ok} Git blob SHAs recomputed and matched local_git_blob_sha")
+    symlinks = [a for a in chosen if a.get("upstream_path_is_symlink")]
+    if symlinks:
+        rep.ok(f"{len(symlinks)} asset(s) are recorded as upstream symlinks; their "
+               f"upstream_git_blob_sha identifies the link, not the bundled bytes")
     if no_local_path:
         rep.ok(f"{no_local_path} manifest entries have no local path (metadata-only)")
     if structurally_bad:
@@ -335,7 +393,7 @@ def main() -> int:
         print("\nFAILED -- bundled assets do not match the manifest. Do not trust the "
               "collection until this is resolved.")
         return 1
-    print("\nPASSED -- every checked asset matches its recorded SHA-256 and size.")
+    print("\nPASSED -- every checked asset matches its recorded SHA-256, size and Git blob SHA.")
     return 0
 
 

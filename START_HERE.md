@@ -93,8 +93,19 @@ resources/
 
 Every file is listed in [ASSET_MANIFEST.json](ASSET_MANIFEST.json) with: `asset_id`, related
 `component_ids`, `original_url`, `retrieval_api_url`, `retrieval_date`, `local_path`, `file_size_bytes`,
-`sha256`, `upstream_repo`, `upstream_path`, `upstream_commit`, `git_blob_sha`, licence fields,
-`redistribution_status`, `verification_limits` and `access_limits`.
+`sha256`, `local_git_blob_sha`, `upstream_repo`, `upstream_path`, `upstream_commit`,
+`upstream_git_blob_sha`, licence fields, `redistribution_status`, `verification_limits` and
+`access_limits`.
+
+Two of those hash fields are easy to confuse, so they are named for what they are.
+`local_git_blob_sha` is a hash **of the bundled bytes** and is what
+`scripts/verify_asset_hashes.py` recomputes. `upstream_git_blob_sha` is the object SHA GitHub
+reports for that path at the pinned commit — provenance, not a check on our copy. For **7** assets the
+upstream path is a symlink (for example `jd/tenacity`'s `README.rst` → `doc/source/index.rst`), so
+GitHub reports the link's SHA while serving the resolved target's bytes and the two values differ
+**by design**. Those records carry `upstream_path_is_symlink: true`, the target, and a written
+explanation; **124** package-registry metadata records have `upstream_git_blob_sha: null` because
+there is no upstream Git object at all. Verify any asset with `sha256`.
 
 ## 5. How to trust (or not trust) any statement here
 

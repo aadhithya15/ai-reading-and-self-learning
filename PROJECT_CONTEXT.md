@@ -71,7 +71,7 @@ SAM-X internals.
 
 | Finding | Evidence |
 |---|---|
-| 144 upstream repositories were resolvable and pinned to a specific commit SHA | `ASSET_MANIFEST.json` → `upstream_commit`, `git_blob_sha` per file |
+| 144 upstream repositories were resolvable and pinned to a specific commit SHA | `ASSET_MANIFEST.json` → `upstream_commit` per repository, `upstream_git_blob_sha` per file |
 | 871 files were downloaded with SHA-256 recorded at download time | `ASSET_MANIFEST.json`; re-checkable with `scripts/verify_asset_hashes.py` |
 | 9 upstream repositories in the shortlist could not be resolved (HTTP 404 through the GitHub API on 2026-10-14) | [RESEARCH_LOG.md](RESEARCH_LOG.md) §3 |
 | `twopirllc/pandas-ta` is unresolvable; only community forks exist | GitHub API 404 + search; row `pandas-ta-classic` in the catalog |

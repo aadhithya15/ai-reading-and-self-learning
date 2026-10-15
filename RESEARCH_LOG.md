@@ -259,6 +259,52 @@ Discussions, videos and marketing material were treated as **leads only**, never
 * `author` — 14 workstream READMEs, `PAPER_INDEX.md`, `BENCHMARK_NOTES.md`, four templates, and the
   architecture diagrams.
 
+### Publication
+
+* `publish` — Committed on branch `arena/7f817b55-ai-reading-and-self-learning`, pushed, opened
+  [PR #1](https://github.com/aadhithya15/ai-reading-and-self-learning/pull/1) and merged it into `main`
+  (merge commit `503a516`, 2026-10-15). The superseded placeholder `README.md` remains recoverable as
+  commit `10bb5f6`, which is an ancestor of `main`.
+* `audit` — **Verified the published state through the GitHub API rather than trusting local files.** The
+  remote tree at `main` holds **914 blobs**, is not truncated, and contains all 13 required top-level
+  documents, `ATTRIBUTION.md`, both scripts, all four templates, all 14 workstream directories and all
+  880 files under `resources/`.
+* `audit` — **Re-downloaded published bytes and recomputed their SHA-256** for a sample of six assets plus
+  the largest file: 6/6 identical to the manifest, including the 10,716,216-byte OWASP PDF. Publication is
+  therefore confirmed end-to-end, not inferred from a successful local write.
+
+### Post-publication integrity audit (manifest 1.1 → 1.2)
+
+* `audit` — Compared the blob SHA recomputed from every bundled file against the `git_blob_sha` recorded in
+  the manifest. **740 matched, 124 were null, 7 differed.**
+* `audit` — Investigated all 7 differences rather than assuming they were benign. Each recorded
+  `git_blob_sha` was fetched from the upstream repository: all seven resolve to a **short path string, not
+  file content** — `dagster-io/dagster` `README.md` → `python_modules/dagster/README.md`, `jd/tenacity`
+  `README.rst` → `doc/source/index.rst`, `mindee/doctr` `docs/source/notebooks.rst` →
+  `../../notebooks/README.rst`, `UKGovernmentBEIS/inspect_ai` `docs/CHANGELOG.md` → `../CHANGELOG.md`,
+  `mem0ai/mem0` `docs/CLAUDE.md` → `AGENTS.md`, `deepcharles/ruptures` `docs/index.md` → `../README.md` and
+  `docs/contributing.md` → `../CONTRIBUTING.md`. Those upstream paths are **symlinks**: GitHub's Contents
+  API serves the resolved target's bytes while reporting the blob SHA of the link, so the recorded value
+  was never a hash of what we bundled. Byte-level comparison against the upstream content confirmed the
+  bundled files are identical to their resolved targets — **no content drift, no integrity problem.**
+* `decision` — Renamed the field rather than leaving an ambiguity in published data. `git_blob_sha` became
+  `upstream_git_blob_sha` (provenance, never re-fetched) and a new `local_git_blob_sha` (a hash **of the
+  bundled bytes**, recomputed offline by `verify_asset_hashes.py`) was added to all 871 records. The 7
+  symlinked assets are flagged `upstream_path_is_symlink` with their target and a written explanation; the
+  124 package-registry metadata records keep `upstream_git_blob_sha: null` with a recorded reason. No
+  `sha256` or `file_size_bytes` value changed. `manifest_version` is now **1.2** with a `revision_notes`
+  history.
+* `audit` — All 871 `local_git_blob_sha` values match the **published remote tree** at `main` exactly
+  (0 mismatches), which independently confirms that what is on GitHub is what was assessed.
+* `author` — `verify_asset_hashes.py` now recomputes and compares the Git blob SHA as well as SHA-256 and
+  size. Its `human()` helper was also corrected: it used base-1024 and printed "19.45 MB" for the same
+  content the manifest and every document call **20.40 MB** (base-1000), which read as a discrepancy in the
+  collection's own totals.
+* `author` — `validate_catalog.py` gained six checks: the pre-1.2 key must not reappear; every
+  `local_git_blob_sha` is a 40-char hex SHA-1; every null `upstream_git_blob_sha` carries a reason; every
+  non-null one is 40-char hex; all symlink-flagged assets record a target and an explanation; and no asset
+  may have differing upstream/local blob SHAs without a recorded reason. It now runs **68 checks**.
+
 ---
 
 ## 3. Decisions register
@@ -281,6 +327,8 @@ Discussions, videos and marketing material were treated as **leads only**, never
 | D14 | Copyleft/GPL/AGPL components catalogued as **reference semantics only** | Vendoring them would change SAM-X's licensing obligations | A deliberate, reviewed decision to adopt one, with legal sign-off |
 | D15 | Store each shared upstream file **once**, at a canonical category path, and cross-reference it | The assignment requires shared assets to be stored once and referenced from many sections; nine files had been collected twice under two categories | A component genuinely needs a private copy of a file |
 | D16 | Archive branch created **before** any new file was written | Recoverability requirement; nothing was lost because nothing existed | Never |
+| D17 | Name integrity fields for **what they hash**: `local_git_blob_sha` for the bundled bytes, `upstream_git_blob_sha` for provenance | One ambiguous `git_blob_sha` field silently meant two different things; for 7 symlinked upstream paths it was not a hash of the bundled content at all | Never — but re-check any new hash field for the same ambiguity |
+| D18 | Verify the **published** state through the GitHub API, including re-downloading bytes and recomputing digests | A successful local write does not prove publication; the assignment requires confirming the remote commit and published files | Never |
 
 ---
 
@@ -304,13 +352,14 @@ Discussions, videos and marketing material were treated as **leads only**, never
 
 Everything needed is in the repository or derivable from it:
 
-1. `ASSET_MANIFEST.json` — for each of the 871 assets: original URL, retrieval date, local path, size,
-   SHA-256, upstream commit, licence, attribution, status and limitations. Re-fetching any single asset is
-   one URL.
+1. `ASSET_MANIFEST.json` (version 1.2) — for each of the 871 assets: original URL, retrieval date, local
+   path, size, SHA-256, `local_git_blob_sha`, upstream commit and `upstream_git_blob_sha`, licence,
+   attribution, status and limitations. Re-fetching any single asset is one URL. Verify with `sha256`;
+   `upstream_git_blob_sha` differs by design on the 7 assets flagged `upstream_path_is_symlink`.
 2. `RESOURCE_CATALOG.csv` — for each of the 169 components: upstream repository, pinned commit, licence,
    redistribution status, checked date, evidence status and the full 15-point assessment.
-3. `scripts/verify_asset_hashes.py` — recomputes SHA-256 for every bundled asset and compares against the
-   manifest. Offline, read-only.
+3. `scripts/verify_asset_hashes.py` — recomputes SHA-256, size and Git blob SHA for every bundled asset
+   and compares all three against the manifest. Offline, read-only.
 4. `scripts/validate_catalog.py` — structural validation: CSV columns and vocabularies, manifest keys and
    digests, catalog↔manifest cross-checks, relative-link resolution, workstream README presence, required
    top-level files, and a credential-pattern scan. Offline, read-only.
