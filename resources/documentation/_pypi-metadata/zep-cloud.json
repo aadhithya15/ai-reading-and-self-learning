@@ -1,0 +1,69 @@
+{
+ "package": "zep-cloud",
+ "queried": "zep-cloud",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/zep-cloud/json",
+ "info": {
+  "name": "zep-cloud",
+  "version": "4.0.0",
+  "summary": null,
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0,>=3.10",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Intended Audience :: Developers",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: OS Independent",
+   "Operating System :: POSIX",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.15",
+   "Topic :: Software Development :: Libraries :: Python Modules",
+   "Typing :: Typed"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Repository": "https://github.com/getzep/zep-python"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "aiohttp<4,>=3.14.1; python_version >= \"3.10\" and extra == \"aiohttp\"",
+   "httpx>=0.21.2",
+   "httpx-aiohttp<0.2.0,>=0.1.8; python_version >= \"3.10\" and extra == \"aiohttp\"",
+   "pydantic>=1.9.2",
+   "pydantic-core<3.0.0,>=2.18.2",
+   "typing_extensions>=4.0.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "zep_cloud-4.0.0-py3-none-any.whl",
+   "size": 571879,
+   "url": "https://files.pythonhosted.org/packages/dc/02/67aa1475b7d9c83b9ffeccfee237bcd201dacf7ec9eb33dc3ec3272adf0e/zep_cloud-4.0.0-py3-none-any.whl",
+   "upload_time": "2026-10-14T01:08:37.934534Z",
+   "digests": {
+    "sha256": "aa5edf9cf2d8cc39762e59d8d826f8dff889dd033abb868d4beff384c07d7f5a"
+   }
+  },
+  {
+   "filename": "zep_cloud-4.0.0.tar.gz",
+   "size": 278276,
+   "url": "https://files.pythonhosted.org/packages/2d/c0/6a5c75965ad8f7509743e89930d32493fc3424496d5e49721f37cc9d9268/zep_cloud-4.0.0.tar.gz",
+   "upload_time": "2026-10-14T01:08:39.542163Z",
+   "digests": {
+    "sha256": "a66faaf5d9c3b18e3dca03ef58c8016226784e6bbf432856ee02490f7f77b155"
+   }
+  }
+ ],
+ "n_releases_total": 90
+}

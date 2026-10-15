@@ -1,0 +1,183 @@
+{
+ "package": "nautilus-trader",
+ "queried": "nautilus_trader",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/nautilus_trader/json",
+ "info": {
+  "name": "nautilus-trader",
+  "version": "1.231.0",
+  "summary": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+  "description_content_type": "text/markdown",
+  "requires_python": "<3.15,>=3.12",
+  "license_expression": null,
+  "license": "LGPL-3.0-or-later",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering",
+   "Topic :: Software Development :: Libraries",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://nautilustrader.io",
+   "Repository": "https://github.com/nautechsystems/nautilus_trader",
+   "docs": "https://nautilustrader.io/docs"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "betfair-parser==0.19.1; extra == \"betfair\"",
+   "click<9.0.0,>=8.4.1",
+   "defusedxml<1.0.0,>=0.7.1; extra == \"ib\"",
+   "docker<8.0.0,>=7.2.0; extra == \"docker\"",
+   "fsspec==2026.2.0",
+   "kaleido<2.0.0,>=1.3.0; extra == \"visualization\"",
+   "msgspec<1.0.0,>=0.21.1",
+   "nautilus-ibapi==10.45.1; extra == \"ib\"",
+   "numpy>=1.26.4",
+   "pandas<4.0.0,>=2.3.3",
+   "plotly<7.0.0,>=6.9.0; extra == \"visualization\"",
+   "portion>=2.6.1",
+   "protobuf==5.29.6; extra == \"ib\"",
+   "py-clob-client-v2<2.0.0,>=1.0.2; extra == \"polymarket\"",
+   "pyarrow>=25.0.0",
+   "pytz>=2026.2",
+   "simplejson==3.20.2; extra == \"visualization\"",
+   "tqdm<5.0.0,>=4.68.4",
+   "tzdata>=2026.3",
+   "uvloop==0.22.1; sys_platform != \"win32\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "nautilus_trader-1.231.0-cp312-cp312-macosx_26_0_arm64.whl",
+   "size": 156041405,
+   "url": "https://files.pythonhosted.org/packages/2d/cc/d0898a1311e39278b8b92667d487dd636e698020b5736ac73e6d0f3f1976/nautilus_trader-1.231.0-cp312-cp312-macosx_26_0_arm64.whl",
+   "upload_time": "2026-08-02T18:47:40.645057Z",
+   "digests": {
+    "sha256": "ed9304cbedeccd03e157c89b1e9acc3c9c35785f3bc2a114e4ea2e262a051890"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp312-cp312-manylinux_2_35_aarch64.whl",
+   "size": 170436061,
+   "url": "https://files.pythonhosted.org/packages/24/04/caa9e6a138440d728ef63af23212cdaf02714c5072451d72dd2382c89c3c/nautilus_trader-1.231.0-cp312-cp312-manylinux_2_35_aarch64.whl",
+   "upload_time": "2026-08-02T18:47:55.767196Z",
+   "digests": {
+    "sha256": "cae3d3b0dd26e88ce44b75d7696bd0193af62846c22cf6b19d93928643089b83"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp312-cp312-manylinux_2_35_x86_64.whl",
+   "size": 189045623,
+   "url": "https://files.pythonhosted.org/packages/06/16/8862b5ab63b81d21b3b12a138e8c64cd8702927973a2892cc1452aaf883c/nautilus_trader-1.231.0-cp312-cp312-manylinux_2_35_x86_64.whl",
+   "upload_time": "2026-08-02T18:48:12.262754Z",
+   "digests": {
+    "sha256": "8c438e95c275a13df0c0ddb7012c462708b5e99ff3612e36a1b7bd49ab39c216"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp312-cp312-win_amd64.whl",
+   "size": 112750098,
+   "url": "https://files.pythonhosted.org/packages/cc/6b/9e9e55e75754c61ebeb8fe0e37997169a5d08fcb8849eb8fd245acb04d1c/nautilus_trader-1.231.0-cp312-cp312-win_amd64.whl",
+   "upload_time": "2026-08-02T18:48:23.525456Z",
+   "digests": {
+    "sha256": "0697f51e9143f9d8d040f75d2e6a45218003cc34f7ea5b0eb2f9cda6935427de"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp313-cp313-macosx_26_0_arm64.whl",
+   "size": 156106129,
+   "url": "https://files.pythonhosted.org/packages/09/78/4b6a2cc523ad7f527e0ab8a65c78ae1f31d1fbaa12efe752b70f1bcea39d/nautilus_trader-1.231.0-cp313-cp313-macosx_26_0_arm64.whl",
+   "upload_time": "2026-08-02T18:48:36.995289Z",
+   "digests": {
+    "sha256": "b9312bd17cb068bd9407cf360103f7b23c09aaf6118a6321da3def2fe8edaa3d"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp313-cp313-manylinux_2_35_aarch64.whl",
+   "size": 170510431,
+   "url": "https://files.pythonhosted.org/packages/24/92/ceb4259a47fba17abe43f34dec3268124aadd38a288280cb044770fb30ed/nautilus_trader-1.231.0-cp313-cp313-manylinux_2_35_aarch64.whl",
+   "upload_time": "2026-08-02T18:48:51.797173Z",
+   "digests": {
+    "sha256": "e536d7c925b3c475bef4f3f8e75196944f6b8758710e41da1109b8b837001690"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp313-cp313-manylinux_2_35_x86_64.whl",
+   "size": 188980188,
+   "url": "https://files.pythonhosted.org/packages/29/51/a887526a76891c67370622aace657b6a9d7bfee02ea52e005ed2fb8c5285/nautilus_trader-1.231.0-cp313-cp313-manylinux_2_35_x86_64.whl",
+   "upload_time": "2026-08-02T18:49:08.182510Z",
+   "digests": {
+    "sha256": "429ea61c33a32cd8498d39e0ea95ebaa12b8dbfc25c71fbaba845f2b05e8ab91"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp313-cp313-win_amd64.whl",
+   "size": 112708191,
+   "url": "https://files.pythonhosted.org/packages/b8/9d/5b85148ef24c185c53f2cf582f21398787297b088c6ee0c7021c7659692b/nautilus_trader-1.231.0-cp313-cp313-win_amd64.whl",
+   "upload_time": "2026-08-02T18:49:19.759817Z",
+   "digests": {
+    "sha256": "5fc8e08e98b6a47a5f0104c12ac6d8d3cefa0fd9dd2bb0d211c1b14517ff9aaf"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp314-cp314-macosx_26_0_arm64.whl",
+   "size": 156255714,
+   "url": "https://files.pythonhosted.org/packages/e0/30/fa2a432a2540dea06332b0a316257bcde60b9a8044603d79d522c0ec8be6/nautilus_trader-1.231.0-cp314-cp314-macosx_26_0_arm64.whl",
+   "upload_time": "2026-08-02T18:49:33.352696Z",
+   "digests": {
+    "sha256": "eddfa3379e394cdfa1a513722c75cbd083341ecc87a26a9734038c647b27ae6b"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp314-cp314-manylinux_2_35_aarch64.whl",
+   "size": 170597077,
+   "url": "https://files.pythonhosted.org/packages/ec/a0/3930ded06a9e23aa98ea7b20e6e59e0ec818a02fc12437e668d83071edb0/nautilus_trader-1.231.0-cp314-cp314-manylinux_2_35_aarch64.whl",
+   "upload_time": "2026-08-02T18:49:48.113200Z",
+   "digests": {
+    "sha256": "310d6c085dd0786d1aef257c9426a13a879ea8ed2b275b1bb3b9384bea3b5130"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp314-cp314-manylinux_2_35_x86_64.whl",
+   "size": 189040166,
+   "url": "https://files.pythonhosted.org/packages/12/0f/a1c65fce7f94f6b74acaff4f659471e512c1071af3adccfda8d30de328ab/nautilus_trader-1.231.0-cp314-cp314-manylinux_2_35_x86_64.whl",
+   "upload_time": "2026-08-02T18:50:04.852681Z",
+   "digests": {
+    "sha256": "fc0aa9ea14628a30afdcce216e8cb94f11e733d83edb3e1883fdb30b6ca35586"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0-cp314-cp314-win_amd64.whl",
+   "size": 115322233,
+   "url": "https://files.pythonhosted.org/packages/cf/97/094a2ef10ef7a17f00433742d998ad1d2ce191b490f253b5c0d92724db60/nautilus_trader-1.231.0-cp314-cp314-win_amd64.whl",
+   "upload_time": "2026-08-02T18:50:16.638442Z",
+   "digests": {
+    "sha256": "295b67b127f67429ebb9d937bd11448f930bee697fca6a8e0ec1de343ad3c68c"
+   }
+  },
+  {
+   "filename": "nautilus_trader-1.231.0.tar.gz",
+   "size": 10333295,
+   "url": "https://files.pythonhosted.org/packages/22/b7/a899df9daa2d84b9bb546a982b951f9336c814014c8545466d3eb138993b/nautilus_trader-1.231.0.tar.gz",
+   "upload_time": "2026-08-02T18:51:05.518568Z",
+   "digests": {
+    "sha256": "142dde40e77339745aa5fe6bcbb3de5624cee087f526879da00f127df077530f"
+   }
+  }
+ ],
+ "n_releases_total": 36
+}

@@ -1,0 +1,74 @@
+{
+ "package": "requests",
+ "queried": "requests",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/requests/json",
+ "info": {
+  "name": "requests",
+  "version": "2.34.2",
+  "summary": "Python HTTP for Humans.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Environment :: Web Environment",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: Apache Software License",
+   "Natural Language :: English",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.15",
+   "Programming Language :: Python :: Free Threading :: 2 - Beta",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Programming Language :: Python :: Implementation :: PyPy",
+   "Topic :: Internet :: WWW/HTTP",
+   "Topic :: Software Development :: Libraries"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://requests.readthedocs.io",
+   "Source": "https://github.com/psf/requests"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "charset_normalizer<4,>=2",
+   "idna<4,>=2.5",
+   "urllib3<3,>=1.26",
+   "certifi>=2023.5.7",
+   "PySocks!=1.5.7,>=1.5.6; extra == \"socks\"",
+   "chardet<8,>=3.0.2; extra == \"use-chardet-on-py3\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "requests-2.34.2-py3-none-any.whl",
+   "size": 73075,
+   "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+   "upload_time": "2026-05-14T19:25:26.443000Z",
+   "digests": {
+    "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+   }
+  },
+  {
+   "filename": "requests-2.34.2.tar.gz",
+   "size": 142856,
+   "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+   "upload_time": "2026-05-14T19:25:27.735762Z",
+   "digests": {
+    "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
+   }
+  }
+ ],
+ "n_releases_total": 163
+}

@@ -1,0 +1,100 @@
+{
+ "package": "vectorbt",
+ "queried": "vectorbt",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/vectorbt/json",
+ "info": {
+  "name": "vectorbt",
+  "version": "1.1.2",
+  "summary": "Python library for backtesting and analyzing trading strategies at scale",
+  "description_content_type": "text/markdown",
+  "requires_python": "<3.15,>=3.11",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Scientific/Engineering :: Information Analysis",
+   "Topic :: Software Development"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/polakowo/vectorbt"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=2.4.6",
+   "pandas<4.0,>=3.0.3",
+   "scipy",
+   "matplotlib",
+   "plotly>=4.12.0",
+   "ipywidgets>=7.0.0",
+   "anywidget",
+   "numba>=0.66",
+   "dill",
+   "tqdm",
+   "dateparser",
+   "imageio",
+   "scikit-learn",
+   "schedule",
+   "requests",
+   "pytz",
+   "mypy_extensions",
+   "vectorbt-rust==1.1.2; extra == \"rust\"",
+   "TA-Lib; extra == \"full\"",
+   "yfinance>=0.2.22; extra == \"full\"",
+   "python-binance; extra == \"full\"",
+   "ccxt>=4.0.14; extra == \"full\"",
+   "alpaca-py; extra == \"full\"",
+   "ray>=1.4.1; extra == \"full\"",
+   "ta; extra == \"full\"",
+   "pandas-ta-classic; extra == \"full\"",
+   "python-telegram-bot>=13.4; extra == \"full\"",
+   "quantstats>=0.0.37; extra == \"full\"",
+   "pytest; extra == \"test\"",
+   "pytest-cov; extra == \"test\"",
+   "pytest-xdist; extra == \"test\"",
+   "codecov; extra == \"test\"",
+   "vectorbt[test]; extra == \"test-rust\"",
+   "maturin<2.0,>=1.14; extra == \"test-rust\"",
+   "zensical>=0.0.62; extra == \"docs\"",
+   "tomlkit>=0.13; extra == \"docs\"",
+   "mako; extra == \"docs\"",
+   "vectorbt[rust]; extra == \"all\"",
+   "vectorbt[full]; extra == \"all\"",
+   "vectorbt[test]; extra == \"all\"",
+   "vectorbt[docs]; extra == \"all\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "vectorbt-1.1.2-py3-none-any.whl",
+   "size": 459803,
+   "url": "https://files.pythonhosted.org/packages/09/81/96bf2852e3b5b079bde4c0dc010d911f254ce57e6c46bca1b6d0a998940c/vectorbt-1.1.2-py3-none-any.whl",
+   "upload_time": "2026-10-09T19:08:05.239947Z",
+   "digests": {
+    "sha256": "d63a1a8bde3fd4ae8ae364cb67fc174520260ba51edb8fa8a1ce867b4c63f9d6"
+   }
+  },
+  {
+   "filename": "vectorbt-1.1.2.tar.gz",
+   "size": 561375,
+   "url": "https://files.pythonhosted.org/packages/57/90/451db9743fd6e0b146380925f65676bec3950553635bef98f25857aef06c/vectorbt-1.1.2.tar.gz",
+   "upload_time": "2026-10-09T19:08:07.154090Z",
+   "digests": {
+    "sha256": "c90e59f0038f007004dbcffcb72d899a8a7f763b7369d957f5da947e803e842b"
+   }
+  }
+ ],
+ "n_releases_total": 65
+}

@@ -1,0 +1,213 @@
+{
+ "package": "lmdeploy",
+ "queried": "lmdeploy",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/lmdeploy/json",
+ "info": {
+  "name": "lmdeploy",
+  "version": "0.18.0",
+  "summary": "A toolset for compressing, deploying and serving LLM",
+  "description_content_type": "text/markdown",
+  "requires_python": null,
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Intended Audience :: Developers",
+   "Intended Audience :: Education",
+   "Intended Audience :: Science/Research",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": null,
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "cloudpickle",
+   "einops",
+   "fastapi",
+   "fire",
+   "mmengine-lite",
+   "numpy",
+   "openai>=2.45.0",
+   "openai_harmony",
+   "partial_json_parser",
+   "pillow",
+   "protobuf",
+   "pybase64",
+   "pydantic>2.0.0",
+   "pyzmq",
+   "ray",
+   "rdkit",
+   "safetensors",
+   "sentencepiece",
+   "shortuuid",
+   "tiktoken",
+   "transformers!=5.0.*,!=5.1.*,!=5.2.*,!=5.3.*,!=5.4.*,!=5.5.0,!=5.7.*,!=5.8.*,!=5.9.*,>=4.56.0",
+   "uvicorn",
+   "xgrammar!=0.2.5.post1,>=0.2.0",
+   "accelerate>=0.29.3",
+   "aiohttp",
+   "apache-tvm-ffi==0.1.11; sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine",
+   "flash-linear-attention>=0.4.2",
+   "opencv-python-headless",
+   "peft<=0.14.0",
+   "prometheus_client",
+   "tilelang==0.1.11; sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine",
+   "torch<=2.12.1,>=2.0.0",
+   "torchvision<=0.27.1,>=0.15.0",
+   "triton<=3.7.1,>=3.4.0; sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine",
+   "nvidia-nccl-cu12",
+   "nvidia-cuda-runtime-cu12",
+   "nvidia-cublas-cu12",
+   "nvidia-curand-cu12",
+   "cmake_build_extension; extra == \"all\"",
+   "pybind11>=2.13.6; extra == \"all\"",
+   "setuptools; extra == \"all\"",
+   "cloudpickle; extra == \"all\"",
+   "einops; extra == \"all\"",
+   "fastapi; extra == \"all\"",
+   "fire; extra == \"all\"",
+   "mmengine-lite; extra == \"all\"",
+   "numpy; extra == \"all\"",
+   "openai>=2.45.0; extra == \"all\"",
+   "openai_harmony; extra == \"all\"",
+   "partial_json_parser; extra == \"all\"",
+   "pillow; extra == \"all\"",
+   "protobuf; extra == \"all\"",
+   "pybase64; extra == \"all\"",
+   "pydantic>2.0.0; extra == \"all\"",
+   "pyzmq; extra == \"all\"",
+   "ray; extra == \"all\"",
+   "rdkit; extra == \"all\"",
+   "safetensors; extra == \"all\"",
+   "sentencepiece; extra == \"all\"",
+   "shortuuid; extra == \"all\"",
+   "tiktoken; extra == \"all\"",
+   "transformers!=5.0.*,!=5.1.*,!=5.2.*,!=5.3.*,!=5.4.*,!=5.5.0,!=5.7.*,!=5.8.*,!=5.9.*,>=4.56.0; extra == \"all\"",
+   "uvicorn; extra == \"all\"",
+   "xgrammar!=0.2.5.post1,>=0.2.0; extra == \"all\"",
+   "accelerate>=0.29.3; extra == \"all\"",
+   "aiohttp; extra == \"all\"",
+   "apache-tvm-ffi==0.1.11; (sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine) and extra == \"all\"",
+   "flash-linear-attention>=0.4.2; extra == \"all\"",
+   "opencv-python-headless; extra == \"all\"",
+   "peft<=0.14.0; extra == \"all\"",
+   "prometheus_client; extra == \"all\"",
+   "tilelang==0.1.11; (sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine) and extra == \"all\"",
+   "torch<=2.12.1,>=2.0.0; extra == \"all\"",
+   "torchvision<=0.27.1,>=0.15.0; extra == \"all\"",
+   "triton<=3.7.1,>=3.4.0; (sys_platform == \"linux\" and \"aarch64\" not in platform_machine and \"arm\" not in platform_machine) and extra == \"all\"",
+   "accelerate; extra == \"all\"",
+   "datasets; extra == \"all\"",
+   "transformers_stream_generator; extra == \"all\"",
+   "aiohttp; extra == \"all\"",
+   "prometheus_client; extra == \"all\"",
+   "protobuf; extra == \"all\"",
+   "timm!=1.0.23; extra == \"all\"",
+   "accelerate; extra == \"lite\"",
+   "datasets; extra == \"lite\"",
+   "transformers_stream_generator; extra == \"lite\"",
+   "aiohttp; extra == \"serve\"",
+   "prometheus_client; extra == \"serve\"",
+   "protobuf; extra == \"serve\"",
+   "timm!=1.0.23; extra == \"serve\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "lmdeploy-0.18.0-cp310-cp310-manylinux_2_28_x86_64.whl",
+   "size": 106684800,
+   "url": "https://files.pythonhosted.org/packages/27/36/7f7218c3cbef553eb6cff4785f3a2f5e80ddc658727cf0cb61255841e8e1/lmdeploy-0.18.0-cp310-cp310-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-28T15:48:50.021327Z",
+   "digests": {
+    "sha256": "529a131a98b2fafeb4f9b3b10b0bad2b5d6cd48931adc9d93da15fd1671803bb"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp310-cp310-win_amd64.whl",
+   "size": 58831051,
+   "url": "https://files.pythonhosted.org/packages/59/bc/ddd505e20069c5549a14ee7eeea17f2e1336ef06de12cb7e2319b12cdf29/lmdeploy-0.18.0-cp310-cp310-win_amd64.whl",
+   "upload_time": "2026-09-28T15:48:55.811423Z",
+   "digests": {
+    "sha256": "42398e1f3b7139b164997b954d0739cd9fb8b79001ce6540c0a593abf5e02467"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+   "size": 106690261,
+   "url": "https://files.pythonhosted.org/packages/f6/36/bb00cf18ebe16237b17065adeb6720886f054e95975443d5112fec312dd8/lmdeploy-0.18.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-28T15:49:02.245667Z",
+   "digests": {
+    "sha256": "e6790a25dcdb0345c160567fdf2ac604fec319389523a8b806834c9d92c8ffe1"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp311-cp311-win_amd64.whl",
+   "size": 58833200,
+   "url": "https://files.pythonhosted.org/packages/c8/8d/70aecf94d6d062bfe52f79d18ac4d5427be4c1614d398e409b114d4470ee/lmdeploy-0.18.0-cp311-cp311-win_amd64.whl",
+   "upload_time": "2026-09-28T15:49:07.052379Z",
+   "digests": {
+    "sha256": "31d21f6dd1c7b914fb622971f9a8fd01f6856c1dabab650140f8ad1182c376ee"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+   "size": 106692457,
+   "url": "https://files.pythonhosted.org/packages/19/8d/b880e02991ce03947c1efa9504c540d409b06d5d7ea4f95b1d8f8ae85c99/lmdeploy-0.18.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-28T15:49:13.138923Z",
+   "digests": {
+    "sha256": "fcef7cf0d210d766e02e2e6df025378d2f8ae36080400b2818eb9a34ef3392dc"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp312-cp312-win_amd64.whl",
+   "size": 58831511,
+   "url": "https://files.pythonhosted.org/packages/77/d0/e2642c425be45809bb2059e77ae7aefdb503292cd9bd04d73b510552d320/lmdeploy-0.18.0-cp312-cp312-win_amd64.whl",
+   "upload_time": "2026-09-28T15:49:17.848034Z",
+   "digests": {
+    "sha256": "26c974dcedf547d0e868998002bda691575932ae77c65e0cb9b027946610603e"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+   "size": 106695155,
+   "url": "https://files.pythonhosted.org/packages/af/99/4bdea6d1933d85e85f6c1191370dc6064b04fc732a03eabca3845ecabf3c/lmdeploy-0.18.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-28T15:49:23.063056Z",
+   "digests": {
+    "sha256": "e5f727a2b61e88aa10a9902592d6cd08e13fb41d695dda4c007b6cc8f7f568cb"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp313-cp313-win_amd64.whl",
+   "size": 58831548,
+   "url": "https://files.pythonhosted.org/packages/2b/61/f223a174cc2db4b9eb3eee6f947597366890df58e4404f7f83f60f71fa0c/lmdeploy-0.18.0-cp313-cp313-win_amd64.whl",
+   "upload_time": "2026-09-28T15:49:27.727733Z",
+   "digests": {
+    "sha256": "a2de45d2d292871795d50b22d9cb4185983768783abde58ff376e2072da51893"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp314-cp314-manylinux_2_28_x86_64.whl",
+   "size": 106695191,
+   "url": "https://files.pythonhosted.org/packages/0e/0d/c3ec6984ad7c982ed36ab3214e75c094aff06838734fc5ab22da3b8e65b5/lmdeploy-0.18.0-cp314-cp314-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-28T15:49:34.064006Z",
+   "digests": {
+    "sha256": "629a136c7ca532e1251c3b6609b2c8b4c8b6d748042a7d5f4214cb4d4a581ec3"
+   }
+  },
+  {
+   "filename": "lmdeploy-0.18.0-cp314-cp314-win_amd64.whl",
+   "size": 59161829,
+   "url": "https://files.pythonhosted.org/packages/3a/3b/5aa6d73c6c4b6b0dc2a26fedafd6fdf3d41cd6bc1655730db75891a11d54/lmdeploy-0.18.0-cp314-cp314-win_amd64.whl",
+   "upload_time": "2026-09-28T15:49:38.690972Z",
+   "digests": {
+    "sha256": "34e2b6c772a68aaf45481e86015e5f341f0bc61c857f2138f211c76f87cdb15d"
+   }
+  }
+ ],
+ "n_releases_total": 58
+}

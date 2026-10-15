@@ -1,0 +1,96 @@
+{
+ "package": "camelot-py",
+ "queried": "camelot-py",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/camelot-py/json",
+ "info": {
+  "name": "camelot-py",
+  "version": "2.0.0",
+  "summary": "PDF Table Extraction for Humans.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://github.com/camelot-dev/camelot/releases",
+   "Documentation": "https://camelot-py.readthedocs.io/",
+   "Homepage": "https://github.com/camelot-dev/camelot",
+   "Repository": "https://github.com/camelot-dev/camelot"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "click>=8.0.1",
+   "numpy>=1.26.1",
+   "openpyxl>=3.1.0",
+   "pandas>=2.2.2",
+   "tabulate>=0.9.0",
+   "typing-extensions>=4.12.2; python_version < \"3.11\"",
+   "opencv-python-headless>=4.7.0.68",
+   "pypdfium2>=4",
+   "pillow>=10.4.0",
+   "playa-pdf>=0.8.1",
+   "matplotlib>=3.7.5; python_version < \"3.12\" and extra == \"plot\"",
+   "matplotlib>=3.8.0; python_version >= \"3.12\" and extra == \"plot\"",
+   "torch>=2.0; extra == \"ml\"",
+   "transformers<5,>=4.40; extra == \"ml\"",
+   "timm>=0.9; extra == \"ml\"",
+   "pillow>=10.4.0; extra == \"ml\"",
+   "rapidocr-onnxruntime>=1.3; extra == \"ocr\"",
+   "ghostscript>=0.7; extra == \"ghostscript\"",
+   "Pygments>=2.10.0; extra == \"dev\"",
+   "coverage[toml]>=6.2; extra == \"dev\"",
+   "ruff>=0.12.10; extra == \"dev\"",
+   "sphinx-book-theme>=1.0.1; extra == \"dev\"",
+   "mypy>=0.930; extra == \"dev\"",
+   "pre-commit>=2.16.0; extra == \"dev\"",
+   "pre-commit-hooks>=4.1.0; extra == \"dev\"",
+   "pytest>=6.2.5; extra == \"dev\"",
+   "pytest-mpl>=0.17.0; extra == \"dev\"",
+   "safety>=2.2.3; extra == \"dev\"",
+   "sphinx>=4.3.2; extra == \"dev\"",
+   "sphinx-autobuild>=2021.3.14; extra == \"dev\"",
+   "sphinx-click>=3.0.2; extra == \"dev\"",
+   "sphinx-copybutton>=0.5.0; extra == \"dev\"",
+   "sphinx-prompt>=1.5.0; extra == \"dev\"",
+   "typeguard>=2.13.3; extra == \"dev\"",
+   "xdoctest[colors]>=0.15.10; extra == \"dev\"",
+   "myst-parser>=2.0.0; extra == \"dev\"",
+   "nox>=2024.10.9; extra == \"dev\"",
+   "twine; extra == \"dev\"",
+   "build; extra == \"dev\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "camelot_py-2.0.0-py3-none-any.whl",
+   "size": 113176,
+   "url": "https://files.pythonhosted.org/packages/ce/30/e220f65dda2cea102f538ae64f29d6a7a96884cc0ec2d286adf7d2c9dd3d/camelot_py-2.0.0-py3-none-any.whl",
+   "upload_time": "2026-06-04T16:31:27.422312Z",
+   "digests": {
+    "sha256": "c2c6c7e4b0cb422b8050624c1d54026a8b3af1d86b7d7951eddeb18854fbcfb6"
+   }
+  },
+  {
+   "filename": "camelot_py-2.0.0.tar.gz",
+   "size": 140937,
+   "url": "https://files.pythonhosted.org/packages/4d/6c/3b6057077feb802ce6ef4e2ebd11a50c12b7065aeb946cc0d9296d195246/camelot_py-2.0.0.tar.gz",
+   "upload_time": "2026-06-04T16:31:28.800255Z",
+   "digests": {
+    "sha256": "e96891d30707b3e2f1c08cb7ae15eea67abe72485ca92c7025b6308ba37bd3cd"
+   }
+  }
+ ],
+ "n_releases_total": 28
+}

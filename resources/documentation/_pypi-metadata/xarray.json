@@ -1,0 +1,105 @@
+{
+ "package": "xarray",
+ "queried": "xarray",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/xarray/json",
+ "info": {
+  "name": "xarray",
+  "version": "2026.9.0",
+  "summary": "N-D labeled arrays and datasets in Python",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.11",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Science/Research",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Scientific/Engineering"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://docs.xarray.dev",
+   "SciPy2015-talk": "https://www.youtube.com/watch?v=X0pAhJgySxk",
+   "homepage": "https://xarray.dev/",
+   "issue-tracker": "https://github.com/pydata/xarray/issues",
+   "source-code": "https://github.com/pydata/xarray"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=1.26",
+   "packaging>=24.2",
+   "pandas>=2.2",
+   "scipy>=1.15; extra == \"accel\"",
+   "bottleneck; extra == \"accel\"",
+   "numbagg!=0.9.5,>=0.9; extra == \"accel\"",
+   "numba>=0.62; extra == \"accel\"",
+   "flox>=0.10; extra == \"accel\"",
+   "opt_einsum; extra == \"accel\"",
+   "xarray[accel,etc,io,parallel,viz]; extra == \"complete\"",
+   "netCDF4>=1.6.0; extra == \"io\"",
+   "h5netcdf[h5py]>=1.8.0; extra == \"io\"",
+   "pydap; extra == \"io\"",
+   "scipy>=1.15; extra == \"io\"",
+   "zarr>=3.0; extra == \"io\"",
+   "fsspec; extra == \"io\"",
+   "cftime; extra == \"io\"",
+   "pooch; extra == \"io\"",
+   "pyarrow; extra == \"arrow\"",
+   "sparse>=0.15; extra == \"etc\"",
+   "dask[complete]; extra == \"parallel\"",
+   "cartopy>=0.24; extra == \"viz\"",
+   "matplotlib>=3.10; extra == \"viz\"",
+   "nc-time-axis; extra == \"viz\"",
+   "seaborn; extra == \"viz\"",
+   "pandas-stubs; extra == \"types\"",
+   "scipy-stubs; extra == \"types\"",
+   "types-colorama; extra == \"types\"",
+   "types-decorator; extra == \"types\"",
+   "types-defusedxml; extra == \"types\"",
+   "types-docutils; extra == \"types\"",
+   "types-gevent; extra == \"types\"",
+   "types-networkx; extra == \"types\"",
+   "types-openpyxl; extra == \"types\"",
+   "types-pexpect; extra == \"types\"",
+   "types-psutil; extra == \"types\"",
+   "types-pycurl; extra == \"types\"",
+   "types-Pygments; extra == \"types\"",
+   "types-pysocks; extra == \"types\"",
+   "types-python-dateutil; extra == \"types\"",
+   "types-pytz; extra == \"types\"",
+   "types-PyYAML; extra == \"types\"",
+   "types-requests; extra == \"types\"",
+   "types-setuptools; extra == \"types\"",
+   "types-xlrd; extra == \"types\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "xarray-2026.9.0-py3-none-any.whl",
+   "size": 1445445,
+   "url": "https://files.pythonhosted.org/packages/3f/44/3159af4fb3c868970a412e294320ed6bb1a9fbdfa6431050eda8e0b34b6e/xarray-2026.9.0-py3-none-any.whl",
+   "upload_time": "2026-09-29T23:06:23.686234Z",
+   "digests": {
+    "sha256": "fe349fa871628b1a0a5217af3fe1283a2862d5485156e6eda354fffb81c3bb7c"
+   }
+  },
+  {
+   "filename": "xarray-2026.9.0.tar.gz",
+   "size": 3176922,
+   "url": "https://files.pythonhosted.org/packages/ff/f5/781c70b234f54e0401f4f7c4427a7486da38d50dbb138c7d7c55144b3d86/xarray-2026.9.0.tar.gz",
+   "upload_time": "2026-09-29T23:06:25.807007Z",
+   "digests": {
+    "sha256": "6abc69694c22fa1f0fb2f357ff4e41d88beb4477ed71091f944b7dbf67ed54fe"
+   }
+  }
+ ],
+ "n_releases_total": 107
+}

@@ -1,0 +1,113 @@
+{
+ "package": "deltalake",
+ "queried": "deltalake",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/deltalake/json",
+ "info": {
+  "name": "deltalake",
+  "version": "1.6.6",
+  "summary": "Native Delta Lake Python binding based on delta-rs with Pandas integration",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14"
+  ],
+  "keywords": "deltalake, delta, datalake, pandas, arrow",
+  "home_page": "https://github.com/delta-io/delta-rs",
+  "project_urls": {
+   "Homepage": "https://github.com/delta-io/delta-rs",
+   "documentation": "https://delta-io.github.io/delta-rs/",
+   "repository": "https://github.com/delta-io/delta-rs/tree/main/python/"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "arro3-core>=0.5.0",
+   "deprecated>=1.2.18",
+   "pandas; extra == \"pandas\"",
+   "pyarrow>=21; extra == \"pyarrow\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-macosx_10_12_x86_64.whl",
+   "size": 50800766,
+   "url": "https://files.pythonhosted.org/packages/44/d5/fee90d565b32a166777a2c39ca7c77e1b8b8240a4ecfc9eeeabc2fb9fd63/deltalake-1.6.6-cp310-abi3-macosx_10_12_x86_64.whl",
+   "upload_time": "2026-09-24T13:08:43.437963Z",
+   "digests": {
+    "sha256": "9b9883cc1236a44f62ed360abd1f39e564d892848b8a1aa5483871d12d23f74e"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-macosx_11_0_arm64.whl",
+   "size": 47072020,
+   "url": "https://files.pythonhosted.org/packages/bf/59/83e954337cb28173b5699a46f8350d8f76b15b20c6f055463b4d1ae343c0/deltalake-1.6.6-cp310-abi3-macosx_11_0_arm64.whl",
+   "upload_time": "2026-09-24T12:58:11.229031Z",
+   "digests": {
+    "sha256": "9e97c964ac768e104a58f147c3b41f281e9ed010825e02a3846d4a9c571a5d8a"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 52017042,
+   "url": "https://files.pythonhosted.org/packages/75/8f/07925ff4f54d8ce35f33961f27e224e3073b7286d9041b95f8e84549fe4a/deltalake-1.6.6-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2026-09-24T12:04:22.800102Z",
+   "digests": {
+    "sha256": "802db1ae734295c7b947bddd228b9e6b5df702846b085be91ad593840f72e36c"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "size": 50905121,
+   "url": "https://files.pythonhosted.org/packages/ce/e0/120f64cc7d3ccf4f28207e3bef566fcfcadab6887f8b18864eca16425d11/deltalake-1.6.6-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-09-24T11:50:03.525564Z",
+   "digests": {
+    "sha256": "25edf9373e6dd21f5db4792b1176a7b3e1780d2072e52e8d1433ba8f5e356c30"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "size": 50922944,
+   "url": "https://files.pythonhosted.org/packages/23/46/35a59c6d24de9fdb3b68b41bc458ae9dc561a27b74e19d08137de1c8a695/deltalake-1.6.6-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-09-24T11:50:48.724993Z",
+   "digests": {
+    "sha256": "018e7b1d6a1098e365480cda810651b5570e38fad2236ea5f4a3e152457d8cc2"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "size": 52029056,
+   "url": "https://files.pythonhosted.org/packages/bc/ed/fd2cdf5edcea2ee90b75c5891f5a542b8564cf69bc92e174dab26b45819a/deltalake-1.6.6-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-09-24T12:03:08.689851Z",
+   "digests": {
+    "sha256": "e2829c996dcf32bd6135e2eafe5b807f47ad40e84711c1453ee7b63f4548c034"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6-cp310-abi3-win_amd64.whl",
+   "size": 55542042,
+   "url": "https://files.pythonhosted.org/packages/a4/a0/aa5d6643b85a9509b241e34df3b3e6720653279eb230e6025f7beee8eeb6/deltalake-1.6.6-cp310-abi3-win_amd64.whl",
+   "upload_time": "2026-09-24T12:35:30.393374Z",
+   "digests": {
+    "sha256": "9a4d95a2c2ca70ef8b4f21e599850e2c21374bbde0fab3414388e5ef7d3f69e0"
+   }
+  },
+  {
+   "filename": "deltalake-1.6.6.tar.gz",
+   "size": 5650031,
+   "url": "https://files.pythonhosted.org/packages/24/7e/817984d82cec757f6f3a3dbb84afcd85027e7ae02e0a354702c2127f6777/deltalake-1.6.6.tar.gz",
+   "upload_time": "2026-09-24T11:31:48.009850Z",
+   "digests": {
+    "sha256": "91864d97adb429fa8b8748b4f68d69adab3d0417ffa9f100bdb85805890c997f"
+   }
+  }
+ ],
+ "n_releases_total": 102
+}

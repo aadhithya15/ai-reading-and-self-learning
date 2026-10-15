@@ -1,0 +1,250 @@
+{
+ "package": "zipline-reloaded",
+ "queried": "zipline-reloaded",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/zipline-reloaded/json",
+ "info": {
+  "name": "zipline-reloaded",
+  "version": "3.1.1",
+  "summary": "A Pythonic backtester for trading algorithms",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Science/Research",
+   "Natural Language :: English",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering :: Information Analysis",
+   "Topic :: System :: Distributed Computing"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "documentation": "https://zipline.ml4trading.io",
+   "homepage": "https://ml4trading.io",
+   "repository": "https://github.com/stefan-jansen/zipline-reloaded"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=1.23.5; python_version < \"3.12\"",
+   "numpy>=1.26.0; python_version >= \"3.12\"",
+   "numpy>=2.1; python_version >= \"3.13\"",
+   "pandas<3.0,>=1.3.0",
+   "alembic>=0.7.7",
+   "bcolz-zipline>=1.2.6",
+   "bottleneck>=1.0.0",
+   "click>=4.0.0",
+   "empyrical-reloaded>=0.5.7",
+   "h5py>=2.7.1",
+   "intervaltree>=2.1.0",
+   "iso3166>=2.1.1",
+   "iso4217>=1.6.20180829",
+   "lru-dict>=1.1.4",
+   "multipledispatch>=0.6.0",
+   "networkx>=2.0",
+   "numexpr>=2.6.1",
+   "patsy>=0.4.0",
+   "python-dateutil>=2.4.2",
+   "pytz>=2018.5",
+   "requests>=2.9.1",
+   "scipy>=0.17.1",
+   "six>=1.10.0",
+   "sqlalchemy>=2",
+   "statsmodels>=0.6.1",
+   "tables>=3.4.3",
+   "toolz>=0.8.2",
+   "exchange-calendars>=4.2.4",
+   "tox; extra == \"test\"",
+   "pytest>=7.2.0; extra == \"test\"",
+   "pytest-cov>=3.0.0; extra == \"test\"",
+   "pytest-xdist>=2.5.0; extra == \"test\"",
+   "pytest-timeout>=1.4.2; extra == \"test\"",
+   "parameterized>=0.6.1; extra == \"test\"",
+   "testfixtures>=4.1.2; extra == \"test\"",
+   "flake8>=3.9.1; extra == \"test\"",
+   "matplotlib>=1.5.3; extra == \"test\"",
+   "responses>=0.9.0; extra == \"test\"",
+   "pandas-datareader>=0.2.1; extra == \"test\"",
+   "click; extra == \"test\"",
+   "coverage; extra == \"test\"",
+   "pytest-rerunfailures; extra == \"test\"",
+   "Cython<3.2.0,>=0.29.21; extra == \"test\"",
+   "pre-commit>=2.12.1; extra == \"dev\"",
+   "Cython>=0.29.21; extra == \"dev\"",
+   "ruff>=0.11.12; extra == \"dev\"",
+   "mypy>=1.10.0; extra == \"dev\"",
+   "Cython; extra == \"docs\"",
+   "Sphinx>=1.3.2; extra == \"docs\"",
+   "numpydoc>=0.5.0; extra == \"docs\"",
+   "sphinx-autobuild>=0.6.0; extra == \"docs\"",
+   "pydata-sphinx-theme; extra == \"docs\"",
+   "sphinx_markdown_tables; extra == \"docs\"",
+   "m2r2; extra == \"docs\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "zipline_reloaded-3.1.1-cp310-cp310-macosx_10_15_x86_64.whl",
+   "size": 5099419,
+   "url": "https://files.pythonhosted.org/packages/54/5d/d7c8aae1a6348dc3511670dc367d4495d84423f493c3df9795f6c2bcb19b/zipline_reloaded-3.1.1-cp310-cp310-macosx_10_15_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:06.873238Z",
+   "digests": {
+    "sha256": "6419b999bbd47d898b8cbbb6a88dfb95f4bc20eed47e6280d1e4c16a5ffc2fb2"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp310-cp310-macosx_11_0_arm64.whl",
+   "size": 5012456,
+   "url": "https://files.pythonhosted.org/packages/f7/8c/538065a23e9abf159414e1dc74ae48ffcbc11ca130522850aeddea5dbbaa/zipline_reloaded-3.1.1-cp310-cp310-macosx_11_0_arm64.whl",
+   "upload_time": "2025-07-19T13:52:08.761804Z",
+   "digests": {
+    "sha256": "c2096acea1dafe92bd20cde5a6083b73b7aec724eb9ceea44d6701d72aed212c"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 11760186,
+   "url": "https://files.pythonhosted.org/packages/59/b9/6287497f4a5cc30f2fcf1bfe374abfa421a351c7375fd4ee2e4c99f03fd3/zipline_reloaded-3.1.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:10.423893Z",
+   "digests": {
+    "sha256": "00a03bba8402b6e3a906bcdb3b6943dece5f67ac9ef4152c2ae733830ca4957f"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp310-cp310-win_amd64.whl",
+   "size": 4952025,
+   "url": "https://files.pythonhosted.org/packages/f9/bb/c8e3dde941811a0adacb091ca1c93d90454ef25318bfaa59348de245d16b/zipline_reloaded-3.1.1-cp310-cp310-win_amd64.whl",
+   "upload_time": "2025-07-19T13:52:12.362672Z",
+   "digests": {
+    "sha256": "d85450ef719df70c41463f5a05aeb4dd003a06386c681b2743ee3c53d475fa5d"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp311-cp311-macosx_10_15_x86_64.whl",
+   "size": 5122638,
+   "url": "https://files.pythonhosted.org/packages/b8/be/cd663f097148e2d9197a62cf76e8961aef5c524ebc73a27935f2ecb7d2fb/zipline_reloaded-3.1.1-cp311-cp311-macosx_10_15_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:13.922804Z",
+   "digests": {
+    "sha256": "ef36d03256a1cf58ee0bfef18ae1a94815b1812589c244a398875919e267643b"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp311-cp311-macosx_11_0_arm64.whl",
+   "size": 5036597,
+   "url": "https://files.pythonhosted.org/packages/db/40/f7f45ce30e2588847abcb874aaed6bb6686aaa464d56fdaac6da2b7ac813/zipline_reloaded-3.1.1-cp311-cp311-macosx_11_0_arm64.whl",
+   "upload_time": "2025-07-19T13:52:15.156081Z",
+   "digests": {
+    "sha256": "70095c29457553dbc41964d171ae5f7994d962c83f82042cd7dbb63ac08f3793"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 12227973,
+   "url": "https://files.pythonhosted.org/packages/98/81/c0f0cca95f95f67dc207b548d9c65eaeba04218f52dfd0fa9c01a8ec344d/zipline_reloaded-3.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:16.394776Z",
+   "digests": {
+    "sha256": "4ae380ab3b11aa667b38d25bdd315fe1bfee66f441be9c0c28c251ecf6c2895d"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp311-cp311-win_amd64.whl",
+   "size": 4955541,
+   "url": "https://files.pythonhosted.org/packages/83/5d/62c768c27f6e360cd7fe98f20edb45c25ffcbf028c184c31ccde45356e43/zipline_reloaded-3.1.1-cp311-cp311-win_amd64.whl",
+   "upload_time": "2025-07-19T13:52:18.570862Z",
+   "digests": {
+    "sha256": "70a48a27a5fdd582ef851cedcea5c49e0942ee2e968fafb2a0b49b19c3a8030b"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp312-cp312-macosx_10_15_x86_64.whl",
+   "size": 5119266,
+   "url": "https://files.pythonhosted.org/packages/76/37/96181cca329511d0654ce1b203c07768b29cf41d3808f67d64515a6fcf06/zipline_reloaded-3.1.1-cp312-cp312-macosx_10_15_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:19.730201Z",
+   "digests": {
+    "sha256": "6a9c7f0d9ad6a0f7604e0330640c0f6f42064b4d60d07be1bcba00002fee9e56"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp312-cp312-macosx_11_0_arm64.whl",
+   "size": 5026385,
+   "url": "https://files.pythonhosted.org/packages/d5/49/e18a294e585824993b747f70206c0f357e08d73a49fa91ba67b469945cec/zipline_reloaded-3.1.1-cp312-cp312-macosx_11_0_arm64.whl",
+   "upload_time": "2025-07-19T13:52:20.950138Z",
+   "digests": {
+    "sha256": "8bda014e3b1d8f6e1f8cd3168a35c1730dccd3233834af4d5638bbba18235469"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 12256401,
+   "url": "https://files.pythonhosted.org/packages/49/e0/3d321d6a87504f892154a7bfceffb63b90cb8a2398d8cdf4887be7f7a74c/zipline_reloaded-3.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:23.166797Z",
+   "digests": {
+    "sha256": "8fa37d5356a11e7f7ad4708dc08bc76f750f6fee900a8a9036c12f8e7d28d5e3"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp312-cp312-win_amd64.whl",
+   "size": 4951445,
+   "url": "https://files.pythonhosted.org/packages/fb/82/cb5c1cbad9e28c7a74c4d20f33949f150782f375f90bfca219d9d502bf84/zipline_reloaded-3.1.1-cp312-cp312-win_amd64.whl",
+   "upload_time": "2025-07-19T13:52:25.140205Z",
+   "digests": {
+    "sha256": "77ebe5641def380b3d7a1fd26b101f131f1bd402a6f1a72857b6b866124b9247"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp313-cp313-macosx_10_15_x86_64.whl",
+   "size": 5119704,
+   "url": "https://files.pythonhosted.org/packages/95/b2/51df1874cce661312b4ac8639a63a1e857a56295cdc39bbe0ec86256855b/zipline_reloaded-3.1.1-cp313-cp313-macosx_10_15_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:26.339763Z",
+   "digests": {
+    "sha256": "e4a35ec6837cedba7acceb767a1b863ce7c24ca528b3961d1907f1efcc0ef349"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp313-cp313-macosx_11_0_arm64.whl",
+   "size": 5027789,
+   "url": "https://files.pythonhosted.org/packages/82/c0/c0c7101d684c583fcc9bee271ad217c91e60730957a635c41fa47f910cfe/zipline_reloaded-3.1.1-cp313-cp313-macosx_11_0_arm64.whl",
+   "upload_time": "2025-07-19T13:52:28.766460Z",
+   "digests": {
+    "sha256": "f189a554e8fe450080931427ececc4a93a7f8bbe6f68fa479f21ad066e7946f7"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 12474362,
+   "url": "https://files.pythonhosted.org/packages/5e/16/7148ced54a4b0b05fbb1bc9614841fb3919dc5295eaab9e43ca1addaeea9/zipline_reloaded-3.1.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2025-07-19T13:52:30.649358Z",
+   "digests": {
+    "sha256": "e71c310e17941e5913bf94bde4f11acef00bca014ddbb43ace03bee7badafefb"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1-cp313-cp313-win_amd64.whl",
+   "size": 4968452,
+   "url": "https://files.pythonhosted.org/packages/91/e3/7d4c846280f337063f86fc063711b9d92cb22fff10b8d0b20b3b820943c7/zipline_reloaded-3.1.1-cp313-cp313-win_amd64.whl",
+   "upload_time": "2025-07-19T13:52:32.944430Z",
+   "digests": {
+    "sha256": "9073a21b9ad84dcd99ae7c532881c4c4ddbc785694de6336159d73a039de8182"
+   }
+  },
+  {
+   "filename": "zipline_reloaded-3.1.1.tar.gz",
+   "size": 12337410,
+   "url": "https://files.pythonhosted.org/packages/c4/73/7f6810bfee01923519038ad361aef6e6f47ecb35283ffed98126eece48a7/zipline_reloaded-3.1.1.tar.gz",
+   "upload_time": "2025-07-19T13:52:34.191952Z",
+   "digests": {
+    "sha256": "4a305524616f7aad836f929e5a2ba5afc7db0e238757f47eb49487d9e2457a6f"
+   }
+  }
+ ],
+ "n_releases_total": 25
+}

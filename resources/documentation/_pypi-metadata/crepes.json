@@ -1,0 +1,54 @@
+{
+ "package": "crepes",
+ "queried": "crepes",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/crepes/json",
+ "info": {
+  "name": "crepes",
+  "version": "0.9.1",
+  "summary": "Conformal classifiers, regressors, and predictive systems (crepes)",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "License :: OSI Approved :: BSD License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3"
+  ],
+  "keywords": null,
+  "home_page": "https://github.com/henrikbostrom/crepes",
+  "project_urls": {
+   "Bug Tracker": "https://github.com//henrikbostrom/crepes/issues",
+   "Homepage": "https://github.com/henrikbostrom/crepes"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy",
+   "pandas",
+   "scipy"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "crepes-0.9.1-py3-none-any.whl",
+   "size": 44612,
+   "url": "https://files.pythonhosted.org/packages/a7/d0/f30abace5048356fec034784f20afe1daa84a3d40cddd7812351b2d004a1/crepes-0.9.1-py3-none-any.whl",
+   "upload_time": "2026-06-12T12:44:31.312749Z",
+   "digests": {
+    "sha256": "d1e0c4c212c72883f2be3d3b58242782040c5c40295453f561112d23deb29fd2"
+   }
+  },
+  {
+   "filename": "crepes-0.9.1.tar.gz",
+   "size": 51094,
+   "url": "https://files.pythonhosted.org/packages/67/5c/926ea5b808fd8cc8b3cdda9c90d08897340d295bf2ece2d6fa8b1c3b5012/crepes-0.9.1.tar.gz",
+   "upload_time": "2026-06-12T12:44:32.820578Z",
+   "digests": {
+    "sha256": "14255bfeef3d3cb76fefa78f9cef1d05ecf106dfae6f2bf76096eb7f5524c099"
+   }
+  }
+ ],
+ "n_releases_total": 15
+}

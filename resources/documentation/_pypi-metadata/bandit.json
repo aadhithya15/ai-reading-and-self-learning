@@ -1,0 +1,86 @@
+{
+ "package": "bandit",
+ "queried": "bandit",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/bandit/json",
+ "info": {
+  "name": "bandit",
+  "version": "1.9.4",
+  "summary": "Security oriented static analyser for python code.",
+  "description_content_type": null,
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Environment :: Console",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Information Technology",
+   "Intended Audience :: System Administrators",
+   "Operating System :: MacOS :: MacOS X",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Security"
+  ],
+  "keywords": null,
+  "home_page": "https://bandit.readthedocs.io/",
+  "project_urls": {
+   "Discord": "https://discord.gg/qYxpadCgkx",
+   "Documentation": "https://bandit.readthedocs.io/",
+   "Homepage": "https://bandit.readthedocs.io/",
+   "Issue Tracker": "https://github.com/PyCQA/bandit/issues",
+   "Release Notes": "https://github.com/PyCQA/bandit/releases",
+   "Source Code": "https://github.com/PyCQA/bandit",
+   "Sponsor": "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=42"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "PyYAML>=5.3.1",
+   "stevedore>=1.20.0",
+   "rich",
+   "colorama>=0.3.9; platform_system == \"Windows\"",
+   "PyYAML; extra == \"yaml\"",
+   "tomli>=1.1.0; python_version < \"3.11\" and extra == \"toml\"",
+   "GitPython>=3.1.30; extra == \"baseline\"",
+   "sarif-om>=1.0.4; extra == \"sarif\"",
+   "jschema-to-python>=1.2.3; extra == \"sarif\"",
+   "coverage>=4.5.4; extra == \"test\"",
+   "fixtures>=3.0.0; extra == \"test\"",
+   "flake8>=4.0.0; extra == \"test\"",
+   "stestr>=2.5.0; extra == \"test\"",
+   "testscenarios>=0.5.0; extra == \"test\"",
+   "testtools>=2.3.0; extra == \"test\"",
+   "beautifulsoup4>=4.8.0; extra == \"test\"",
+   "pylint==1.9.4; extra == \"test\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "bandit-1.9.4-py3-none-any.whl",
+   "size": 134741,
+   "url": "https://files.pythonhosted.org/packages/05/a4/a26d5b25671d27e03afb5401a0be5899d94ff8fab6a698b1ac5be3ec29ef/bandit-1.9.4-py3-none-any.whl",
+   "upload_time": "2026-02-25T06:44:13.694900Z",
+   "digests": {
+    "sha256": "f89ffa663767f5a0585ea075f01020207e966a9c0f2b9ef56a57c7963a3f6f8e"
+   }
+  },
+  {
+   "filename": "bandit-1.9.4.tar.gz",
+   "size": 4242677,
+   "url": "https://files.pythonhosted.org/packages/aa/c3/0cb80dfe0f3076e5da7e4c5ad8e57bac6ac357ff4a6406205501cade4965/bandit-1.9.4.tar.gz",
+   "upload_time": "2026-02-25T06:44:15.503849Z",
+   "digests": {
+    "sha256": "b589e5de2afe70bd4d53fa0c1da6199f4085af666fde00e8a034f152a52cd628"
+   }
+  }
+ ],
+ "n_releases_total": 50
+}

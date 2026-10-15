@@ -1,0 +1,146 @@
+{
+  "_template": "source-provenance.json — one record per evaluation or ingestion source.",
+  "_purpose": [
+    "Establish that the project has the RIGHT to store, index and quote a source before it is used.",
+    "Make every extracted fact traceable to an exact version of an exact document.",
+    "Make contamination and staleness checkable rather than assumed.",
+    "Record extraction quality, because a coverage gap changes what a score means."
+  ],
+  "_rules": [
+    "A source with rights_status other than 'confirmed' must not be used as an evaluation source.",
+    "The key for a held-out source is NEVER stored in this repository; only its hash is.",
+    "A source the candidate has already indexed or seen is 'previously_exposed': true and cannot support a capability claim.",
+    "sha256 is computed over the bytes actually stored, at ingestion time, before any conversion.",
+    "Every field is either filled or explicitly 'UNKNOWN'. Never guess, never leave blank.",
+    "Fill one record per source document, not per page and not per corpus."
+  ],
+  "_evidence_labels": ["measured", "verified", "inspected", "estimate", "reported", "proposed", "unknown"],
+
+  "source_id": "SRC-<YYYYMMDD>-<nn>",
+  "recorded_by": "<name or agent id>",
+  "recorded_date": "<YYYY-MM-DD>",
+
+  "identity": {
+    "title": "<document title as it appears on the document>",
+    "kind": "<specification | manual | research report | regulatory filing | datasheet | contract | transcript | other>",
+    "author_or_issuer": "<organisation or person>",
+    "version_or_edition": "<document version, revision, edition or 'none stated'>",
+    "publication_date": "<YYYY-MM-DD or 'UNKNOWN'>",
+    "language": "<BCP-47, e.g. en>",
+    "page_count_declared": "<n, or null if the document does not declare one>",
+    "page_count_observed": "<n, counted at ingestion>",
+    "supersedes": ["<source_id of an earlier version this replaces, or empty>"],
+    "superseded_by": "<source_id, or null>"
+  },
+
+  "origin": {
+    "how_obtained": "<purchased | downloaded | supplied by user | generated internally | scanned>",
+    "original_url": "<URL, or 'not applicable — supplied directly'>",
+    "retrieval_date": "<YYYY-MM-DD>",
+    "retrieval_method": "<browser download | API | email attachment | physical scan>",
+    "access_requirements": "<none | account | subscription | licence key | internal network>",
+    "access_control_encountered": "<none | login | paywall | DRM>",
+    "access_control_bypassed": "MUST BE false — never bypass a paywall or access control"
+  },
+
+  "rights": {
+    "rights_status": "<confirmed | NOT confirmed | not required — authored internally>",
+    "confirmed_by": "<name/agent and date, or 'UNKNOWN'>",
+    "may_store": "<true | false | UNKNOWN>",
+    "may_index": "<true | false | UNKNOWN>",
+    "may_quote_internally": "<true | false | UNKNOWN>",
+    "may_redistribute": "<true | false | UNKNOWN>",
+    "may_publish_in_repository": "<true | false | UNKNOWN>",
+    "licence_or_terms": "<name of licence or contractual terms, or 'UNKNOWN'>",
+    "attribution_required": "<the exact notice, or null>",
+    "confidentiality": "<public | internal | confidential | restricted>",
+    "contains_personal_data": "<true | false | UNKNOWN>",
+    "contains_trading_data": "<true | false | UNKNOWN — if true, it must not be uploaded anywhere>",
+    "notes": "<anything that qualifies the above>"
+  },
+
+  "integrity": {
+    "stored_path": "<relative path to the stored bytes, or 'NOT STORED — held outside the repository'>",
+    "sha256": "<64-char hex digest of the stored bytes>",
+    "size_bytes": "<n>",
+    "format": "<pdf | html | docx | txt | md | csv | other>",
+    "hash_recomputed_date": "<YYYY-MM-DD>",
+    "hash_stable_since": "<YYYY-MM-DD — the first date this digest was recorded>",
+    "known_mutation_risk": "<e.g. vendor back-adjusts values; page content changes without a version bump; none known>"
+  },
+
+  "extraction": {
+    "extractor": "<component id and pinned version, e.g. pypdf <sha>>",
+    "secondary_extractor": "<component id, or null — used to detect disagreement>",
+    "extracted_date": "<YYYY-MM-DD>",
+    "pages_extracted": "<n>",
+    "pages_image_only": "<n>",
+    "pages_failed": "<n>",
+    "pages_hash_mismatched": "<n>",
+    "extractor_disagreements": "<n — pages where two extractors produced different text>",
+    "tables_detected": "<n>",
+    "tables_verified_by_human": "<n>",
+    "coverage_notes": "<what is missing and why it matters>",
+    "ocr_applied": "<true | false — if true, which engine and whether weights download was approved>"
+  },
+
+  "exposure": {
+    "previously_exposed_to_candidate": "<true | false>",
+    "exposure_detail": "<e.g. indexed by the disk-backed prototype on <date>; used in TRAIN tuning; never seen>",
+    "usable_as_train": "<true | false>",
+    "usable_as_validation": "<true | false>",
+    "usable_as_test": "<true | false — false if previously_exposed_to_candidate is true>",
+    "usable_as_transfer": "<true | false — should be a different class from the tuning sources>"
+  },
+
+  "contamination": {
+    "candidate_model": "<name and version>",
+    "model_training_cutoff": "<YYYY-MM-DD or 'UNKNOWN'>",
+    "source_publication_date": "<YYYY-MM-DD or 'UNKNOWN'>",
+    "could_model_have_seen_source": "<yes | no | UNKNOWN>",
+    "contamination_risk_flag": "<none | low | high>",
+    "reasoning": "<why>"
+  },
+
+  "items": {
+    "item_count": "<n>",
+    "item_file_path": "<relative path to items WITHOUT keys>",
+    "item_file_sha256": "<digest>",
+    "key_file_path": "<location OUTSIDE the repository and outside the candidate's read scope>",
+    "key_file_sha256": "<digest of the key file — the hash is publishable, the key is not>",
+    "authored_by": "<name/agent>",
+    "authored_independently_of_candidate": "<true | false>",
+    "keys_frozen_before_outputs": "<true | false — if false, the run cannot produce a baseline>",
+    "frozen_at": "<UTC timestamp>",
+    "item_kinds": {
+      "exact_field_extraction": "<n>",
+      "multi_hop": "<n>",
+      "aggregation": "<n>",
+      "position_sweep": "<n>",
+      "missing_information": "<n>",
+      "partial_constraint": "<n>",
+      "exception_or_carve_out": "<n>",
+      "genuine_contradiction": "<n>",
+      "scope_or_version_difference": "<n>",
+      "stale_source": "<n>",
+      "unanswerable": "<n>",
+      "quote_present_but_not_entailing": "<n>",
+      "hostile_content": "<n>"
+    }
+  },
+
+  "handling": {
+    "may_be_committed_to_repository": "<true | false — the source bytes are normally false>",
+    "committed_paths": ["<only paths that are cleared for publication, e.g. this provenance record>"],
+    "retention_rule": "<how long the stored bytes are kept, and who may delete them>",
+    "stale_after": "<YYYY-MM-DD or event, e.g. 'when the issuer publishes a new version'>",
+    "review_date": "<YYYY-MM-DD — when rights and staleness must be re-checked>"
+  },
+
+  "limitations": [
+    "This record documents provenance and rights. It does not establish that the document's CONTENT is correct.",
+    "A confirmed sha256 proves the bytes did not change; it does not prove they were the right bytes.",
+    "rights_status 'confirmed' reflects what was knowable on recorded_date and must be re-checked on review_date.",
+    "extraction coverage gaps are recorded, not repaired: a missing page produces a recorded failure state, never a silent empty string."
+  ]
+}

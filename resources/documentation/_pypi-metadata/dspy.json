@@ -1,0 +1,96 @@
+{
+ "package": "dspy",
+ "queried": "dspy",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/dspy/json",
+ "info": {
+  "name": "dspy",
+  "version": "3.4.1",
+  "summary": "DSPy",
+  "description_content_type": "text/markdown",
+  "requires_python": "<3.16,>=3.10",
+  "license_expression": null,
+  "license": "MIT License\n        \n        Copyright (c) 2023 Stanford Future Data Systems\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+  "classifiers": [
+   "Development Status :: 3 - Alpha",
+   "Intended Audience :: Science/Research",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "homepage": "https://github.com/stanfordnlp/dspy"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "openai>=1.66.2",
+   "regex>=2023.10.3",
+   "orjson>=3.9.0",
+   "tqdm>=4.66.1",
+   "requests>=2.31.0",
+   "pydantic>=2.11.0",
+   "pyyaml>=6.0.1",
+   "litellm>=1.65.8; python_version < \"3.15\"",
+   "jsonschema>=4.0.0",
+   "diskcache>=5.6.0",
+   "json-repair>=0.54.2",
+   "tenacity>=8.2.3",
+   "anyio",
+   "cachetools>=5.5.0",
+   "cloudpickle>=3.1.2",
+   "gepa[dspy]==0.1.4; python_version < \"3.15\"",
+   "anthropic<1.0.0,>=0.18.0; extra == \"anthropic\"",
+   "typesafe-sdk<1.0.0,>=0.6.0; extra == \"typesafe\"",
+   "weaviate-client<4.22.0,>=4.5.4; extra == \"weaviate\"",
+   "mcp; python_version >= \"3.10\" and extra == \"mcp\"",
+   "deno<3.0.0,>=2.4.5; extra == \"deno\"",
+   "langchain_core>=0.3.0; extra == \"langchain\"",
+   "optuna>=3.4.0; extra == \"optuna\"",
+   "numpy>=1.26.0; extra == \"numpy\"",
+   "litellm>=1.65.8; extra == \"litellm\"",
+   "pytest>=6.2.5; extra == \"dev\"",
+   "pytest-mock>=3.12.0; extra == \"dev\"",
+   "pytest-asyncio>=0.26.0; extra == \"dev\"",
+   "pytest-xdist>=3.5.0; extra == \"dev\"",
+   "ruff>=0.3.0; extra == \"dev\"",
+   "pre-commit>=3.7.0; extra == \"dev\"",
+   "pillow>=10.1.0; extra == \"dev\"",
+   "datamodel_code_generator>=0.26.3; extra == \"dev\"",
+   "build>=1.0.3; extra == \"dev\"",
+   "numpy>=1.26.0; extra == \"dev\"",
+   "fastapi<0.140.7; (sys_platform != \"win32\" and python_version < \"3.14\") and extra == \"dev\"",
+   "litellm>=1.65.8; (sys_platform == \"win32\" or python_version >= \"3.14\") and extra == \"dev\"",
+   "litellm[proxy]>=1.65.8; (sys_platform != \"win32\" and python_version < \"3.14\") and extra == \"dev\"",
+   "gepa[dspy]==0.1.4; extra == \"dev\"",
+   "mcp; python_version >= \"3.10\" and extra == \"test-extras\"",
+   "datasets>=2.14.6; extra == \"test-extras\"",
+   "pandas>=2.1.1; extra == \"test-extras\"",
+   "optuna>=3.4.0; extra == \"test-extras\"",
+   "langchain_core>=0.3.0; extra == \"test-extras\"",
+   "numpy>=1.26.0; extra == \"test-extras\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "dspy-3.4.1-py3-none-any.whl",
+   "size": 1027332,
+   "url": "https://files.pythonhosted.org/packages/ad/2f/656f16206c9ba4e359b639e2605cf196a4e5c678c6d9aed0fae537701ec2/dspy-3.4.1-py3-none-any.whl",
+   "upload_time": "2026-10-12T23:07:23.761902Z",
+   "digests": {
+    "sha256": "afda9e7f8b3d46be0829af19ac1153a6feaa6db5923f2b1011eef547fb15ce2d"
+   }
+  },
+  {
+   "filename": "dspy-3.4.1.tar.gz",
+   "size": 926321,
+   "url": "https://files.pythonhosted.org/packages/00/5c/260210d87e0604b9086735a8dc1ef8ca4edd61bc9e8042a013ca36cf8b7e/dspy-3.4.1.tar.gz",
+   "upload_time": "2026-10-12T23:07:25.395758Z",
+   "digests": {
+    "sha256": "6803449c11818efd10537da22e509a87af1bd30796053d1a6c82421f2afaa461"
+   }
+  }
+ ],
+ "n_releases_total": 111
+}

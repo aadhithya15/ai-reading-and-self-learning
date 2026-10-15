@@ -1,0 +1,86 @@
+{
+ "package": "alibi-detect",
+ "queried": "alibi-detect",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/alibi-detect/json",
+ "info": {
+  "name": "alibi-detect",
+  "version": "0.13.0",
+  "summary": "Algorithms for outlier detection, concept drift and metrics.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": "Business Source License 1.1",
+  "classifiers": [
+   "Intended Audience :: Science/Research",
+   "License :: Other/Proprietary License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.9",
+   "Topic :: Scientific/Engineering"
+  ],
+  "keywords": null,
+  "home_page": "https://github.com/SeldonIO/alibi-detect",
+  "project_urls": {
+   "Homepage": "https://github.com/SeldonIO/alibi-detect"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "matplotlib<4.0.0,>=3.0.0",
+   "numpy<2.0.0,>=1.16.2",
+   "pandas<3.0.0,>=1.0.0",
+   "Pillow<11.0.0,>=5.4.1",
+   "opencv-python<5.0.0,>=3.2.0",
+   "scipy<2.0.0,>=1.5.0",
+   "scikit-image<0.25,>=0.19",
+   "scikit-learn<2.0.0,>=0.20.2",
+   "transformers<5.0.0,>=4.0.0",
+   "dill<0.4.0,>=0.3.0",
+   "tqdm<5.0.0,>=4.28.1",
+   "requests<3.0.0,>=2.21.0",
+   "pydantic<3.0.0,>=1.8.0",
+   "toml<1.0.0,>=0.10.1",
+   "catalogue<3.0.0,>=2.0.0",
+   "numba!=0.54.0,<0.60.0,>=0.50.0",
+   "typing-extensions>=3.7.4.3",
+   "prophet<2.0.0,>=1.1.0; extra == \"prophet\"",
+   "torch<3.0.0,>=1.7.0; extra == \"torch\"",
+   "tensorflow_probability<0.26.0,>=0.8.0; extra == \"tensorflow\"",
+   "tensorflow<2.19.0,>=2.16.0; extra == \"tensorflow\"",
+   "tf-keras<2.19.0,>=2.16.0; extra == \"tensorflow\"",
+   "pykeops<2.3.0,>=2.0.0; extra == \"keops\"",
+   "torch<3.0.0,>=1.7.0; extra == \"keops\"",
+   "prophet<2.0.0,>=1.1.0; extra == \"all\"",
+   "tensorflow_probability<0.26.0,>=0.8.0; extra == \"all\"",
+   "tensorflow<2.19.0,>=2.16.0; extra == \"all\"",
+   "tf-keras<2.19.0,>=2.16.0; extra == \"all\"",
+   "pykeops<2.3.0,>=2.0.0; extra == \"all\"",
+   "torch<3.0.0,>=1.7.0; extra == \"all\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "alibi_detect-0.13.0-py3-none-any.whl",
+   "size": 382920,
+   "url": "https://files.pythonhosted.org/packages/af/5d/505eb82ea994564952ce4d3e40f30ed5f723ad421a32cee65e25cbd63350/alibi_detect-0.13.0-py3-none-any.whl",
+   "upload_time": "2025-12-11T15:55:54.175094Z",
+   "digests": {
+    "sha256": "2fbbcb39572c390d6032e70813f99ac0382e566d0c55e8fb536e992d4f0ab4d8"
+   }
+  },
+  {
+   "filename": "alibi_detect-0.13.0.tar.gz",
+   "size": 269537,
+   "url": "https://files.pythonhosted.org/packages/b8/1c/f6e669fa0801b43c074152544f0182ad6e3474e6279563dacc0f55dfbb54/alibi_detect-0.13.0.tar.gz",
+   "upload_time": "2025-12-11T15:55:56.092641Z",
+   "digests": {
+    "sha256": "07a468cac6ef0773c060d915544d0c9bd67f77400e75dfe435b1ea9a81679223"
+   }
+  }
+ ],
+ "n_releases_total": 39
+}

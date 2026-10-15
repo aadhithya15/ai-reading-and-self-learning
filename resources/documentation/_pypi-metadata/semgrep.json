@@ -1,0 +1,143 @@
+{
+ "package": "semgrep",
+ "queried": "semgrep",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/semgrep/json",
+ "info": {
+  "name": "semgrep",
+  "version": "1.181.0",
+  "summary": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": "LGPL-2.1-or-later",
+  "license": null,
+  "classifiers": [
+   "Environment :: Console",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Security",
+   "Topic :: Software Development :: Quality Assurance"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://github.com/semgrep/semgrep/blob/develop/CHANGELOG.md",
+   "Documentation": "https://semgrep.dev/docs",
+   "Homepage": "https://semgrep.dev",
+   "Issues": "https://github.com/semgrep/semgrep/issues",
+   "Repository": "https://github.com/semgrep/semgrep"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "attrs>=21.3",
+   "boltons~=21.0",
+   "click-option-group~=0.5",
+   "click~=8.4.2",
+   "colorama~=0.4.0",
+   "exceptiongroup~=1.2.0",
+   "glom>=23.3",
+   "jsonschema~=4.25.1",
+   "mcp==1.29.0",
+   "opentelemetry-api~=1.37.0",
+   "opentelemetry-sdk~=1.37.0",
+   "opentelemetry-exporter-otlp-proto-http~=1.37.0",
+   "opentelemetry-instrumentation-requests~=0.58b0",
+   "opentelemetry-instrumentation-threading~=0.58b0",
+   "packaging>=21.0",
+   "peewee~=3.14",
+   "pyjwt[crypto]<3,>=2.15.0",
+   "requests~=2.22",
+   "rich>=13.5.2",
+   "ruamel.yaml>=0.18.15",
+   "ruamel.yaml.clib==0.2.15",
+   "semantic-version~=2.10.0",
+   "tomli~=2.4.0",
+   "typing-extensions~=4.2",
+   "urllib3~=2.0",
+   "wcmatch~=8.3",
+   "pywin32==311; sys_platform == \"win32\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-macosx_10_14_x86_64.whl",
+   "size": 45801190,
+   "url": "https://files.pythonhosted.org/packages/3c/af/90430a8162e20174d11715ec4dd97ff7f44e5efc90fc74a5182c78741aeb/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-macosx_10_14_x86_64.whl",
+   "upload_time": "2026-10-14T21:32:39.005479Z",
+   "digests": {
+    "sha256": "9af2325bfd58fa24936a7776277da067d563f6bb5dbe2184d7fb923e1a2b6134"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-macosx_11_0_arm64.whl",
+   "size": 49776451,
+   "url": "https://files.pythonhosted.org/packages/c4/ee/80b356194e13f6c533143ff16e646f0131c550c72a4c399474f686ad005f/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-14T21:32:42.111544Z",
+   "digests": {
+    "sha256": "05d79ad777fae86f6d914a67bedec1b9e2c3e637f61d49a4ef557e2bf69fed01"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-manylinux_2_34_aarch64.whl",
+   "size": 72558188,
+   "url": "https://files.pythonhosted.org/packages/88/c5/f5346177cafd8c3a68d6e133f9d579c39c47ec9aad2c4b93135bc609908f/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-manylinux_2_34_aarch64.whl",
+   "upload_time": "2026-10-14T21:32:45.271628Z",
+   "digests": {
+    "sha256": "6dedd7d72dd7f7bd314439f469e143d57d84508c57c29246793378cccc2b90dc"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-manylinux_2_34_x86_64.whl",
+   "size": 70540779,
+   "url": "https://files.pythonhosted.org/packages/b0/1d/aed54e9cea5491f0dd54286126216f97ef817a356734d3c9d5e40c124c34/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-manylinux_2_34_x86_64.whl",
+   "upload_time": "2026-10-14T21:32:49.343989Z",
+   "digests": {
+    "sha256": "c142ec04a2ed144970cb0a92f6877651dd3c088505eec737bb7f4db7ae5f0ffa"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-musllinux_1_2_aarch64.whl",
+   "size": 79492052,
+   "url": "https://files.pythonhosted.org/packages/9b/c8/d7767f2f8abf70d6b479afe31f64b063e77444b7653a83ac3e99586fa725/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-14T21:32:53.078168Z",
+   "digests": {
+    "sha256": "3defc5f3e0a76c5735c0edc1a1ccb903471b0558d8687bcb22ad75bb20923afe"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-musllinux_1_2_x86_64.whl",
+   "size": 77129989,
+   "url": "https://files.pythonhosted.org/packages/7d/5b/153698c00a6fc51267710f5c3efdc454dfe5d8ae0e928932bd72398f74f8/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-14T21:32:56.696958Z",
+   "digests": {
+    "sha256": "9ef478d031105158e97a4491ecd349ecea011193e6b4be618d515a0a71bb6884"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-win_amd64.whl",
+   "size": 58091264,
+   "url": "https://files.pythonhosted.org/packages/53/d0/c35c85e860b722b86108ecef78c104558d65fddb6d00e6e83be54b4b263b/semgrep-1.181.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-win_amd64.whl",
+   "upload_time": "2026-10-14T21:32:59.861493Z",
+   "digests": {
+    "sha256": "c3d7295bfd26f994231d82145888bd0a73ef0ad66ffb0c0341f0350a90ac3136"
+   }
+  },
+  {
+   "filename": "semgrep-1.181.0.tar.gz",
+   "size": 520601,
+   "url": "https://files.pythonhosted.org/packages/d8/84/0d55c4c7cb761570f69c9b05eb515886dcbd550ec9da2d6537bc7ca660b5/semgrep-1.181.0.tar.gz",
+   "upload_time": "2026-10-14T21:31:14.108960Z",
+   "digests": {
+    "sha256": "4c0905288ccf9ee5330e766f1c677a31642a4cc0aac5a95097e7563f3f3a92fa"
+   }
+  }
+ ],
+ "n_releases_total": 300
+}

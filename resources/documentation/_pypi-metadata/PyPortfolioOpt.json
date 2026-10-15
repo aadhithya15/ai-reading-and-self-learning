@@ -1,0 +1,81 @@
+{
+ "package": "pyportfolioopt",
+ "queried": "PyPortfolioOpt",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/PyPortfolioOpt/json",
+ "info": {
+  "name": "pyportfolioopt",
+  "version": "1.6.0",
+  "summary": "Financial portfolio optimization in python",
+  "description_content_type": "text/markdown",
+  "requires_python": null,
+  "license_expression": null,
+  "license": "MIT License\n        \n        Copyright (c) 2018 Robert Andrew Martin\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Environment :: Console",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: MIT License",
+   "Natural Language :: English",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment"
+  ],
+  "keywords": "finance, portfolio, optimization, quant, investing",
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://pyportfolioopt.readthedocs.io/en/latest/",
+   "Download": "https://pypi.org/project/pyportfolioopt/#files",
+   "Homepage": "https://pyportfolioopt.readthedocs.io/en/latest/",
+   "Personal website": "https://reasonabledeviations.com",
+   "Repository": "https://github.com/pyportfolio/pyportfolioopt"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "cvxpy>=1.1.19",
+   "numpy<3.0.0,>=1.26.0",
+   "pandas<4.0.0,>=1.0.0",
+   "scikit-base<0.14.0",
+   "scikit-learn>=0.24.1",
+   "scipy>=1.3.0",
+   "matplotlib>=3.2.0; extra == \"all-extras\"",
+   "ecos<2.1,>=2.0.14; extra == \"all-extras\"",
+   "plotly<7,>=5.0.0; extra == \"all-extras\"",
+   "cvxopt; python_version < \"3.14\" and extra == \"all-extras\"",
+   "pytest>=9.0.0; extra == \"dev\"",
+   "pytest-cov>=7.0.0; extra == \"dev\"",
+   "yfinance>=0.2.66; extra == \"dev\"",
+   "nbmake; extra == \"notebook-test\"",
+   "pytest-rerunfailures; extra == \"notebook-test\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pyportfolioopt-1.6.0-py3-none-any.whl",
+   "size": 67597,
+   "url": "https://files.pythonhosted.org/packages/55/51/96055d65a76c5af14a12c3cf7c7232513c622b9a1159c42708de0fe85f98/pyportfolioopt-1.6.0-py3-none-any.whl",
+   "upload_time": "2026-02-26T23:29:39.493214Z",
+   "digests": {
+    "sha256": "fcdff5dfb4e7d0c477d8b76e9b5aff58defc30370fc3cb096e95dd46ae43d617"
+   }
+  },
+  {
+   "filename": "pyportfolioopt-1.6.0.tar.gz",
+   "size": 94121,
+   "url": "https://files.pythonhosted.org/packages/9c/18/9f4ea0fcdff672164637d153e381a9d538200eab8fb96315f44644bce602/pyportfolioopt-1.6.0.tar.gz",
+   "upload_time": "2026-02-26T23:29:41.267056Z",
+   "digests": {
+    "sha256": "de5ea1914d6ca6bc83c54a954be123bd9c770275c769d1d70fb8760092cd5e9b"
+   }
+  }
+ ],
+ "n_releases_total": 43
+}

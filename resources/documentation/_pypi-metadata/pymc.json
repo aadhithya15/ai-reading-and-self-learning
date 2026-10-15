@@ -1,0 +1,69 @@
+{
+ "package": "pymc",
+ "queried": "pymc",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pymc/json",
+ "info": {
+  "name": "pymc",
+  "version": "6.3.2",
+  "summary": "Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with PyTensor",
+  "description_content_type": "text/x-rst",
+  "requires_python": ">=3.12",
+  "license_expression": null,
+  "license": "Apache License, Version 2.0",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Scientific/Engineering",
+   "Topic :: Scientific/Engineering :: Mathematics"
+  ],
+  "keywords": null,
+  "home_page": "http://github.com/pymc-devs/pymc",
+  "project_urls": {
+   "Homepage": "http://github.com/pymc-devs/pymc"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "arviz<2.0,>=1.1.0",
+   "cachetools<7,>=4.2.1",
+   "cloudpickle",
+   "numpy>=1.25.0",
+   "pandas>=0.24.0",
+   "pytensor<3.4,>=3.2.2",
+   "rich>=13.7.1",
+   "scipy>=1.4.1",
+   "threadpoolctl<4.0.0,>=3.1.0",
+   "typing-extensions>=3.7.4",
+   "nutpie<1,>=0.16.10; extra == \"nutpie\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pymc-6.3.2-py3-none-any.whl",
+   "size": 608275,
+   "url": "https://files.pythonhosted.org/packages/50/fd/592d2ba382c9a4734008bfccf99dd6196b7c670a84d50be0a4911f5283f2/pymc-6.3.2-py3-none-any.whl",
+   "upload_time": "2026-09-08T12:53:34.476379Z",
+   "digests": {
+    "sha256": "f3eef7d1637d4bac243562abcd087a5363e99103ae984c69ab72d081f2eb0a1e"
+   }
+  },
+  {
+   "filename": "pymc-6.3.2.tar.gz",
+   "size": 555223,
+   "url": "https://files.pythonhosted.org/packages/dc/2d/f8a4d6358fe5398cf3b270da3eb0237ef7cbc115e48163c94704ac3f1621/pymc-6.3.2.tar.gz",
+   "upload_time": "2026-09-08T12:53:36.278961Z",
+   "digests": {
+    "sha256": "3cd58e55249b3650786e2c717078de5595811e17187a666868072d15e3a931a1"
+   }
+  }
+ ],
+ "n_releases_total": 105
+}

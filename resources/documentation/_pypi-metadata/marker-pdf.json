@@ -1,0 +1,72 @@
+{
+ "package": "marker-pdf",
+ "queried": "marker-pdf",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/marker-pdf/json",
+ "info": {
+  "name": "marker-pdf",
+  "version": "2.0.0",
+  "summary": "Convert documents to markdown with high speed and accuracy.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4,>=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [],
+  "keywords": "markdown, nlp, ocr, pdf",
+  "home_page": null,
+  "project_urls": {
+   "Repository": "https://github.com/datalab-to/marker"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "anthropic<1,>=0.69.0",
+   "click<9,>=8.2.0",
+   "filetype<2,>=1.2.0",
+   "ftfy<7,>=6.1.1",
+   "google-genai<3,>=1.40.0",
+   "markdown2<3,>=2.5.2",
+   "markdownify<2,>=1.1.0",
+   "openai<3,>=2.2.0",
+   "pdftext<0.8.0,>=0.7.0",
+   "pillow<11,>=10.1.0",
+   "psutil<8,>=7.0.0",
+   "pydantic-settings<3,>=2.0.3",
+   "pydantic<3,>=2.4.2",
+   "python-dotenv<2,>=1.0.0",
+   "rapidfuzz<4,>=3.8.1",
+   "regex>=2024.4.28",
+   "scikit-learn<2,>=1.6.1",
+   "surya-ocr<0.23.0,>=0.22.1",
+   "torch<3,>=2.7.0",
+   "tqdm<5,>=4.66.1",
+   "transformers<6,>=5.12.1",
+   "ebooklib<0.19,>=0.18; extra == \"full\"",
+   "mammoth<2,>=1.9.0; extra == \"full\"",
+   "openpyxl<4,>=3.1.5; extra == \"full\"",
+   "python-pptx<2,>=1.0.2; extra == \"full\"",
+   "weasyprint<64,>=63.1; extra == \"full\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "marker_pdf-2.0.0-py3-none-any.whl",
+   "size": 195742,
+   "url": "https://files.pythonhosted.org/packages/0e/fc/34d15f1d721866700f99a52298836752858ca79fc2e897963023abeb8b20/marker_pdf-2.0.0-py3-none-any.whl",
+   "upload_time": "2026-07-20T19:41:52.490223Z",
+   "digests": {
+    "sha256": "aa31f6a31990a6b7ac277aaea0df486b9314a9c1cd6fe0c1262dc162ed3f8e72"
+   }
+  },
+  {
+   "filename": "marker_pdf-2.0.0.tar.gz",
+   "size": 4801201,
+   "url": "https://files.pythonhosted.org/packages/7c/8a/d4556e2bb84f470b4c21a37e8082279d6ed8515bb49813f591571f9ef258/marker_pdf-2.0.0.tar.gz",
+   "upload_time": "2026-07-20T19:41:54.544633Z",
+   "digests": {
+    "sha256": "7f6f0ebd29908f7c7c66f61cc06a9c07a9e3cd612c00732016f6e6b6fc150f7c"
+   }
+  }
+ ],
+ "n_releases_total": 82
+}

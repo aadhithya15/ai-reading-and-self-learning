@@ -1,0 +1,79 @@
+{
+ "package": "anthropic",
+ "queried": "anthropic",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/anthropic/json",
+ "info": {
+  "name": "anthropic",
+  "version": "1.14.0",
+  "summary": "The official Python library for the anthropic API",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: OS Independent",
+   "Operating System :: POSIX",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Software Development :: Libraries :: Python Modules",
+   "Typing :: Typed"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/anthropics/anthropic-sdk-python",
+   "Repository": "https://github.com/anthropics/anthropic-sdk-python"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "anyio<5,>=4.1.0",
+   "docstring-parser<1,>=0.15",
+   "httpx2<3,>=2.0.0",
+   "jiter<1,>=0.4.0",
+   "opentelemetry-api<2,>=1.1.0",
+   "pydantic<3,>=1.10.0",
+   "sniffio<2,>=1",
+   "typing-extensions<5,>=4.14",
+   "aiohttp<4,>=3.10.0; extra == \"aiohttp\"",
+   "boto3<2,>=1.28.57; extra == \"aws\"",
+   "botocore<2,>=1.31.57; extra == \"aws\"",
+   "boto3<2,>=1.28.57; extra == \"bedrock\"",
+   "botocore<2,>=1.31.57; extra == \"bedrock\"",
+   "google-auth[requests]<3,>=2; extra == \"google-cloud\"",
+   "mcp<3,>=1.0; python_version >= \"3.10\" and extra == \"mcp\"",
+   "google-auth[requests]<3,>=2; extra == \"vertex\"",
+   "standardwebhooks<2,>=1.0.1; extra == \"webhooks\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "anthropic-1.14.0-py3-none-any.whl",
+   "size": 2043565,
+   "url": "https://files.pythonhosted.org/packages/5d/66/c395049fa6bf20b7f244adc8b7466f86a416b11f03528fa325868483de3a/anthropic-1.14.0-py3-none-any.whl",
+   "upload_time": "2026-10-14T17:13:35.513132Z",
+   "digests": {
+    "sha256": "abd787048378abfabeebbad917ae0f9eae1eb4dfaa0a754096b5eea02dcf8c12"
+   }
+  },
+  {
+   "filename": "anthropic-1.14.0.tar.gz",
+   "size": 1715378,
+   "url": "https://files.pythonhosted.org/packages/0f/c2/be99fac19b24c22b00d2a63ac1756b203bd3058ff54a14028c43b9f33116/anthropic-1.14.0.tar.gz",
+   "upload_time": "2026-10-14T17:13:33.508831Z",
+   "digests": {
+    "sha256": "d9284895864a8457ed87f0accc51fd488ad9743952e597c814e7dc9d78ac8e38"
+   }
+  }
+ ],
+ "n_releases_total": 227
+}

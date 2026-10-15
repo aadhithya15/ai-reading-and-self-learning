@@ -1,0 +1,89 @@
+{
+ "package": "yfinance",
+ "queried": "yfinance",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/yfinance/json",
+ "info": {
+  "name": "yfinance",
+  "version": "1.7.0",
+  "summary": "Download market data from Yahoo! Finance API",
+  "description_content_type": "text/markdown",
+  "requires_python": null,
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.6",
+   "Programming Language :: Python :: 3.7",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator",
+   "Topic :: Software Development :: Libraries",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "pandas, yahoo finance, pandas datareader",
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://github.com/ranaroussi/yfinance/blob/main/CHANGELOG.rst",
+   "Documentation": "https://ranaroussi.github.io/yfinance",
+   "Homepage": "https://github.com/ranaroussi/yfinance",
+   "Issues": "https://github.com/ranaroussi/yfinance/issues",
+   "Repository": "https://github.com/ranaroussi/yfinance"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "beautifulsoup4>=4.11.1",
+   "curl_cffi>=0.15",
+   "lxml>=4.9.0",
+   "multitasking>=0.0.7",
+   "numpy>=1.16.5",
+   "pandas>=1.3.0",
+   "peewee>=3.16.2",
+   "platformdirs>=2.0.0",
+   "protobuf>=3.19.0",
+   "pytz>=2022.5",
+   "requests>=2.31",
+   "websockets>=13.0",
+   "scipy>=1.6.3; extra == \"repair\"",
+   "scikit-learn>=1.0; extra == \"repair\"",
+   "jinja2==3.1.4; extra == \"dev\"",
+   "pydata-sphinx-theme==0.15.4; extra == \"dev\"",
+   "pytest>=9.0.3; extra == \"dev\"",
+   "pytest-cov>=7.1.0; extra == \"dev\"",
+   "ruff>=0.15.16; extra == \"dev\"",
+   "sphinx==8.0.2; extra == \"dev\"",
+   "sphinx-copybutton==0.5.2; extra == \"dev\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "yfinance-1.7.0-py3-none-any.whl",
+   "size": 149341,
+   "url": "https://files.pythonhosted.org/packages/5f/12/7efaf78fcf63711ad7271704dd22963b4cbe05d95d89b9865a1c5c0bad6f/yfinance-1.7.0-py3-none-any.whl",
+   "upload_time": "2026-08-26T17:25:06.726787Z",
+   "digests": {
+    "sha256": "91281ecd1f71069a37155ff8653aff2d3085f3492bd8721f18b70955da62911a"
+   }
+  },
+  {
+   "filename": "yfinance-1.7.0.tar.gz",
+   "size": 176142,
+   "url": "https://files.pythonhosted.org/packages/51/94/fefb0afc174ac1ce4f6b231c62ca30168ac29d8c937cab8d01a748d9cd0e/yfinance-1.7.0.tar.gz",
+   "upload_time": "2026-08-26T17:25:08.102268Z",
+   "digests": {
+    "sha256": "442f780d13d3e52fefa6c721c2c9bfee321078c1987d6585ec193b5c24382f8a"
+   }
+  }
+ ],
+ "n_releases_total": 150
+}

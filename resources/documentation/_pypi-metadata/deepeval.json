@@ -1,0 +1,87 @@
+{
+ "package": "deepeval",
+ "queried": "deepeval",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/deepeval/json",
+ "info": {
+  "name": "deepeval",
+  "version": "4.2.8",
+  "summary": "The LLM Evaluation Framework",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0,>=3.9",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://deepeval.com",
+   "Repository": "https://github.com/confident-ai/deepeval"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "aiohttp",
+   "click<8.4.0,>=8.0.0",
+   "grpcio<2.0.0,>=1.67.1",
+   "jinja2",
+   "nest_asyncio",
+   "openai",
+   "opentelemetry-api<2.0.0,>=1.24.0",
+   "opentelemetry-sdk<2.0.0,>=1.24.0",
+   "portalocker",
+   "posthog<7.0.0,>=5.4.0; python_version < \"3.10\"",
+   "posthog<8.0.0,>=7.0.0; python_version >= \"3.10\"",
+   "pydantic<3.0.0,>=2.11.7",
+   "pydantic-settings<3.0.0,>=2.10.1",
+   "pyfiglet",
+   "pyperclip<2.0,>=1.8; extra == \"inspect\"",
+   "pytest",
+   "pytest-asyncio",
+   "pytest-repeat",
+   "pytest-rerunfailures",
+   "pytest-xdist",
+   "python-dotenv<2.0.0,>=1.1.1",
+   "questionary<3.0.0,>=2.0.0",
+   "requests<3.0.0,>=2.31.0",
+   "rich<15.0.0,>=13.6.0",
+   "setuptools",
+   "tabulate<0.10.0,>=0.9.0",
+   "tenacity<=10.0.0,>=8.0.0",
+   "textual<2.0,>=0.80; extra == \"inspect\"",
+   "tqdm<5.0.0,>=4.66.1",
+   "typer<1.0.0,>=0.9",
+   "wheel"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "deepeval-4.2.8-py3-none-any.whl",
+   "size": 1486176,
+   "url": "https://files.pythonhosted.org/packages/bc/e7/0c686816205bc77add2ecacbcad184d8b796c19ca891c2d8c542107340f5/deepeval-4.2.8-py3-none-any.whl",
+   "upload_time": "2026-10-02T15:49:15.964537Z",
+   "digests": {
+    "sha256": "1bc6ec6ad9f36427e5578a01b4a2aaa357d7ac51bb0cd726af7315304b0339f8"
+   }
+  },
+  {
+   "filename": "deepeval-4.2.8.tar.gz",
+   "size": 1027715,
+   "url": "https://files.pythonhosted.org/packages/01/99/5920130ea96f90685ef2765010afd85964db12439e50d2304cfa6ba84ba5/deepeval-4.2.8.tar.gz",
+   "upload_time": "2026-10-02T15:49:09.299879Z",
+   "digests": {
+    "sha256": "6c6243a53be3e7fd59cf787310d24bbbc479b34cd48bb72f97c6ad81943596e2"
+   }
+  }
+ ],
+ "n_releases_total": 527
+}

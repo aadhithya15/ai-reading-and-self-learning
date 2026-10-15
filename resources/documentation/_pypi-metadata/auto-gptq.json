@@ -1,0 +1,136 @@
+{
+ "package": "auto-gptq",
+ "queried": "auto-gptq",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/auto-gptq/json",
+ "info": {
+  "name": "auto-gptq",
+  "version": "0.7.1",
+  "summary": "An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.8.0",
+  "license_expression": null,
+  "license": "",
+  "classifiers": [
+   "Environment :: GPU :: NVIDIA CUDA :: 11.7",
+   "Environment :: GPU :: NVIDIA CUDA :: 11.8",
+   "Environment :: GPU :: NVIDIA CUDA :: 12",
+   "License :: OSI Approved :: MIT License",
+   "Natural Language :: Chinese (Simplified)",
+   "Natural Language :: English",
+   "Programming Language :: C++",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": "gptq,quantization,large-language-models,transformers",
+  "home_page": "https://github.com/PanQiWei/AutoGPTQ",
+  "project_urls": {
+   "Homepage": "https://github.com/PanQiWei/AutoGPTQ"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "accelerate >=0.26.0",
+   "datasets",
+   "sentencepiece",
+   "numpy",
+   "rouge",
+   "gekko",
+   "torch >=1.13.0",
+   "safetensors",
+   "transformers >=4.31.0",
+   "peft >=0.5.0",
+   "tqdm",
+   "ruff ==0.1.5 ; extra == 'quality'",
+   "pytest ; extra == 'test'",
+   "parameterized ; extra == 'test'",
+   "triton ==2.0.0 ; extra == 'triton'"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "auto_gptq-0.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 23481371,
+   "url": "https://files.pythonhosted.org/packages/5b/a6/0d099a45b2f09dfc7dbd97c97b478d4db488f9168a019aa841b714b82fd7/auto_gptq-0.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2024-03-01T13:09:00.364513Z",
+   "digests": {
+    "sha256": "84efeb9527b2d49f3555b2ba9451018c5ff41722c0b0e2fde74f5183ba0c008d"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp310-cp310-win_amd64.whl",
+   "size": 4639074,
+   "url": "https://files.pythonhosted.org/packages/e6/4f/010daf242f5da59dce5dabf32aaf2a00411f8334e3a83759d0ed798127b3/auto_gptq-0.7.1-cp310-cp310-win_amd64.whl",
+   "upload_time": "2024-03-01T13:09:06.904542Z",
+   "digests": {
+    "sha256": "5d0f3c1b4905e1f14f5b88a33d3dfaf313ebfa138f73c43315f80b40a2d8bb1f"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 23520497,
+   "url": "https://files.pythonhosted.org/packages/97/32/7cc2f3bd401021fe9af085e78c2b8c24d6521bec324918c8c5660c650074/auto_gptq-0.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2024-03-01T13:09:10.479877Z",
+   "digests": {
+    "sha256": "a372d81d523b8d2f98639bbca63c0c427cab0ed55b8a57bb96706b0942aa01c9"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp311-cp311-win_amd64.whl",
+   "size": 4643924,
+   "url": "https://files.pythonhosted.org/packages/e2/8e/6c90faf9c4058215341523c1fd0e70ac49c504023af2fcd0bd89a825dd72/auto_gptq-0.7.1-cp311-cp311-win_amd64.whl",
+   "upload_time": "2024-03-01T13:09:13.392654Z",
+   "digests": {
+    "sha256": "8d9d3fbfff94e129bcde0432fd5f6ba09f26aeceea0890a68c898210ba448135"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 23482579,
+   "url": "https://files.pythonhosted.org/packages/16/72/de4c04fb0038681b64c2c6865b8c74ae4afdf2a7a73dab1f0ec7dc4c8214/auto_gptq-0.7.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2024-03-01T13:09:17.267151Z",
+   "digests": {
+    "sha256": "fc69a93ab8b24e7854abbb3adbdb3a8c28c8f4db9c82229341922a4b59e0eff1"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp38-cp38-win_amd64.whl",
+   "size": 4638888,
+   "url": "https://files.pythonhosted.org/packages/b6/91/18af8fd1d499d745e3c82e77d1dfa5d53f1b8616af5a3c14b8289c879018/auto_gptq-0.7.1-cp38-cp38-win_amd64.whl",
+   "upload_time": "2024-03-01T13:09:20.913241Z",
+   "digests": {
+    "sha256": "d87cd69532bfeb81150a0f8db5ebb5f5f295fa72b5a0403102e791ccac44b933"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 23480376,
+   "url": "https://files.pythonhosted.org/packages/7d/a6/a4e62a3e834654025347918ca042f7d69eb698609753d054da92f396dc2d/auto_gptq-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2024-03-01T13:09:25.473035Z",
+   "digests": {
+    "sha256": "4a1e5972b8ff65956f207908d8789c56fc0d521678ff37bd57e98f392971b3fd"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1-cp39-cp39-win_amd64.whl",
+   "size": 4635953,
+   "url": "https://files.pythonhosted.org/packages/ad/63/b17f250d017a31dd2f1d7dc3ade5466c4430fc4eb7a7d57e9bbf641f41b9/auto_gptq-0.7.1-cp39-cp39-win_amd64.whl",
+   "upload_time": "2024-03-01T13:09:28.787485Z",
+   "digests": {
+    "sha256": "57b4b284ca4ff4e060088252cbfb18a6f7332477fe57cf2b7ef9af158cce9730"
+   }
+  },
+  {
+   "filename": "auto_gptq-0.7.1.tar.gz",
+   "size": 126148,
+   "url": "https://files.pythonhosted.org/packages/90/e5/b22697903982284fe284568fb2663a2196694a8eee637f5cf4ccfe435a38/auto_gptq-0.7.1.tar.gz",
+   "upload_time": "2024-03-01T13:09:30.998005Z",
+   "digests": {
+    "sha256": "5c61ad380e9b4c603757c254765e9083a90a820cd0aff1b5d2c6f7fd96c85e80"
+   }
+  }
+ ],
+ "n_releases_total": 15
+}

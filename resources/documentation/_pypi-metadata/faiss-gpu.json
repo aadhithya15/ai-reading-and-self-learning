@@ -1,0 +1,62 @@
+{
+ "package": "faiss-gpu",
+ "queried": "faiss-gpu",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/faiss-gpu/json",
+ "info": {
+  "name": "faiss-gpu",
+  "version": "1.15.1",
+  "summary": "A library for efficient similarity search and clustering of dense vectors (GPU support).",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Environment :: GPU :: NVIDIA CUDA :: 12",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Science/Research",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: C++",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "search, nearest-neighbors, clustering, vectors, similarity, gpu, cuda",
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://github.com/facebookresearch/faiss/wiki",
+   "Homepage": "https://github.com/facebookresearch/faiss",
+   "Issues": "https://github.com/facebookresearch/faiss/issues",
+   "Repository": "https://github.com/facebookresearch/faiss"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=1.25",
+   "packaging",
+   "nvidia-cuda-runtime-cu12<13,>=12.6",
+   "nvidia-cublas-cu12<13,>=12.6",
+   "nvidia-curand-cu12<11,>=10.3.7"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "faiss_gpu-1.15.1-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 135286937,
+   "url": "https://files.pythonhosted.org/packages/12/8e/fe86155827adc1964a6f1f9f510b936551499dbb881bc400d8f2bf501175/faiss_gpu-1.15.1-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-09-16T19:05:28.994503Z",
+   "digests": {
+    "sha256": "c9833c9b1c46d925edf6ee457a36869bbc444275984cf83a7d736e7f4a2f3439"
+   }
+  }
+ ],
+ "n_releases_total": 16
+}

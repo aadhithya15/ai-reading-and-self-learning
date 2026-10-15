@@ -1,0 +1,73 @@
+{
+ "package": "mlx-lm",
+ "queried": "mlx-lm",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/mlx-lm/json",
+ "info": {
+  "name": "mlx-lm",
+  "version": "0.32.0",
+  "summary": "LLMs with MLX and the Hugging Face Hub",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.11",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Operating System :: MacOS",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: Scientific/Engineering :: Mathematics"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/ml-explore/mlx-lm",
+   "Issues": "https://github.com/ml-explore/mlx-lm/issues",
+   "Repository": "https://github.com/ml-explore/mlx-lm"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "mlx>=0.32.2; platform_system == \"Darwin\"",
+   "numpy",
+   "transformers>=5.7.0",
+   "sentencepiece",
+   "protobuf",
+   "pyyaml",
+   "jinja2",
+   "datasets; extra == \"test\"",
+   "lm-eval; extra == \"test\"",
+   "datasets; extra == \"train\"",
+   "tqdm; extra == \"train\"",
+   "lm-eval; extra == \"evaluate\"",
+   "tqdm; extra == \"evaluate\"",
+   "mlx[cuda13]>=0.32.2; extra == \"cuda13\"",
+   "mlx[cuda12]>=0.32.2; extra == \"cuda12\"",
+   "mlx[cpu]>=0.32.2; extra == \"cpu\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "mlx_lm-0.32.0-py3-none-any.whl",
+   "size": 513667,
+   "url": "https://files.pythonhosted.org/packages/88/ed/99cd7d36a1671851b41df06b59b73825bb95b8ab8b388ac871ddf9ae1523/mlx_lm-0.32.0-py3-none-any.whl",
+   "upload_time": "2026-10-01T04:44:40.740240Z",
+   "digests": {
+    "sha256": "9a0f3843135fd88d36ad791f0d82210cdc4130c5c1cb5416f5f0c4b56a135778"
+   }
+  },
+  {
+   "filename": "mlx_lm-0.32.0.tar.gz",
+   "size": 412082,
+   "url": "https://files.pythonhosted.org/packages/96/6f/c87a4e092194c77b39e65de7979147314e4486d9451e873b4124ba2d6dcd/mlx_lm-0.32.0.tar.gz",
+   "upload_time": "2026-10-01T04:44:42.681033Z",
+   "digests": {
+    "sha256": "035ca44b08c3476630a205d2c9bdea26825a6a8359f974944d4985230e41859f"
+   }
+  }
+ ],
+ "n_releases_total": 97
+}

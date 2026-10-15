@@ -1,0 +1,96 @@
+{
+ "package": "markitdown",
+ "queried": "markitdown",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/markitdown/json",
+ "info": {
+  "name": "markitdown",
+  "version": "0.1.8",
+  "summary": "Utility tool for converting various files to Markdown",
+  "description_content_type": "text/markdown",
+  "requires_python": "<3.15,>=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Programming Language :: Python :: Implementation :: PyPy"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://github.com/microsoft/markitdown#readme",
+   "Issues": "https://github.com/microsoft/markitdown/issues",
+   "Source": "https://github.com/microsoft/markitdown"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "beautifulsoup4",
+   "charset-normalizer",
+   "defusedxml",
+   "magika~=0.6.1",
+   "markdownify",
+   "requests",
+   "azure-ai-contentunderstanding>=1.2.0b1; extra == \"all\"",
+   "azure-ai-documentintelligence; extra == \"all\"",
+   "azure-identity; extra == \"all\"",
+   "lxml; extra == \"all\"",
+   "mammoth~=1.11.0; extra == \"all\"",
+   "olefile; extra == \"all\"",
+   "openpyxl; extra == \"all\"",
+   "pandas; extra == \"all\"",
+   "pdfminer-six>=20251230; extra == \"all\"",
+   "pdfplumber>=0.11.9; extra == \"all\"",
+   "pydub; extra == \"all\"",
+   "python-pptx; extra == \"all\"",
+   "speechrecognition; extra == \"all\"",
+   "xlrd; extra == \"all\"",
+   "youtube-transcript-api~=1.2.3; extra == \"all\"",
+   "pydub; extra == \"audio-transcription\"",
+   "speechrecognition; extra == \"audio-transcription\"",
+   "azure-ai-contentunderstanding>=1.2.0b1; extra == \"az-content-understanding\"",
+   "azure-identity; extra == \"az-content-understanding\"",
+   "azure-ai-documentintelligence; extra == \"az-doc-intel\"",
+   "azure-identity; extra == \"az-doc-intel\"",
+   "lxml; extra == \"docx\"",
+   "mammoth~=1.11.0; extra == \"docx\"",
+   "olefile; extra == \"outlook\"",
+   "pdfminer-six>=20251230; extra == \"pdf\"",
+   "pdfplumber>=0.11.9; extra == \"pdf\"",
+   "python-pptx; extra == \"pptx\"",
+   "pandas; extra == \"xls\"",
+   "xlrd; extra == \"xls\"",
+   "openpyxl; extra == \"xlsx\"",
+   "pandas; extra == \"xlsx\"",
+   "youtube-transcript-api~=1.2.3; extra == \"youtube-transcription\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "markitdown-0.1.8-py3-none-any.whl",
+   "size": 89737,
+   "url": "https://files.pythonhosted.org/packages/33/de/0b23cd8d8955221a39438ba8e4cf583e4f510fc79c6891fff88fb3e61198/markitdown-0.1.8-py3-none-any.whl",
+   "upload_time": "2026-09-21T21:14:35.654197Z",
+   "digests": {
+    "sha256": "de7375a50578a39bcbbf13b48c67d99033d988e0ae8ad25af46ed432dbe4cbab"
+   }
+  },
+  {
+   "filename": "markitdown-0.1.8.tar.gz",
+   "size": 69112,
+   "url": "https://files.pythonhosted.org/packages/11/60/2431842a40975524da12edd4d64dd7dc31ef56e209b4848ebf0b14ad1431/markitdown-0.1.8.tar.gz",
+   "upload_time": "2026-09-21T21:14:36.886642Z",
+   "digests": {
+    "sha256": "17188ad827ea79fc264c7b1ca8cf5a242a16278d84cc32f2edc475dbe92812ed"
+   }
+  }
+ ],
+ "n_releases_total": 26
+}

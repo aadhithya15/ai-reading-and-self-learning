@@ -1,0 +1,118 @@
+{
+ "package": "chromadb",
+ "queried": "chromadb",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/chromadb/json",
+ "info": {
+  "name": "chromadb",
+  "version": "1.5.9",
+  "summary": "Chroma.",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Bug Tracker": "https://github.com/chroma-core/chroma/issues",
+   "Homepage": "https://github.com/chroma-core/chroma"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "build>=1.0.3",
+   "pydantic>=2.0",
+   "pydantic-settings>=2.0",
+   "pybase64>=1.4.1",
+   "uvicorn[standard]>=0.18.3",
+   "numpy>=1.22.5",
+   "typing-extensions>=4.5.0",
+   "onnxruntime>=1.14.1",
+   "opentelemetry-api>=1.2.0",
+   "opentelemetry-exporter-otlp-proto-grpc>=1.2.0",
+   "opentelemetry-sdk>=1.2.0",
+   "tokenizers>=0.13.2",
+   "pypika>=0.48.9",
+   "tqdm>=4.65.0",
+   "overrides>=7.3.1",
+   "importlib-resources",
+   "graphlib-backport>=1.0.3; python_full_version < \"3.9\"",
+   "grpcio>=1.58.0",
+   "bcrypt>=4.0.1",
+   "typer>=0.9.0",
+   "kubernetes>=28.1.0",
+   "tenacity>=8.2.3",
+   "pyyaml>=6.0.0",
+   "mmh3>=4.0.1",
+   "orjson>=3.9.12",
+   "httpx>=0.27.0",
+   "rich>=10.11.0",
+   "jsonschema>=4.19.0",
+   "chroma-hnswlib==0.7.6; extra == \"dev\"",
+   "fastapi>=0.115.9; extra == \"dev\"",
+   "opentelemetry-instrumentation-fastapi>=0.41b0; extra == \"dev\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "chromadb-1.5.9-cp39-abi3-macosx_10_12_x86_64.whl",
+   "size": 22564540,
+   "url": "https://files.pythonhosted.org/packages/dd/5b/3cced915244f43ed14b53fe9f63a37f05f865064f4e4fe7d9448d3f2a352/chromadb-1.5.9-cp39-abi3-macosx_10_12_x86_64.whl",
+   "upload_time": "2026-05-05T05:54:48.906852Z",
+   "digests": {
+    "sha256": "60701011b5e6409647fa40d12c7c5a66b2b0bfcf33a52db2ad53a30a2abc4957"
+   }
+  },
+  {
+   "filename": "chromadb-1.5.9-cp39-abi3-macosx_11_0_arm64.whl",
+   "size": 21699698,
+   "url": "https://files.pythonhosted.org/packages/34/4c/adcef1f4e82a2ef69ccd3711d55fc289193d54c4c0ff7a0292a3631db46f/chromadb-1.5.9-cp39-abi3-macosx_11_0_arm64.whl",
+   "upload_time": "2026-05-05T05:54:45.078177Z",
+   "digests": {
+    "sha256": "814b9c95617377f6501e5757d63dfddb554a283a7739c87b9fa573850174e6f3"
+   }
+  },
+  {
+   "filename": "chromadb-1.5.9-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+   "size": 22680924,
+   "url": "https://files.pythonhosted.org/packages/38/4e/937bc4d2e6f8ab9664ec79931fbbd69efff47e513ec2924b071e4b0ff774/chromadb-1.5.9-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+   "upload_time": "2026-05-05T05:54:36.250931Z",
+   "digests": {
+    "sha256": "9192d111bd662241625867962333d99369a00769a50f8b2f58cb388731274d7e"
+   }
+  },
+  {
+   "filename": "chromadb-1.5.9-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 23316203,
+   "url": "https://files.pythonhosted.org/packages/e6/ec/0c42039e80b9acc534f67b73b7a42471948042859b3a64867b50a4a77fa3/chromadb-1.5.9-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2026-05-05T05:54:41.157648Z",
+   "digests": {
+    "sha256": "cc09b3df76e5a5cb386aed2715a2eea152e3949f9e1ba93c7119505377749929"
+   }
+  },
+  {
+   "filename": "chromadb-1.5.9-cp39-abi3-win_amd64.whl",
+   "size": 23542454,
+   "url": "https://files.pythonhosted.org/packages/eb/ce/0f7be6e5d0feafa2cda54b12e6542afeea7dea89d2d411e14da90f8abb96/chromadb-1.5.9-cp39-abi3-win_amd64.whl",
+   "upload_time": "2026-05-05T05:54:54.942211Z",
+   "digests": {
+    "sha256": "4fd0b560e56761b7f3cb4d5c6205fd5f20814484b4a3e4e9af9038c2b428fc6c"
+   }
+  },
+  {
+   "filename": "chromadb-1.5.9.tar.gz",
+   "size": 2595635,
+   "url": "https://files.pythonhosted.org/packages/92/d1/5e33b26985f0c7046a0be1cee2158ada1748ee700d2545057fde1468d74d/chromadb-1.5.9.tar.gz",
+   "upload_time": "2026-05-05T05:54:51.713927Z",
+   "digests": {
+    "sha256": "5c20e62a455c28bacac927f26116a73fd8e1799e0d908be8e8a4f02197a54731"
+   }
+  }
+ ],
+ "n_releases_total": 130
+}

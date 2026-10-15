@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="640" viewBox="0 0 980 640" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#334155"/></marker>
+<marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#b91c1c"/></marker>
+<marker id="arg" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#15803d"/></marker>
+</defs>
+<rect width="980" height="640" fill="#ffffff"/>
+
+<text x="490.0" y="28" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="bold">Diagram 4 — Frozen evaluation protocol and leakage barriers</text>
+<text x="490.0" y="47" text-anchor="middle" font-size="11" fill="#64748b" font-weight="normal">Freeze before you run. A re-run gets a NEW run id; overwriting an existing run is a protocol violation.</text>
+<rect x="30" y="80" width="200" height="130" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="130" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">1. PREPARE SOURCES</text>
+<text x="130" y="118" text-anchor="middle" font-size="11" fill="#334155">rights confirmed (Q4)</text>
+<text x="130" y="133" text-anchor="middle" font-size="11" fill="#334155">provenance recorded</text>
+<text x="130" y="148" text-anchor="middle" font-size="11" fill="#334155">extraction coverage known</text>
+<text x="130" y="163" text-anchor="middle" font-size="11" fill="#334155">TRAIN / VALID / TEST /</text>
+<text x="130" y="178" text-anchor="middle" font-size="11" fill="#334155">TRANSFER / NEGATIVE</text>
+<rect x="30" y="240" width="200" height="130" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="130" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">2. AUTHOR ITEMS</text>
+<text x="130" y="278" text-anchor="middle" font-size="11" fill="#334155">RULER generators (Apache-2.0)</text>
+<text x="130" y="293" text-anchor="middle" font-size="11" fill="#334155">over project-owned text</text>
+<text x="130" y="308" text-anchor="middle" font-size="11" fill="#334155">fresh seed = fresh items</text>
+<text x="130" y="323" text-anchor="middle" font-size="11" fill="#334155">+ hand-authored field items</text>
+<text x="130" y="338" text-anchor="middle" font-size="11" fill="#334155">+ negative items by construction</text>
+<rect x="30" y="400" width="200" height="130" rx="6" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="130" y="420" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">3. FREEZE</text>
+<text x="130" y="438" text-anchor="middle" font-size="11" fill="#334155">candidate + config hash</text>
+<text x="130" y="453" text-anchor="middle" font-size="11" fill="#334155">item file hash</text>
+<text x="130" y="468" text-anchor="middle" font-size="11" fill="#334155">KEY FILE HASH (key stays</text>
+<text x="130" y="483" text-anchor="middle" font-size="11" fill="#334155">   outside the repository)</text>
+<text x="130" y="498" text-anchor="middle" font-size="11" fill="#334155">scorer hash, budget, contract</text>
+<rect x="290" y="240" width="200" height="130" rx="6" fill="#f5f3ff" stroke="#6d28d9" stroke-width="1.5"/>
+<text x="390" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">4. RUN ONCE</text>
+<text x="390" y="278" text-anchor="middle" font-size="11" fill="#334155">candidate process</text>
+<text x="390" y="293" text-anchor="middle" font-size="11" fill="#334155">separate config/credentials</text>
+<text x="390" y="308" text-anchor="middle" font-size="11" fill="#334155">from the evaluator</text>
+<text x="390" y="323" text-anchor="middle" font-size="11" fill="#334155">out-of-process psutil</text>
+<text x="390" y="338" text-anchor="middle" font-size="11" fill="#334155">resource trace</text>
+<rect x="290" y="400" width="200" height="130" rx="6" fill="#f5f3ff" stroke="#6d28d9" stroke-width="1.5"/>
+<text x="390" y="420" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">5. SCORE (layered)</text>
+<text x="390" y="438" text-anchor="middle" font-size="11" fill="#334155">deterministic exact-field</text>
+<text x="390" y="453" text-anchor="middle" font-size="11" fill="#334155">quote-presence</text>
+<text x="390" y="468" text-anchor="middle" font-size="11" fill="#334155">entailment</text>
+<text x="390" y="483" text-anchor="middle" font-size="11" fill="#334155">model judge LAST, recorded,</text>
+<text x="390" y="498" text-anchor="middle" font-size="11" fill="#334155">never the acceptance gate</text>
+<rect x="550" y="240" width="190" height="290" rx="6" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
+<text x="645" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">6. IMMUTABLE RUN RECORD</text>
+<text x="645" y="278" text-anchor="middle" font-size="11" fill="#334155">runs/&lt;candidate&gt;/&lt;run_id&gt;/</text>
+<text x="645" y="308" text-anchor="middle" font-size="11" fill="#334155">contract.md (hashed)</text>
+<text x="645" y="323" text-anchor="middle" font-size="11" fill="#334155">candidate.json</text>
+<text x="645" y="338" text-anchor="middle" font-size="11" fill="#334155">items.jsonl (no keys)</text>
+<text x="645" y="353" text-anchor="middle" font-size="11" fill="#334155">keys.sha256 (hash only)</text>
+<text x="645" y="368" text-anchor="middle" font-size="11" fill="#334155">outputs.jsonl (raw)</text>
+<text x="645" y="383" text-anchor="middle" font-size="11" fill="#334155">evidence.jsonl</text>
+<text x="645" y="398" text-anchor="middle" font-size="11" fill="#334155">resources.jsonl</text>
+<text x="645" y="413" text-anchor="middle" font-size="11" fill="#334155">scores.json (+ CIs)</text>
+<text x="645" y="428" text-anchor="middle" font-size="11" fill="#334155">report.md</text>
+<text x="645" y="443" text-anchor="middle" font-size="11" fill="#334155">failures/ (verbatim)</text>
+<text x="645" y="473" text-anchor="middle" font-size="11" fill="#334155">APPEND-ONLY:</text>
+<text x="645" y="488" text-anchor="middle" font-size="11" fill="#334155">overwrite attempt fails loudly</text>
+<rect x="790" y="80" width="165" height="150" rx="6" fill="#fefce8" stroke="#a16207" stroke-width="1.5"/>
+<text x="872" y="100" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">7. VERDICT</text>
+<text x="872" y="118" text-anchor="middle" font-size="11" fill="#334155">against criteria</text>
+<text x="872" y="133" text-anchor="middle" font-size="11" fill="#334155">declared BEFORE the run</text>
+<text x="872" y="163" text-anchor="middle" font-size="11" fill="#334155">ACCEPT | REJECT |</text>
+<text x="872" y="178" text-anchor="middle" font-size="11" fill="#334155">INCONCLUSIVE</text>
+<text x="872" y="208" text-anchor="middle" font-size="11" fill="#334155">inconclusive is a</text>
+<text x="872" y="223" text-anchor="middle" font-size="11" fill="#334155">legitimate outcome</text>
+<rect x="790" y="260" width="165" height="130" rx="6" fill="#fefce8" stroke="#a16207" stroke-width="1.5"/>
+<text x="872" y="280" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">8. REGRESSION /</text>
+<text x="872" y="298" text-anchor="middle" font-size="11" fill="#334155">RETENTION / TRANSFER</text>
+<text x="872" y="313" text-anchor="middle" font-size="11" fill="#334155">frozen suite re-run</text>
+<text x="872" y="328" text-anchor="middle" font-size="11" fill="#334155">re-ask after N sessions</text>
+<text x="872" y="343" text-anchor="middle" font-size="11" fill="#334155">third document class</text>
+<rect x="790" y="420" width="165" height="110" rx="6" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+<text x="872" y="440" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">9. UPDATE CATALOG</text>
+<text x="872" y="458" text-anchor="middle" font-size="11" fill="#334155">evidence_status</text>
+<text x="872" y="473" text-anchor="middle" font-size="11" fill="#334155">classification</text>
+<text x="872" y="488" text-anchor="middle" font-size="11" fill="#334155">checked_date</text>
+<line x1="130" y1="210" x2="130" y2="238" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="130" y1="370" x2="130" y2="398" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="230" y1="465" x2="288" y2="340" stroke="#b91c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="390" y1="370" x2="390" y2="398" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="490" y1="465" x2="548" y2="420" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="740" y1="320" x2="788" y2="175" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="740" y1="400" x2="788" y2="330" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="872" y1="230" x2="872" y2="258" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="872" y1="390" x2="872" y2="418" stroke="#334155" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="245" y="70" width="14" height="470" fill="#fecaca" stroke="#b91c1c" stroke-width="1"/>
+<text x="252" y="62" text-anchor="middle" font-size="10" fill="#b91c1c" font-weight="bold">BARRIER</text>
+<rect x="505" y="70" width="14" height="470" fill="#fecaca" stroke="#b91c1c" stroke-width="1"/>
+<text x="512" y="62" text-anchor="middle" font-size="10" fill="#b91c1c" font-weight="bold">BARRIER</text>
+<rect x="30" y="555" width="920" height="55" rx="6" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="490" y="575" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">LEAKAGE RULES (EVALUATION_PLAN.md §7)</text>
+<text x="490" y="593" text-anchor="middle" font-size="11" fill="#334155">Keys never enter the repository · no TEST item or TEST-derived text in any prompt, few-shot example, cache or tuning trace · record the model's training cutoff versus item and source dates · cache keys include candidate id + prompt hash · record the number of configurations compared and correct for it</text>
+<text x="490.0" y="632" text-anchor="middle" font-size="10" fill="#b91c1c" font-weight="bold">The two documents already indexed (reported R2) are CONTAMINATED BY PRIOR EXPOSURE: usable for mechanical and coverage tests, never for a capability claim.</text>
+</svg>

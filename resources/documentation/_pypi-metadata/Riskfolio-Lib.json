@@ -1,0 +1,295 @@
+{
+ "package": "riskfolio-lib",
+ "queried": "Riskfolio-Lib",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/Riskfolio-Lib/json",
+ "info": {
+  "name": "riskfolio-lib",
+  "version": "7.4.0",
+  "summary": "Portfolio Optimization in Python",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "BSD (3-clause)",
+  "classifiers": [
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft",
+   "Operating System :: Unix",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering :: Mathematics"
+  ],
+  "keywords": "finance, portfolio, optimization, quant, asset allocation, investing",
+  "home_page": "https://portfoliooptimization.org",
+  "project_urls": {
+   "Documentation": "https://portfoliooptimization.org",
+   "Download": "https://github.com/dcajasn/Riskfolio-Lib",
+   "Homepage": "https://portfoliooptimization.org",
+   "Issues": "https://github.com/dcajasn/Riskfolio-Lib/issues",
+   "Personal website": "http://financioneroncios.wordpress.com"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=1.26.4",
+   "scipy>=1.16.1",
+   "pandas>=2.2.2",
+   "matplotlib>=3.9.2",
+   "clarabel>=0.11.1",
+   "SCS>=3.2.7",
+   "cvxpy>=1.7.2",
+   "scikit-learn>=1.7.0",
+   "statsmodels>=0.14.5",
+   "arch>=7.2",
+   "xlsxwriter>=3.2.2",
+   "networkx>=3.4.2",
+   "astropy>=6.1.3",
+   "pybind11>=3.1.0",
+   "vectorbt>=0.28.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "riskfolio_lib-7.4.0-cp310-cp310-macosx_10_9_universal2.whl",
+   "size": 427824,
+   "url": "https://files.pythonhosted.org/packages/54/34/626cb1bbd38c6546e97746b017f3d714f84a84483ecc8b4c4435b9464302/riskfolio_lib-7.4.0-cp310-cp310-macosx_10_9_universal2.whl",
+   "upload_time": "2026-10-04T05:08:17.005854Z",
+   "digests": {
+    "sha256": "7a9f9cb2af079c853104831a8e5c967e225383e06dda98727532a106d64056d2"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp310-cp310-macosx_10_9_x86_64.whl",
+   "size": 293628,
+   "url": "https://files.pythonhosted.org/packages/54/4e/7c2085aae8a1740565f499176cb4e9ca27724d063dfcb5ab6d6c6c2413da/riskfolio_lib-7.4.0-cp310-cp310-macosx_10_9_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:18.996183Z",
+   "digests": {
+    "sha256": "3d3fefdd9ba7b85cd3e0edb8b0fb6f7ec4f32c3208c3efc8f380a980ea05a995"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 291281,
+   "url": "https://files.pythonhosted.org/packages/b4/8b/85db0d4cd7e5a45946fb5d363eb853ed788f4a39798b898832dca52a4d3b/riskfolio_lib-7.4.0-cp310-cp310-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-04T05:08:20.447438Z",
+   "digests": {
+    "sha256": "7b71923921d7362c624bfd7db67d7650add915ac90cdd2df43778a50c9d7b47f"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 304222,
+   "url": "https://files.pythonhosted.org/packages/b3/05/3ee93990372c4b2b0e6a9833d39acf55bb74000d871f486f859ac06a6403/riskfolio_lib-7.4.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:21.525873Z",
+   "digests": {
+    "sha256": "02e69e8d07fe34d47c1403a4e4f69c588b1184aae352297201ea739b0bcb3e17"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp310-cp310-win_amd64.whl",
+   "size": 460867,
+   "url": "https://files.pythonhosted.org/packages/68/bf/bd3c4e12c337aa21eff2c4a7b19535b9c4da023b13c978765f087c37e15e/riskfolio_lib-7.4.0-cp310-cp310-win_amd64.whl",
+   "upload_time": "2026-10-04T05:08:23.317222Z",
+   "digests": {
+    "sha256": "c3ed729dfea48a437ddf29082a0d90b42193e7eb02c5ea21467ec323dc58b6c1"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp311-cp311-macosx_10_9_universal2.whl",
+   "size": 430288,
+   "url": "https://files.pythonhosted.org/packages/b1/d5/448a83bb0e45f0bcbecc5f0a1d2d5d6bb51c636ce03ecbb935cc29021203/riskfolio_lib-7.4.0-cp311-cp311-macosx_10_9_universal2.whl",
+   "upload_time": "2026-10-04T05:08:24.767942Z",
+   "digests": {
+    "sha256": "9063b1f35e477df94a0f812a82c39b9c569372e2d883fa43d086ff52ddcc41e0"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp311-cp311-macosx_10_9_x86_64.whl",
+   "size": 294965,
+   "url": "https://files.pythonhosted.org/packages/d8/c3/2985e2f9076c40a1781b9d8713ce2a4a49b7a2694dba7e61b6cc33bf519c/riskfolio_lib-7.4.0-cp311-cp311-macosx_10_9_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:26.227022Z",
+   "digests": {
+    "sha256": "d2ea7b519e1a4f9cb9116bca6de51ad0ae4578b00177402c4f16359139c0ddb9"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp311-cp311-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 291786,
+   "url": "https://files.pythonhosted.org/packages/36/bd/4b02c7d7f5fc60a8a3d038b36c528332a6da142a2c755a57fb43166e81d7/riskfolio_lib-7.4.0-cp311-cp311-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-04T05:08:27.753062Z",
+   "digests": {
+    "sha256": "ebb8c404abbc4412eb8a4246d8ce5a8c4f50dd5e1e34cff594b7e537628541fb"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 305115,
+   "url": "https://files.pythonhosted.org/packages/8b/7b/fb5f01ab6f2c07632662c9f0441473c0407d90f362976826eec0376a4595/riskfolio_lib-7.4.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:29.162002Z",
+   "digests": {
+    "sha256": "679b386214c166b009f0af211f638fdd53c436f0e724918cc5f1294a3dffd561"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp311-cp311-win_amd64.whl",
+   "size": 461497,
+   "url": "https://files.pythonhosted.org/packages/23/af/a62fdaac12a97f5188000d511ad2842e9e50a9dfd4709cbdf850457bb9b5/riskfolio_lib-7.4.0-cp311-cp311-win_amd64.whl",
+   "upload_time": "2026-10-04T05:08:30.161267Z",
+   "digests": {
+    "sha256": "c435a399dbb5453f0c0acd664aeeb1ee6cdc6bf3439ee34def6447eecc53e943"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp312-cp312-macosx_10_13_universal2.whl",
+   "size": 434235,
+   "url": "https://files.pythonhosted.org/packages/6b/b6/0731306edb1ec5654b5f5d06a90a175e8e436fc944db60dd942abb9cc16d/riskfolio_lib-7.4.0-cp312-cp312-macosx_10_13_universal2.whl",
+   "upload_time": "2026-10-04T05:08:31.407451Z",
+   "digests": {
+    "sha256": "6bca8d89e9f8a1ae943cd56b046b6e470346b8a0905ef6fe451dc499026d3103"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp312-cp312-macosx_10_13_x86_64.whl",
+   "size": 297093,
+   "url": "https://files.pythonhosted.org/packages/9b/36/c1d9a323fc0cf2bdf352b93f518f2a603a3940de87f9988d663d904c2475/riskfolio_lib-7.4.0-cp312-cp312-macosx_10_13_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:32.712373Z",
+   "digests": {
+    "sha256": "02a4b492d765531a580109f83521747d45ddf166fb0187afffaea38ed606c3a5"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 292219,
+   "url": "https://files.pythonhosted.org/packages/69/4d/115d8becd7af143616e671e18e634ce5df6208beda4515c6aa8a65b6196d/riskfolio_lib-7.4.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-04T05:08:33.769649Z",
+   "digests": {
+    "sha256": "d94f1cc04981dfde222e9b234a35e627e32b1663f05c8f042393d37a17b1d1ca"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 304904,
+   "url": "https://files.pythonhosted.org/packages/21/a0/2b55661bc09885433959844f5d13285b6a5dd21d5f31f0c039599cf0babe/riskfolio_lib-7.4.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:34.972493Z",
+   "digests": {
+    "sha256": "a3a8bd92788754b8c7dd45097431af3a43e2d3ee77749eb20e34644ca7ef2a87"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp312-cp312-win_amd64.whl",
+   "size": 463150,
+   "url": "https://files.pythonhosted.org/packages/6f/74/42d5fd6f2b0c06f6a299302bf72c6fde878e71eb6668b0e60ab717da13a6/riskfolio_lib-7.4.0-cp312-cp312-win_amd64.whl",
+   "upload_time": "2026-10-04T05:08:36.166704Z",
+   "digests": {
+    "sha256": "88166ee0c926c0931d6482f204dcf0a116e9d0dfe93e6e1fed4bfac76f097d42"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp313-cp313-macosx_10_13_universal2.whl",
+   "size": 434293,
+   "url": "https://files.pythonhosted.org/packages/6f/23/2dd7bc85a008d06a64c34dd70fc37cbcf0d4b60145663b131fe0f745f977/riskfolio_lib-7.4.0-cp313-cp313-macosx_10_13_universal2.whl",
+   "upload_time": "2026-10-04T05:08:37.450634Z",
+   "digests": {
+    "sha256": "bc43ca58d64ec5a9163f5da4a9b4f193992d2ef362d8b13d0fc635750df33d9d"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp313-cp313-macosx_10_13_x86_64.whl",
+   "size": 297104,
+   "url": "https://files.pythonhosted.org/packages/9e/4e/eb8299267d9a2189b4ec191df6501109ec791836cb354d1a09d8e0490911/riskfolio_lib-7.4.0-cp313-cp313-macosx_10_13_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:38.659999Z",
+   "digests": {
+    "sha256": "d695da2af368bc8edf9c2c529da0f981d72ac22142b0f37d88066ae692b8b88c"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 292265,
+   "url": "https://files.pythonhosted.org/packages/da/d6/c6a983e8ed777cf99d6694a1a4c15667a86446cf1b6c1719ed8dfada9c08/riskfolio_lib-7.4.0-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-04T05:08:39.762900Z",
+   "digests": {
+    "sha256": "d72ff197f07d2509a21037e45b1df8636b0937bda30ee7fcaed22f49133f6d89"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 304952,
+   "url": "https://files.pythonhosted.org/packages/47/d3/bea352dda7e249158316423be69e37f0dba8c938c81fba642512593c0a7e/riskfolio_lib-7.4.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:41.200919Z",
+   "digests": {
+    "sha256": "bd14f1408a415e52dfbd93a03e1c6df2276b3122e565c7879c00dc4100950974"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp313-cp313-win_amd64.whl",
+   "size": 463161,
+   "url": "https://files.pythonhosted.org/packages/e9/40/327707b2f1de25541c0e06f1eef96e483b24ced6426891eb5d0c067e2c58/riskfolio_lib-7.4.0-cp313-cp313-win_amd64.whl",
+   "upload_time": "2026-10-04T05:08:42.382676Z",
+   "digests": {
+    "sha256": "90ef8ccca85a07cfb3e436cc58619213db4106fe6f75c1ea806bc6c243ff08ff"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp314-cp314-macosx_10_15_universal2.whl",
+   "size": 434680,
+   "url": "https://files.pythonhosted.org/packages/2c/50/36d7952505ba3e3b7b58b72beccd6763ba140c900a69b180791c4049e959/riskfolio_lib-7.4.0-cp314-cp314-macosx_10_15_universal2.whl",
+   "upload_time": "2026-10-04T05:08:43.876612Z",
+   "digests": {
+    "sha256": "0502cb96fd0fb8dc288c4a514561c654500b112326c8b1e0503432c8d3372fe8"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp314-cp314-macosx_10_15_x86_64.whl",
+   "size": 297341,
+   "url": "https://files.pythonhosted.org/packages/bf/32/ab67e77ff1e4f7d0c4ca6ba6f966e9ab359066c16decffe2d81d889339f4/riskfolio_lib-7.4.0-cp314-cp314-macosx_10_15_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:44.919577Z",
+   "digests": {
+    "sha256": "d25dcbcc87df67a61b3a32472d0e6c61d13f385657251678c807074505961050"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 292617,
+   "url": "https://files.pythonhosted.org/packages/33/66/0ef30cc6e81971a8b6a9ed4fee8ab914922b8f97819008ec8e83e6cd461a/riskfolio_lib-7.4.0-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-04T05:08:45.909981Z",
+   "digests": {
+    "sha256": "df3004f237f9b0b21e151597e3898022948b95c0014e106598c8a8abba28d5c3"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 305168,
+   "url": "https://files.pythonhosted.org/packages/a5/d3/96d14a77103430108c596d4c8657e33055c09dff4503aedc82099b6e49e3/riskfolio_lib-7.4.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-04T05:08:47.524230Z",
+   "digests": {
+    "sha256": "8abe73ca4b46d2e41d7a3ce22b9e9492e53277ead421e4ebe8fd6579563b8e0d"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0-cp314-cp314-win_amd64.whl",
+   "size": 473150,
+   "url": "https://files.pythonhosted.org/packages/1f/4c/360e0613e53fa88f595b0faa314c5f4819b1466d93bae29739a97a79cb76/riskfolio_lib-7.4.0-cp314-cp314-win_amd64.whl",
+   "upload_time": "2026-10-04T05:08:48.594272Z",
+   "digests": {
+    "sha256": "03f4c20f57fd2ed2a81d90ea9a65a58b9f1a7d58cd540364f0a40b8f858a105e"
+   }
+  },
+  {
+   "filename": "riskfolio_lib-7.4.0.tar.gz",
+   "size": 4083197,
+   "url": "https://files.pythonhosted.org/packages/ac/b8/685e1bb7424cc5326f203dfc8da8671d78b85ce2b14b98a0de77b77ecb8b/riskfolio_lib-7.4.0.tar.gz",
+   "upload_time": "2026-10-04T05:08:50.115043Z",
+   "digests": {
+    "sha256": "b02ca9d34e7e96b49e1b2a1c2bd4557894ab5f4376e4730f3bc610c6d65a806a"
+   }
+  }
+ ],
+ "n_releases_total": 59
+}

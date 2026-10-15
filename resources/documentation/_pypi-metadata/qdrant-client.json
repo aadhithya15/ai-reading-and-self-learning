@@ -1,0 +1,68 @@
+{
+ "package": "qdrant-client",
+ "queried": "qdrant-client",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/qdrant-client/json",
+ "info": {
+  "name": "qdrant-client",
+  "version": "1.19.1",
+  "summary": "Client library for the Qdrant vector search engine",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14"
+  ],
+  "keywords": "vector, search, neural, matching, client",
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/qdrant/qdrant-client",
+   "Repository": "https://github.com/qdrant/qdrant-client"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "fastembed<0.9,>=0.8; extra == \"fastembed\"",
+   "fastembed-gpu<0.9,>=0.8; extra == \"fastembed-gpu\"",
+   "grpcio>=1.41.0",
+   "httpx[http2]>=0.20.0",
+   "numpy>=1.21; python_version == \"3.11\"",
+   "numpy<2.3.0,>=1.21; python_version == \"3.10\"",
+   "numpy>=1.26; python_version == \"3.12\"",
+   "numpy>=2.1.0; python_version == \"3.13\"",
+   "numpy>=2.3.0; python_version >= \"3.14\"",
+   "portalocker<4.0,>=2.7.0",
+   "protobuf>=3.20.0",
+   "pydantic!=2.0.*,!=2.1.*,!=2.2.0,>=1.10.8",
+   "urllib3<3,>=1.26.14"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "qdrant_client-1.19.1-py3-none-any.whl",
+   "size": 406533,
+   "url": "https://files.pythonhosted.org/packages/d0/9f/becebdda02beddd422587eba0d7dfac5b1f1e0aa1ada5bcf9b9e6f1c3717/qdrant_client-1.19.1-py3-none-any.whl",
+   "upload_time": "2026-09-16T06:43:12.428811Z",
+   "digests": {
+    "sha256": "fca1a96c3f90f5fff853f6ee6877838a5768a04c963df9891a655a63313af8a0"
+   }
+  },
+  {
+   "filename": "qdrant_client-1.19.1.tar.gz",
+   "size": 360625,
+   "url": "https://files.pythonhosted.org/packages/4e/20/c8fcd645d3f595b086fa11a085980e9f641fd56fc6221fb325d634b8c4fa/qdrant_client-1.19.1.tar.gz",
+   "upload_time": "2026-09-16T06:43:13.818619Z",
+   "digests": {
+    "sha256": "8f1d851a8463ce8cc11cf39ed8a9c9fb4b5f9de60e9a096ff56da42d1f074907"
+   }
+  }
+ ],
+ "n_releases_total": 126
+}

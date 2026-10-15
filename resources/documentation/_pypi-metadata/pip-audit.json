@@ -1,0 +1,83 @@
+{
+ "package": "pip-audit",
+ "queried": "pip-audit",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pip-audit/json",
+ "info": {
+  "name": "pip-audit",
+  "version": "2.10.1",
+  "summary": "A tool for scanning Python environments for known vulnerabilities",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Security"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://pypi.org/project/pip-audit/",
+   "Issues": "https://github.com/pypa/pip-audit/issues",
+   "Source": "https://github.com/pypa/pip-audit"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "CacheControl[filecache]>=0.13.0",
+   "cyclonedx-python-lib<12,>=5",
+   "packaging>=23.0.0",
+   "pip-api>=0.0.28",
+   "pip-requirements-parser>=32.0.0",
+   "requests>=2.31.0",
+   "rich>=12.4",
+   "tomli>=2.2.1",
+   "tomli-w>=1.2.0",
+   "platformdirs>=4.2.0",
+   "coverage[toml]!=7.3.3,~=7.0; extra == \"cov\"",
+   "build; extra == \"dev\"",
+   "pip-audit[doc,lint,test]; extra == \"dev\"",
+   "pdoc; extra == \"doc\"",
+   "ruff>=0.14; extra == \"lint\"",
+   "interrogate~=1.6; extra == \"lint\"",
+   "mypy; extra == \"lint\"",
+   "types-requests; extra == \"lint\"",
+   "types-toml; extra == \"lint\"",
+   "typos; extra == \"lint\"",
+   "pretend; extra == \"test\"",
+   "pytest; extra == \"test\"",
+   "pip-audit[cov]; extra == \"test\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pip_audit-2.10.1-py3-none-any.whl",
+   "size": 62023,
+   "url": "https://files.pythonhosted.org/packages/a3/a7/b0c504148114047bd1bc9d97447453c6850ca176bb2f3c0038835994e8b7/pip_audit-2.10.1-py3-none-any.whl",
+   "upload_time": "2026-06-10T22:17:00.309492Z",
+   "digests": {
+    "sha256": "99ef3f600a317c1945f1e89e227ef26e1c2d618429b8bd3fa6f4f7c440c4611a"
+   }
+  },
+  {
+   "filename": "pip_audit-2.10.1.tar.gz",
+   "size": 54275,
+   "url": "https://files.pythonhosted.org/packages/66/a4/f21d5f0a0edabcbce31560b73c7c5a6f72ae87af4236fd1069c8f59a353d/pip_audit-2.10.1.tar.gz",
+   "upload_time": "2026-06-10T22:17:01.744735Z",
+   "digests": {
+    "sha256": "1eb4565d19ebe5d48996f4b770b4d2b32887e12cb12cfa637f1a064011b55ffc"
+   }
+  }
+ ],
+ "n_releases_total": 63
+}

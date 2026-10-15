@@ -1,0 +1,113 @@
+{
+ "package": "garak",
+ "queried": "garak",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/garak/json",
+ "info": {
+  "name": "garak",
+  "version": "0.17.0",
+  "summary": "LLM vulnerability scanner",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.11",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Development Status :: 3 - Alpha",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Bug Tracker": "https://github.com/NVIDIA/garak/issues",
+   "Homepage": "https://github.com/NVIDIA/garak"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "mikeshardmind-base2048>=1.0.2",
+   "transformers<6.0,>=5.14.1",
+   "datasets<4.0,>=3.0.0",
+   "colorama>=0.4.3",
+   "tqdm>=4.67.1",
+   "cohere>=5.16.0",
+   "anthropic<1.0.0,>=0.40.0",
+   "openai<3.0,>=2.0",
+   "replicate>=0.8.3",
+   "google-api-python-client>=2.0",
+   "backoff>=2.1.1",
+   "nltk>=3.10.3",
+   "accelerate>=0.23.0",
+   "avidtools==0.1.2",
+   "stdlibs>=2022.10.9",
+   "langchain>=1.3.14",
+   "cmd2==2.4.3",
+   "torch>=2.13.0",
+   "sentencepiece>=0.1.99",
+   "markdown>=3.10.0",
+   "numpy>=2.0.0",
+   "zalgolib>=0.2.2",
+   "ecoji>=0.1.1",
+   "deepl==1.17.0",
+   "litellm>=1.84.0",
+   "llm>=0.31",
+   "jsonpath-ng>=1.6.1",
+   "huggingface_hub>=1.0",
+   "python-magic-bin>=0.4.14; sys_platform == \"win32\"",
+   "python-magic>=0.4.21; sys_platform != \"win32\"",
+   "lorem==0.1.1",
+   "xdg-base-dirs>=6.0.1",
+   "wn==0.9.5",
+   "ollama>=0.4.7",
+   "nvidia-riva-client==2.16.0",
+   "google-cloud-translate>=2.0.4",
+   "grpcio-tools>=1.71.0",
+   "langdetect==1.0.9",
+   "tiktoken>=0.7.0",
+   "mistralai==1.5.2",
+   "pillow>=12.3.0",
+   "ftfy>=6.3.1",
+   "websockets>=13.0",
+   "boto3>=1.28.0",
+   "py-markdown-table>=1.2.0",
+   "soundfile>=0.13.1; extra == \"audio\"",
+   "librosa>=0.10.2; extra == \"audio\"",
+   "scipy>=1.14.0; extra == \"calibration\"",
+   "detoxify>=0.5.0; extra == \"dra\"",
+   "black>=26.5.1; extra == \"lint\"",
+   "pylint>=3.1.0; extra == \"lint\"",
+   "pytest>=9.1; extra == \"tests\"",
+   "pytest-mock>=3.14.0; extra == \"tests\"",
+   "requests-mock==1.12.1; extra == \"tests\"",
+   "respx>=0.21.1; extra == \"tests\"",
+   "pytest-cov>=5.0.0; extra == \"tests\"",
+   "pytest_httpserver>=1.1.0; extra == \"tests\"",
+   "pytest-asyncio>=0.21.0; extra == \"tests\"",
+   "langcodes>=3.4.0; extra == \"tests\"",
+   "cryptography>=47.0.0; extra == \"tests\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "garak-0.17.0-py3-none-any.whl",
+   "size": 2025324,
+   "url": "https://files.pythonhosted.org/packages/98/4c/1c05b1a85821e1891f406f75c6b86e700f84252b50b123993cc8ec4a2271/garak-0.17.0-py3-none-any.whl",
+   "upload_time": "2026-09-09T18:55:41.156177Z",
+   "digests": {
+    "sha256": "9a67e6298e4d7025358fecafa9d473c77ff70acdae103aa5251ad60fca3db145"
+   }
+  },
+  {
+   "filename": "garak-0.17.0.tar.gz",
+   "size": 1885319,
+   "url": "https://files.pythonhosted.org/packages/7e/6b/17a09e90eb5c92271e4fae34e31b46ec5bbf7f7fb106fcbd1e5a30330476/garak-0.17.0.tar.gz",
+   "upload_time": "2026-09-09T18:55:44.093169Z",
+   "digests": {
+    "sha256": "3d8ddf64964611bc0d46528287cd3c8b9d5d1cedf00116fcc032d66089265edb"
+   }
+  }
+ ],
+ "n_releases_total": 40
+}
