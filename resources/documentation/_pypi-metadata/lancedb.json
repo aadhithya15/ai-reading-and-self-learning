@@ -1,0 +1,136 @@
+{
+ "package": "lancedb",
+ "queried": "lancedb",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/lancedb/json",
+ "info": {
+  "name": "lancedb",
+  "version": "0.40.0",
+  "summary": "lancedb",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Development Status :: 3 - Alpha",
+   "Environment :: Console",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Scientific/Engineering"
+  ],
+  "keywords": "data-format, data-science, machine-learning, arrow, data-analytics",
+  "home_page": null,
+  "project_urls": {
+   "repository": "https://github.com/lancedb/lancedb"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "deprecation>=2.1.0",
+   "numpy>=1.24.0",
+   "overrides>=0.7; python_full_version < \"3.12\"",
+   "packaging>=23.0",
+   "pyarrow>=16",
+   "pydantic<3,>=2.7.4",
+   "tqdm>=4.27.0",
+   "lance-namespace>=0.3.2",
+   "adlfs>=2024.2.0; extra == \"azure\"",
+   "torch; extra == \"clip\"",
+   "pillow>=12.1.1; extra == \"clip\"",
+   "open-clip-torch; extra == \"clip\"",
+   "ruff>=0.3.0; extra == \"dev\"",
+   "pre-commit>=3.5.0; extra == \"dev\"",
+   "pyright>=1.1.350; extra == \"dev\"",
+   "typing-extensions>=4.0.0; python_full_version < \"3.11\" and extra == \"dev\"",
+   "mkdocs; extra == \"docs\"",
+   "mkdocs-jupyter; extra == \"docs\"",
+   "mkdocs-material; extra == \"docs\"",
+   "mkdocstrings-python; extra == \"docs\"",
+   "requests>=2.31.0; extra == \"embeddings\"",
+   "openai>=1.6.1; extra == \"embeddings\"",
+   "sentence-transformers>=2.2.0; extra == \"embeddings\"",
+   "torch>=2.0.0; extra == \"embeddings\"",
+   "pillow>=12.1.1; extra == \"embeddings\"",
+   "open-clip-torch>=2.20.0; extra == \"embeddings\"",
+   "cohere>=4.0; extra == \"embeddings\"",
+   "colpali-engine>=0.3.10; extra == \"embeddings\"",
+   "huggingface-hub>=0.19.0; extra == \"embeddings\"",
+   "instructorembedding>=1.0.1; extra == \"embeddings\"",
+   "google-genai>=1.0.0; extra == \"embeddings\"",
+   "boto3>=1.28.57; extra == \"embeddings\"",
+   "awscli>=1.44.38; extra == \"embeddings\"",
+   "botocore>=1.31.57; extra == \"embeddings\"",
+   "ibm-watsonx-ai>=1.1.2; python_full_version >= \"3.10\" and extra == \"embeddings\"",
+   "ollama>=0.3.0; extra == \"embeddings\"",
+   "sentencepiece>=0.1.99; extra == \"embeddings\"",
+   "opentelemetry-api; extra == \"otel\"",
+   "pylance>=5.0.0b5; extra == \"pylance\"",
+   "torch; extra == \"siglip\"",
+   "pillow>=12.1.1; extra == \"siglip\"",
+   "transformers>=4.41.0; extra == \"siglip\"",
+   "sentencepiece; extra == \"siglip\"",
+   "aiohttp>=3.9.0; extra == \"tests\"",
+   "boto3>=1.28.57; extra == \"tests\"",
+   "pandas>=1.4; extra == \"tests\"",
+   "pytest>=7.0; extra == \"tests\"",
+   "pytest-mock>=3.10; extra == \"tests\"",
+   "pytest-asyncio>=0.21; extra == \"tests\"",
+   "duckdb>=0.9.0; extra == \"tests\"",
+   "pytz>=2023.3; extra == \"tests\"",
+   "polars<=1.32.3,>=0.19; extra == \"tests\"",
+   "pyarrow<25; extra == \"tests\"",
+   "pyarrow-stubs>=16.0; extra == \"tests\"",
+   "pylance==9.0.0; extra == \"tests\"",
+   "requests>=2.31.0; extra == \"tests\"",
+   "datafusion<55,>=54; extra == \"tests\"",
+   "opentelemetry-sdk>=1.30.0; extra == \"tests\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "lancedb-0.40.0-cp310-abi3-macosx_11_0_arm64.whl",
+   "size": 67454352,
+   "url": "https://files.pythonhosted.org/packages/27/2b/855ab90aea9cfd311842be596ca12dcc366df7b2e8209003f95cc8079f6d/lancedb-0.40.0-cp310-abi3-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-07T10:35:02.537180Z",
+   "digests": {
+    "sha256": "10e6fbacc9a9be5698c8e635f150ef4346e428db71d15b31bc1b79aec2a382ff"
+   }
+  },
+  {
+   "filename": "lancedb-0.40.0-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "size": 71651477,
+   "url": "https://files.pythonhosted.org/packages/a1/07/bcdd8f581db0719a5e99be5abdf2a569c840f9b3b90069eff1181141b291/lancedb-0.40.0-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-07T10:35:06.644394Z",
+   "digests": {
+    "sha256": "e967577fe42980217e43f9b6ecbe042c5ae314370a34b88f1c54e825f96b26f0"
+   }
+  },
+  {
+   "filename": "lancedb-0.40.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+   "size": 75231099,
+   "url": "https://files.pythonhosted.org/packages/82/f7/4a5b7bff8abf486d4dc43fc1cb06c5c08472a1aee760eb5d9d10bd7c770e/lancedb-0.40.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-07T10:35:10.459597Z",
+   "digests": {
+    "sha256": "aac9e08a710ba2071a8aefc4b4ef7d8534f5f7e4e4ce1761f11469d97c36f1e2"
+   }
+  },
+  {
+   "filename": "lancedb-0.40.0-cp310-abi3-win_amd64.whl",
+   "size": 83389723,
+   "url": "https://files.pythonhosted.org/packages/88/38/00ed271fd7fc51761b7d449856913a64951041881e68972602643eae7349/lancedb-0.40.0-cp310-abi3-win_amd64.whl",
+   "upload_time": "2026-10-07T10:35:14.427817Z",
+   "digests": {
+    "sha256": "aaea68920b88e3d0b84a9ec84bc1585ad04239b9ca1bfcd1e491c2c12bffddc2"
+   }
+  }
+ ],
+ "n_releases_total": 40
+}

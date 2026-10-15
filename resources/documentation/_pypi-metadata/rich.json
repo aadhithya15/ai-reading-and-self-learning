@@ -1,0 +1,67 @@
+{
+ "package": "rich",
+ "queried": "rich",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/rich/json",
+ "info": {
+  "name": "rich",
+  "version": "15.0.0",
+  "summary": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9.0",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Environment :: Console",
+   "Framework :: IPython",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.9",
+   "Typing :: Typed"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://rich.readthedocs.io/en/latest/",
+   "Homepage": "https://github.com/Textualize/rich"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "ipywidgets<9,>=7.5.1; extra == \"jupyter\"",
+   "markdown-it-py>=2.2.0",
+   "pygments<3.0.0,>=2.13.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "rich-15.0.0-py3-none-any.whl",
+   "size": 310654,
+   "url": "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+   "upload_time": "2026-04-12T08:24:02.830783Z",
+   "digests": {
+    "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+   }
+  },
+  {
+   "filename": "rich-15.0.0.tar.gz",
+   "size": 230680,
+   "url": "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz",
+   "upload_time": "2026-04-12T08:24:00.750018Z",
+   "digests": {
+    "sha256": "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
+   }
+  }
+ ],
+ "n_releases_total": 207
+}

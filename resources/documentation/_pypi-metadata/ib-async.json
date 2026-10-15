@@ -1,0 +1,63 @@
+{
+ "package": "ib_async",
+ "queried": "ib-async",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/ib-async/json",
+ "info": {
+  "name": "ib_async",
+  "version": "2.1.0",
+  "summary": "Python sync/async framework for Interactive Brokers API",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "BSD",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "License :: Other/Proprietary License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial :: Investment"
+  ],
+  "keywords": "ibapi, tws, asyncio, jupyter, interactive, brokers, async, ib_async, ib_insync",
+  "home_page": "https://github.com/ib-api-reloaded/ib_async",
+  "project_urls": {
+   "Bug Tracker": "https://github.com/ib-api-reloaded/ib_async/issues",
+   "Homepage": "https://github.com/ib-api-reloaded/ib_async",
+   "Repository": "https://github.com/ib-api-reloaded/ib_async"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "aeventkit<3.0.0,>=2.1.0",
+   "nest_asyncio",
+   "tzdata<2026.0,>=2025.2"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "ib_async-2.1.0-py3-none-any.whl",
+   "size": 88876,
+   "url": "https://files.pythonhosted.org/packages/80/e7/8f33801788c66f15e9250957ff7f53a8000843f79af1a3ed7a96def0e96b/ib_async-2.1.0-py3-none-any.whl",
+   "upload_time": "2025-12-08T01:42:30.883458Z",
+   "digests": {
+    "sha256": "f6d8b991bdbd6dd38e700c61b3dced06ebe0f14be4e5263e2ef10ba10b88d434"
+   }
+  },
+  {
+   "filename": "ib_async-2.1.0.tar.gz",
+   "size": 87678,
+   "url": "https://files.pythonhosted.org/packages/30/4d/dfc1da8224c3ffcdcd668da7283c4e5f14239a07f83ea66af99700296fc3/ib_async-2.1.0.tar.gz",
+   "upload_time": "2025-12-08T01:42:32.004960Z",
+   "digests": {
+    "sha256": "6a03a87d6c06acacb0217a5bea60a8a168ecd5b5a7e86e1c73678d5b48cbc796"
+   }
+  }
+ ],
+ "n_releases_total": 6
+}

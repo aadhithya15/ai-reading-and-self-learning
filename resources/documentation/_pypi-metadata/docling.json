@@ -1,0 +1,74 @@
+{
+ "package": "docling",
+ "queried": "docling",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/docling/json",
+ "info": {
+  "name": "docling",
+  "version": "2.139.0",
+  "summary": "SDK and CLI for parsing PDF, DOCX, HTML, and more, to a unified document representation for powering downstream workflows such as gen AI applications.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0,>=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Science/Research",
+   "Operating System :: MacOS :: MacOS X",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence"
+  ],
+  "keywords": "convert, docling, document, docx, html, layout model, markdown, pdf, segmentation, table former, table structure",
+  "home_page": null,
+  "project_urls": {
+   "changelog": "https://github.com/docling-project/docling/blob/main/CHANGELOG.md",
+   "homepage": "https://github.com/docling-project/docling",
+   "issues": "https://github.com/docling-project/docling/issues",
+   "repository": "https://github.com/docling-project/docling"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "docling-slim[standard]==2.139.0",
+   "docling-slim[format-audio]==2.139.0; extra == \"asr\"",
+   "docling-slim[feat-ocr-easyocr]==2.139.0; extra == \"easyocr\"",
+   "docling-slim[format-html-render]==2.139.0; extra == \"htmlrender\"",
+   "docling-slim[feat-ocr-mac]==2.139.0; extra == \"ocrmac\"",
+   "docling-slim[models-onnxruntime]==2.139.0; extra == \"onnxruntime\"",
+   "docling-slim[feat-ocr-rapidocr-onnx]==2.139.0; extra == \"rapidocr\"",
+   "docling-slim[models-remote]==2.139.0; extra == \"remote-serving\"",
+   "docling-slim[feat-ocr-tesserocr]==2.139.0; extra == \"tesserocr\"",
+   "docling-slim[models-vlm-inline]==2.139.0; extra == \"vlm\"",
+   "docling-slim[format-xml-xbrl]==2.139.0; extra == \"xbrl\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "docling-2.139.0-py3-none-any.whl",
+   "size": 5240,
+   "url": "https://files.pythonhosted.org/packages/54/2f/6e49e552e8f561e089496fc8ff7177d2193680f7b8f9f85b9260c0f93be9/docling-2.139.0-py3-none-any.whl",
+   "upload_time": "2026-10-14T12:21:17.857884Z",
+   "digests": {
+    "sha256": "354d29dca9a86f3f309d0fcf2842ec62fdbaa1af34faa86a1584a984a382ccb4"
+   }
+  },
+  {
+   "filename": "docling-2.139.0.tar.gz",
+   "size": 9100,
+   "url": "https://files.pythonhosted.org/packages/b1/b2/16f722585da55e10f46e6aa73b5b4859551fd35d4895a68921936a807f74/docling-2.139.0.tar.gz",
+   "upload_time": "2026-10-14T12:21:19.372460Z",
+   "digests": {
+    "sha256": "96ea55bd0ee8009737be11fd4ab1eef0a084070729d411d8d0a9c109f29d339e"
+   }
+  }
+ ],
+ "n_releases_total": 227
+}

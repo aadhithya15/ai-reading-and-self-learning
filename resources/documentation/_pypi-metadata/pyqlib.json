@@ -1,0 +1,244 @@
+{
+ "package": "pyqlib",
+ "queried": "pyqlib",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pyqlib/json",
+ "info": {
+  "name": "pyqlib",
+  "version": "0.9.7",
+  "summary": "A Quantitative-research Platform",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.8.0",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "Development Status :: 3 - Alpha",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: POSIX :: Linux",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": null,
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "pyyaml",
+   "numpy",
+   "pandas>=0.24",
+   "mlflow",
+   "filelock>=3.16.0",
+   "redis",
+   "dill",
+   "fire",
+   "ruamel.yaml>=0.17.38",
+   "python-redis-lock",
+   "tqdm",
+   "pymongo",
+   "loguru",
+   "lightgbm",
+   "gym",
+   "cvxpy",
+   "joblib",
+   "matplotlib",
+   "jupyter",
+   "nbconvert",
+   "pyarrow",
+   "pydantic-settings",
+   "pytest; extra == \"dev\"",
+   "statsmodels; extra == \"dev\"",
+   "tianshou<=0.4.10; extra == \"rl\"",
+   "torch; extra == \"rl\"",
+   "numpy<2.0.0; extra == \"rl\"",
+   "black; extra == \"lint\"",
+   "pylint; extra == \"lint\"",
+   "mypy<1.5.0; extra == \"lint\"",
+   "flake8; extra == \"lint\"",
+   "nbqa; extra == \"lint\"",
+   "scipy<=1.15.3; extra == \"docs\"",
+   "sphinx; extra == \"docs\"",
+   "sphinx_rtd_theme; extra == \"docs\"",
+   "readthedocs_sphinx_ext; extra == \"docs\"",
+   "snowballstemmer<3.0; extra == \"docs\"",
+   "twine; extra == \"package\"",
+   "build; extra == \"package\"",
+   "yahooquery; extra == \"test\"",
+   "baostock; extra == \"test\"",
+   "plotly; extra == \"analysis\"",
+   "statsmodels; extra == \"analysis\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pyqlib-0.9.7-cp310-cp310-macosx_10_9_universal2.whl",
+   "size": 960034,
+   "url": "https://files.pythonhosted.org/packages/93/e8/7da8847867194de1eb060fd7ac173c89f113e0bccd8788c0b56eb32019e4/pyqlib-0.9.7-cp310-cp310-macosx_10_9_universal2.whl",
+   "upload_time": "2025-08-15T09:51:40.103455Z",
+   "digests": {
+    "sha256": "62c2e042094aa340b8833111e14b4b6919725d6b5c049adbead963d0c4f309d9"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp310-cp310-macosx_13_0_x86_64.whl",
+   "size": 876097,
+   "url": "https://files.pythonhosted.org/packages/b5/33/50aef0652f02df0dfa8e5b0ba02ba991edca40f944df97626f7f6c17285b/pyqlib-0.9.7-cp310-cp310-macosx_13_0_x86_64.whl",
+   "upload_time": "2025-08-15T09:53:34.690287Z",
+   "digests": {
+    "sha256": "694f182ad4ce575bfad06f111d37b3fc835c573182bb642cff73d86ff8be97b4"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "size": 1379785,
+   "url": "https://files.pythonhosted.org/packages/a4/42/167e0a8ce468726c31dbc42e5408f02e9e9996e47a889a643a02ccf0943f/pyqlib-0.9.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "upload_time": "2025-08-15T10:03:36.947923Z",
+   "digests": {
+    "sha256": "ce445d9a948f451cdd8f21b5cf7551301fbda41d16f74caa7fd2a53036d253df"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp310-cp310-win_amd64.whl",
+   "size": 876918,
+   "url": "https://files.pythonhosted.org/packages/52/4f/7476a3e76113bb0687efedb6683a7d4f9900edb8a44d641f158ce8c4b059/pyqlib-0.9.7-cp310-cp310-win_amd64.whl",
+   "upload_time": "2025-08-15T09:59:42.417725Z",
+   "digests": {
+    "sha256": "118c364b896c6594d719b47ab84bf86ee65dcbe9d48dd3a58535d37ecb94de08"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp311-cp311-macosx_10_9_universal2.whl",
+   "size": 961873,
+   "url": "https://files.pythonhosted.org/packages/a1/66/1ec8a3af20e1df5487881975bfb94f4198db7b691cb16868d961d86b882d/pyqlib-0.9.7-cp311-cp311-macosx_10_9_universal2.whl",
+   "upload_time": "2025-08-15T09:51:02.873651Z",
+   "digests": {
+    "sha256": "2d12fd1078dd7cba954c6ff0750391c252b6bca42e7c905eeba772308cf52bec"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "size": 1413988,
+   "url": "https://files.pythonhosted.org/packages/34/55/9182c71101c246327d5c5483cffd14cc4feb02683aa93814bfc2a3ababf9/pyqlib-0.9.7-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "upload_time": "2025-08-15T10:03:38.135879Z",
+   "digests": {
+    "sha256": "f74d6344984dce6e774a90dc0b8ef7ff78d85036aba81b4bdc7bfa9e9184ecae"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp311-cp311-win_amd64.whl",
+   "size": 877475,
+   "url": "https://files.pythonhosted.org/packages/d8/b4/6f2a27207966fbb61efbb5a2ded10b9b24ae2c50b0ee20e51ffc2f258e3f/pyqlib-0.9.7-cp311-cp311-win_amd64.whl",
+   "upload_time": "2025-08-15T09:55:32.288906Z",
+   "digests": {
+    "sha256": "703fb3fd8a6aded26a67b1ade4432799b1a6f36ca505dabc786dd1da2166ea44"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp312-cp312-macosx_10_13_universal2.whl",
+   "size": 961480,
+   "url": "https://files.pythonhosted.org/packages/6e/5a/7e1af776e42abe0650709c2df2108cc4910ac48e527cb48bcac59628577b/pyqlib-0.9.7-cp312-cp312-macosx_10_13_universal2.whl",
+   "upload_time": "2025-08-15T09:51:10.258897Z",
+   "digests": {
+    "sha256": "9adffd819e0414cf288c84f6136fb397c63eb3d4bcadf063fd1ec8f4100857fc"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "size": 1420897,
+   "url": "https://files.pythonhosted.org/packages/db/ef/0551c323968fedc41b05a211c0766a5379337d34c822b1c091130c0aa95d/pyqlib-0.9.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "upload_time": "2025-08-15T10:03:39.377119Z",
+   "digests": {
+    "sha256": "b50e70d127976d973c447af667b51aa2bb088d79bc0c344e295e9aadc753b86e"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp312-cp312-win_amd64.whl",
+   "size": 877755,
+   "url": "https://files.pythonhosted.org/packages/a1/df/c3bb02726eda61b9711e7a3a21e1a1a43102c8d97fcd86d52ba75c1b1a49/pyqlib-0.9.7-cp312-cp312-win_amd64.whl",
+   "upload_time": "2025-08-15T09:54:43.240369Z",
+   "digests": {
+    "sha256": "dfbee9f0f3005fe805798e2a21c73b198272f1341d5f0d7771e127166faac08e"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp38-cp38-macosx_11_0_universal2.whl",
+   "size": 963919,
+   "url": "https://files.pythonhosted.org/packages/d1/fa/35625c6543ecea7cda34becd4b6caf14a22a7734890a88d1db96f0c1ce09/pyqlib-0.9.7-cp38-cp38-macosx_11_0_universal2.whl",
+   "upload_time": "2025-08-15T09:52:47.375805Z",
+   "digests": {
+    "sha256": "650f062092168eacfacb2becbf445e5f770f385a4ac19b7f2c8b28ffac3813d1"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp38-cp38-macosx_13_0_x86_64.whl",
+   "size": 876363,
+   "url": "https://files.pythonhosted.org/packages/ba/dd/3a9713befbe1c10377778730bbddee8a1a2a258c41fb3568c9d296d3b846/pyqlib-0.9.7-cp38-cp38-macosx_13_0_x86_64.whl",
+   "upload_time": "2025-08-15T09:55:06.137664Z",
+   "digests": {
+    "sha256": "5404deebc4ab68e801fd7ae86db16e4852490a1a51fd842dfbd017643853e554"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "size": 1192569,
+   "url": "https://files.pythonhosted.org/packages/22/23/a66867eadfbc5be2a8d28eb670cf2a5ac7c49cac129da543daebb9cae2a0/pyqlib-0.9.7-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "upload_time": "2025-08-15T10:03:40.368501Z",
+   "digests": {
+    "sha256": "b6e994f76353b31e8200021cff7e9c254c613746aecf80085c7fb1efe3dbd044"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp38-cp38-win_amd64.whl",
+   "size": 875564,
+   "url": "https://files.pythonhosted.org/packages/a3/93/5a4e890325234cdfba7624b0781dd64a25aba7ccc0f4120a1d8140325b27/pyqlib-0.9.7-cp38-cp38-win_amd64.whl",
+   "upload_time": "2025-08-15T09:56:43.633757Z",
+   "digests": {
+    "sha256": "cae970a520e0c3d05cac6345ff67fd5c74425fc4f2669add012960c25803b65e"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp39-cp39-macosx_10_9_universal2.whl",
+   "size": 961575,
+   "url": "https://files.pythonhosted.org/packages/93/ae/c6b38b0687bab91c15cfdb4ec9c10bdf89faee7280a0c1da8f30b806361c/pyqlib-0.9.7-cp39-cp39-macosx_10_9_universal2.whl",
+   "upload_time": "2025-08-15T09:51:25.435078Z",
+   "digests": {
+    "sha256": "29f7a46dd1dcfe935d8d357920b560ec9e5461fcaf5d90436c05d6cd1c9b476d"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp39-cp39-macosx_13_0_x86_64.whl",
+   "size": 876981,
+   "url": "https://files.pythonhosted.org/packages/db/a6/8877e37e3153b01ad566658533164298d85ae7d81bef4c2cd9910dd9b335/pyqlib-0.9.7-cp39-cp39-macosx_13_0_x86_64.whl",
+   "upload_time": "2025-08-15T09:53:37.998475Z",
+   "digests": {
+    "sha256": "0935778655d471e8e7cf9efc58f942cc0b58b495fc03d98e80bb5b97e17d54cb"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "size": 1374775,
+   "url": "https://files.pythonhosted.org/packages/83/63/c534fd661a3afc5f85a04d5ba0cd1d05fa2aa50b7d8ad1028734e28ec4a5/pyqlib-0.9.7-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+   "upload_time": "2025-08-15T10:03:41.618498Z",
+   "digests": {
+    "sha256": "16f8572d7c88a854991c6c3f560978a7e919d88398e21afc4b6071c4d533bbaf"
+   }
+  },
+  {
+   "filename": "pyqlib-0.9.7-cp39-cp39-win_amd64.whl",
+   "size": 877775,
+   "url": "https://files.pythonhosted.org/packages/60/fa/34f3b661518ca498f1b95d64084f75237ceda75f64a149b1f1189181ba1d/pyqlib-0.9.7-cp39-cp39-win_amd64.whl",
+   "upload_time": "2025-08-15T09:54:35.007469Z",
+   "digests": {
+    "sha256": "a9a0007d07ae091cf22b0b1eb3a6a253b61ccab8945beb269e1701b33fc53feb"
+   }
+  }
+ ],
+ "n_releases_total": 29
+}

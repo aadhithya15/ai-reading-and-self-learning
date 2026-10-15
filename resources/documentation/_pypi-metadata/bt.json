@@ -1,0 +1,251 @@
+{
+ "package": "bt",
+ "queried": "bt",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/bt/json",
+ "info": {
+  "name": "bt",
+  "version": "1.4.1",
+  "summary": "A flexible backtesting framework for Python",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "License :: OSI Approved :: MIT License",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.9",
+   "Topic :: Software Development :: Libraries"
+  ],
+  "keywords": "algorithmic, algotrading, backtesting, finance, python, quant, strategies, trading",
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://pmorissette.github.io/bt/",
+   "Homepage": "https://github.com/pmorissette/bt",
+   "Repository": "https://github.com/pmorissette/bt"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "ffn>=1.1.2",
+   "pyprind>=2.11",
+   "tqdm>=4",
+   "build; extra == \"dev\"",
+   "bump-my-version; extra == \"dev\"",
+   "check-dist; extra == \"dev\"",
+   "cibuildwheel; extra == \"dev\"",
+   "codespell; extra == \"dev\"",
+   "cython>=0.29.25; extra == \"dev\"",
+   "ffn>=1.1.2; extra == \"dev\"",
+   "hatch-cython; extra == \"dev\"",
+   "hatchling; extra == \"dev\"",
+   "klink>=0.1.13; extra == \"dev\"",
+   "matplotlib>=2; extra == \"dev\"",
+   "mdformat; extra == \"dev\"",
+   "mdformat-myst; extra == \"dev\"",
+   "mdformat-tables>=1; extra == \"dev\"",
+   "numpy>=1; extra == \"dev\"",
+   "pandas>=0.19; extra == \"dev\"",
+   "pyprind>=2.11; extra == \"dev\"",
+   "pytest; extra == \"dev\"",
+   "pytest-benchmark; extra == \"dev\"",
+   "pytest-cov; extra == \"dev\"",
+   "ruff; extra == \"dev\"",
+   "setuptools; extra == \"dev\"",
+   "twine>=6.1; extra == \"dev\"",
+   "ty; extra == \"dev\"",
+   "uv; extra == \"dev\"",
+   "wheel; extra == \"dev\"",
+   "yardang>=0.10.0; extra == \"dev\"",
+   "build; extra == \"develop\"",
+   "bump-my-version; extra == \"develop\"",
+   "check-dist; extra == \"develop\"",
+   "cibuildwheel; extra == \"develop\"",
+   "codespell; extra == \"develop\"",
+   "cython>=0.29.25; extra == \"develop\"",
+   "ffn>=1.1.2; extra == \"develop\"",
+   "hatch-cython; extra == \"develop\"",
+   "hatchling; extra == \"develop\"",
+   "klink>=0.1.13; extra == \"develop\"",
+   "matplotlib>=2; extra == \"develop\"",
+   "mdformat; extra == \"develop\"",
+   "mdformat-myst; extra == \"develop\"",
+   "mdformat-tables>=1; extra == \"develop\"",
+   "numpy>=1; extra == \"develop\"",
+   "pandas>=0.19; extra == \"develop\"",
+   "pyprind>=2.11; extra == \"develop\"",
+   "pytest; extra == \"develop\"",
+   "pytest-benchmark; extra == \"develop\"",
+   "pytest-cov; extra == \"develop\"",
+   "ruff; extra == \"develop\"",
+   "setuptools; extra == \"develop\"",
+   "twine>=6.1; extra == \"develop\"",
+   "ty; extra == \"develop\"",
+   "uv; extra == \"develop\"",
+   "wheel; extra == \"develop\"",
+   "yardang>=0.10.0; extra == \"develop\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "bt-1.4.1-cp311-cp311-macosx_11_0_arm64.whl",
+   "size": 621458,
+   "url": "https://files.pythonhosted.org/packages/eb/4f/e22d838026a80d8c7e23ae668070d98634b688a7b5a329711e56160dbf94/bt-1.4.1-cp311-cp311-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-10T15:57:58.616472Z",
+   "digests": {
+    "sha256": "5b3703b1bebf8dcc62cbb7d0ae676496bec9abaeb8fac4b35ff2c4c3e560a935"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 1431160,
+   "url": "https://files.pythonhosted.org/packages/86/57/c0037d35f94e46b30964e0a8adfec85afdb90a431663e76b3ff759427e61/bt-1.4.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-10T15:58:00.592254Z",
+   "digests": {
+    "sha256": "bc09ac2ecfe761fa98d682754adc7371aff93b77fa05cfc2966331602db11f6a"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 1428921,
+   "url": "https://files.pythonhosted.org/packages/6c/21/cbce519da5c044254b0df0f5aed875ffbf6b2895eeb5050f1d58a2ecfd24/bt-1.4.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-10T15:58:02.726672Z",
+   "digests": {
+    "sha256": "76dd7619283eb5e2e8c34eb49312de3c3d5f38f44d1a5049da97844f9ab82595"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp311-cp311-win_amd64.whl",
+   "size": 254952,
+   "url": "https://files.pythonhosted.org/packages/d3/85/cc994433a8eedc7c759c319bdc4f3de5f862a155cc8a5f6e59f7082621de/bt-1.4.1-cp311-cp311-win_amd64.whl",
+   "upload_time": "2026-10-10T15:58:03.942844Z",
+   "digests": {
+    "sha256": "3519e260c51b3bde738b24e70996a3808ff09ce8f02db76a8673bed64800873a"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp312-cp312-macosx_11_0_arm64.whl",
+   "size": 624054,
+   "url": "https://files.pythonhosted.org/packages/ee/16/5c1a4a54a3d3989174b9f3cf36cd12c843e2404b555bd5060a0dbd1c2120/bt-1.4.1-cp312-cp312-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-10T15:58:04.994124Z",
+   "digests": {
+    "sha256": "71140dee3ba032b00397dc516438af84be50a76d99010bd47c40cbb18b87d253"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 1653259,
+   "url": "https://files.pythonhosted.org/packages/c8/14/ea210b8434e750e31757d1351d2fce0ed0f7cecb60dde482e43380db4a64/bt-1.4.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-10T15:58:06.668044Z",
+   "digests": {
+    "sha256": "c6f769bf2aa6f554554c0fba3a3905fee46e0e20d0f405ccce8a9e514017f782"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 1671873,
+   "url": "https://files.pythonhosted.org/packages/c3/54/f6299ff611347a2180d9f5d3b5392888980f4efdd2884cc8247b52a6a329/bt-1.4.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-10T15:58:08.187968Z",
+   "digests": {
+    "sha256": "baac5c156d63d34e040d516c0274543d65608ebc532dfe2e06ef819ab09c5883"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp312-cp312-win_amd64.whl",
+   "size": 250424,
+   "url": "https://files.pythonhosted.org/packages/b6/e1/5574c8733751a56f6328dc855eb6bad34b8968406eca4632e7c53abeae07/bt-1.4.1-cp312-cp312-win_amd64.whl",
+   "upload_time": "2026-10-10T15:58:09.507044Z",
+   "digests": {
+    "sha256": "c10a1d6be730a3ae16b423fca28e9a52f9cf9a46b2bc214cf3a9158b5085fef7"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp313-cp313-macosx_11_0_arm64.whl",
+   "size": 622397,
+   "url": "https://files.pythonhosted.org/packages/19/fe/80cfff85886f7acf2ea86f811fc7c9c28976c35432df9e710a66367d0c3a/bt-1.4.1-cp313-cp313-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-10T15:58:10.594098Z",
+   "digests": {
+    "sha256": "a0191f2d494d800ed6eedc46c3203ae2def2f391ea3f53c7186aa5170b8281de"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 1640348,
+   "url": "https://files.pythonhosted.org/packages/76/25/efc7fb9f678d43fd10572261f90d3b9833c450165c62eb07caa7c5a91f53/bt-1.4.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-10T15:58:11.970869Z",
+   "digests": {
+    "sha256": "d28e830de702625444988dbd7b120e75fdfa9cba1cdf8246b38524f502b873ed"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 1648719,
+   "url": "https://files.pythonhosted.org/packages/d3/48/63514b7e724d665864bf7bac19e5e450b7d0fd355c0c82524b0f31f5415c/bt-1.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-10T15:58:13.514390Z",
+   "digests": {
+    "sha256": "ea9d5da4726c130b4d3d34a4695be5d06800536cb53670d371a0d80f01111a98"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp313-cp313-win_amd64.whl",
+   "size": 249938,
+   "url": "https://files.pythonhosted.org/packages/1f/77/68ab769c337a546e497951f71694575766fa7d64b103ef51c326e10e7d5e/bt-1.4.1-cp313-cp313-win_amd64.whl",
+   "upload_time": "2026-10-10T15:58:14.674731Z",
+   "digests": {
+    "sha256": "3671329dd0acca66be1769c5c34ff25d7c574bfe66962192251591b2742b38da"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp314-cp314-macosx_11_0_arm64.whl",
+   "size": 623341,
+   "url": "https://files.pythonhosted.org/packages/b4/ba/794058c5cb4c7e5c4bc2120a80e91ac3331e0946af3fedf932a76cc3a8af/bt-1.4.1-cp314-cp314-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-10T15:58:16.069554Z",
+   "digests": {
+    "sha256": "e4f50371f942af04db40da8eb7a30e0a4eb91b125f7bd72741c9f4638f4ef9f6"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 1637238,
+   "url": "https://files.pythonhosted.org/packages/75/8d/3449e4e651aade1cdc10cf4f70bb3fec048d94cb8d10a2072ea32543879b/bt-1.4.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-10T15:58:17.649804Z",
+   "digests": {
+    "sha256": "9b7b2c387d46c4bf23d8bba0ac42d4b4f8d239883ec77be63db566c3c9cfdf65"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 1632426,
+   "url": "https://files.pythonhosted.org/packages/9f/80/12ff5f66b5dfcb74061e399dcc2cd0520d357671dc800dc6d5bab0a0615d/bt-1.4.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-10T15:58:19.119216Z",
+   "digests": {
+    "sha256": "ca368cfca2f038b8f52d5b151e70c33763b08c1a2721c0401f06625f5f5636f1"
+   }
+  },
+  {
+   "filename": "bt-1.4.1-cp314-cp314-win_amd64.whl",
+   "size": 254957,
+   "url": "https://files.pythonhosted.org/packages/5d/3f/918efd9c34176acbb0b83612469b49742d056194f35b629519e37c7a3353/bt-1.4.1-cp314-cp314-win_amd64.whl",
+   "upload_time": "2026-10-10T15:58:20.339722Z",
+   "digests": {
+    "sha256": "d8cd3e698ec842c4d3a02b5f28297f93aa2d8415bb75abd704b328ec27b47461"
+   }
+  },
+  {
+   "filename": "bt-1.4.1.tar.gz",
+   "size": 57585,
+   "url": "https://files.pythonhosted.org/packages/f4/10/651ab9f92fe766bec3a7b11b803c8b57052b642d0ad5aa270c200a873364/bt-1.4.1.tar.gz",
+   "upload_time": "2026-10-10T15:58:21.279582Z",
+   "digests": {
+    "sha256": "8ff30b9547c8f1637dba6918fdc2e8c3a5a8c7477d6ece4fe1ca5e496ecd3173"
+   }
+  }
+ ],
+ "n_releases_total": 40
+}

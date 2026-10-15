@@ -1,0 +1,65 @@
+{
+ "package": "tenacity",
+ "queried": "tenacity",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/tenacity/json",
+ "info": {
+  "name": "tenacity",
+  "version": "9.2.1",
+  "summary": "Retry code until it succeeds",
+  "description_content_type": "text/x-rst",
+  "requires_python": ">=3.10",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [
+   "Intended Audience :: Developers",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Utilities"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://tenacity.readthedocs.io/en/latest/changelog.html",
+   "Documentation": "https://tenacity.readthedocs.io",
+   "Homepage": "https://github.com/jd/tenacity",
+   "Issues": "https://github.com/jd/tenacity/issues",
+   "Source": "https://github.com/jd/tenacity"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "reno; extra == \"doc\"",
+   "sphinx; extra == \"doc\"",
+   "pytest; extra == \"test\"",
+   "tornado>=6.0; extra == \"test\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "tenacity-9.2.1-py3-none-any.whl",
+   "size": 32310,
+   "url": "https://files.pythonhosted.org/packages/d6/26/1ff2b0721ac66a3ec5b1402b333110b352ab0a8724052ac279a7b82d40c4/tenacity-9.2.1-py3-none-any.whl",
+   "upload_time": "2026-10-07T12:13:00.102198Z",
+   "digests": {
+    "sha256": "9e56f17539296baab7beabb08b92f6ee3d7be92d8be72d763360677c2ad6580e"
+   }
+  },
+  {
+   "filename": "tenacity-9.2.1.tar.gz",
+   "size": 58261,
+   "url": "https://files.pythonhosted.org/packages/82/9e/497c1c8ebe5a5b5d1d4a7511aea22c0bb1a97e3170d98abdef0e1b34265a/tenacity-9.2.1.tar.gz",
+   "upload_time": "2026-10-07T12:13:01.633347Z",
+   "digests": {
+    "sha256": "a606b5c808d0cded4a359d5b9932d867ff2a6a6b64d37350260fd01bbdf83839"
+   }
+  }
+ ],
+ "n_releases_total": 62
+}

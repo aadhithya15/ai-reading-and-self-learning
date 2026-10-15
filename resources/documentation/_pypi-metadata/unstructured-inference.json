@@ -1,0 +1,73 @@
+{
+ "package": "unstructured-inference",
+ "queried": "unstructured-inference",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/unstructured-inference/json",
+ "info": {
+  "name": "unstructured-inference",
+  "version": "1.6.13",
+  "summary": "A library for performing inference using trained models.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<3.14,>=3.11",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Education",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence"
+  ],
+  "keywords": "CV, HTML, NLP, PDF, XML, parsing, preprocessing",
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/Unstructured-IO/unstructured-inference"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "accelerate>=1.12.0",
+   "huggingface-hub>=0.22.0",
+   "matplotlib>=3.10.8",
+   "numpy>=1.26.0",
+   "onnx>=1.20.1",
+   "onnxruntime>=1.25.0",
+   "opencv-python>=4.13.0.90",
+   "pandas>=1.5.0",
+   "pdfminer-six>=20231228",
+   "pypdfium2>=5.0.0",
+   "rapidfuzz>=3.14.3",
+   "scipy>=1.17.0",
+   "timm>=1.0.24",
+   "torch>=2.10.0",
+   "transformers>=4.25.1"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "unstructured_inference-1.6.13-py3-none-any.whl",
+   "size": 57451,
+   "url": "https://files.pythonhosted.org/packages/01/c0/6598b1420605382e7ed879ff7e1d51e12cc7a82e46971c7a61c3740c77db/unstructured_inference-1.6.13-py3-none-any.whl",
+   "upload_time": "2026-06-11T22:27:31.910436Z",
+   "digests": {
+    "sha256": "73b727260e4a43133276727c371b57f7d4d92c68e8a7529a28e9576755356524"
+   }
+  },
+  {
+   "filename": "unstructured_inference-1.6.13.tar.gz",
+   "size": 50137,
+   "url": "https://files.pythonhosted.org/packages/2e/ce/1e58008b8416884edfa6d18d65b635cde892189512d2e7531f91553b34d0/unstructured_inference-1.6.13.tar.gz",
+   "upload_time": "2026-06-11T22:27:33.146279Z",
+   "digests": {
+    "sha256": "4efa2f3f517370aa09166c669cdc1addee71531e95bfbec7e6e3be66be90c147"
+   }
+  }
+ ],
+ "n_releases_total": 124
+}

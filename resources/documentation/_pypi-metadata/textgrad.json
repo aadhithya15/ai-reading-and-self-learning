@@ -1,0 +1,65 @@
+{
+ "package": "textgrad",
+ "queried": "textgrad",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/textgrad/json",
+ "info": {
+  "name": "textgrad",
+  "version": "0.1.8",
+  "summary": null,
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": "MIT license",
+  "classifiers": [
+   "Development Status :: 2 - Pre-Alpha",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Natural Language :: English",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": null,
+  "home_page": "https://github.com/zou-group/textgrad",
+  "project_urls": {
+   "Homepage": "https://github.com/zou-group/textgrad"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "openai>=1.23.6",
+   "tenacity>=8.2.3",
+   "python-dotenv>=1.0.0",
+   "pandas>=1.5.3",
+   "platformdirs>=3.11.0",
+   "datasets>=2.14.6",
+   "diskcache>=5.6.3",
+   "graphviz>=0.20.3",
+   "gdown>=5.2.0",
+   "litellm>=1.49.5",
+   "pillow",
+   "httpx",
+   "vllm; extra == \"vllm\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "textgrad-0.1.8-py3-none-any.whl",
+   "size": 79578,
+   "url": "https://files.pythonhosted.org/packages/0f/96/7c2e8b9b8c06f0566ca09e38e936105a550f8fb22924ff6aa2f967742060/textgrad-0.1.8-py3-none-any.whl",
+   "upload_time": "2025-03-26T17:08:09.849395Z",
+   "digests": {
+    "sha256": "f252572bd25cd7cbdc4528024f70895b3e92328932e37e576691d20eead0a63a"
+   }
+  },
+  {
+   "filename": "textgrad-0.1.8.tar.gz",
+   "size": 72246,
+   "url": "https://files.pythonhosted.org/packages/3c/05/2978c1feae998d8d25b2deabdd09f5aa42bed3db22ef860ccf55319b85b8/textgrad-0.1.8.tar.gz",
+   "upload_time": "2025-03-26T17:08:11.029222Z",
+   "digests": {
+    "sha256": "96b32ab9f737a81152479fa7b8fc6bef98433f472d28ecd942ee3d9d190f6175"
+   }
+  }
+ ],
+ "n_releases_total": 5
+}

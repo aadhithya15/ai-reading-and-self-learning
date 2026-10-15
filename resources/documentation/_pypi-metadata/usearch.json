@@ -1,0 +1,545 @@
+{
+ "package": "usearch",
+ "queried": "usearch",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/usearch/json",
+ "info": {
+  "name": "usearch",
+  "version": "2.26.4",
+  "summary": "Smaller & Faster Single-File Vector Search Engine from Unum",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Information Technology",
+   "Natural Language :: English",
+   "Operating System :: MacOS",
+   "Operating System :: Microsoft :: Windows",
+   "Operating System :: Unix",
+   "Programming Language :: C++",
+   "Programming Language :: Java",
+   "Programming Language :: JavaScript",
+   "Programming Language :: Objective C",
+   "Programming Language :: Other",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Programming Language :: Rust",
+   "Topic :: Database :: Database Engines/Servers",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: System :: Clustering"
+  ],
+  "keywords": null,
+  "home_page": "https://github.com/unum-cloud/USearch",
+  "project_urls": {
+   "Homepage": "https://github.com/unum-cloud/USearch"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy",
+   "tqdm",
+   "numkong"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-macosx_10_9_universal2.whl",
+   "size": 867130,
+   "url": "https://files.pythonhosted.org/packages/57/97/0e5f370695d466d01d662cc942837860aa5cb08e38f0766fb5461c3a6b08/usearch-2.26.4-cp310-cp310-macosx_10_9_universal2.whl",
+   "upload_time": "2026-10-05T18:33:05.119944Z",
+   "digests": {
+    "sha256": "fbea27ca3a59bbedb8a2a1c060e85afcbc872f8bc2b26395bd6cbdc598a96155"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-macosx_10_9_x86_64.whl",
+   "size": 466626,
+   "url": "https://files.pythonhosted.org/packages/f6/96/11eeedfb276b63260a6193e2915667dfcd34d566fa020e82c6267f76367d/usearch-2.26.4-cp310-cp310-macosx_10_9_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:07.384342Z",
+   "digests": {
+    "sha256": "b038fec0e3412ab2bfef9f56b6c99b3ee0658d44b15df662ab4d7d5d7df6c19d"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+   "size": 449467,
+   "url": "https://files.pythonhosted.org/packages/ae/86/ec77f3b5e568afa4e4a8b03a25d112e72ca0e6b4be05209eda1eb24d479c/usearch-2.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:33:09.173529Z",
+   "digests": {
+    "sha256": "5195db8ecb636210f17e5f7172a309bbee8a8a8f051ca1083774cc82aec5b6e1"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2235305,
+   "url": "https://files.pythonhosted.org/packages/1b/38/5d621c3e71ec1703f56b9d970e0706e6dbaf910c964f21da653b127d3b6a/usearch-2.26.4-cp310-cp310-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:10.820320Z",
+   "digests": {
+    "sha256": "b6eefb0b316bab33c78c50ee928c14bdb2661136d9a5638ecdfee6f596ea9928"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2323332,
+   "url": "https://files.pythonhosted.org/packages/d5/ac/771c94c63eb4ffe16c2ff9ddcdbec38a52e164c6db7e2ffb87e702c580ac/usearch-2.26.4-cp310-cp310-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:12.458381Z",
+   "digests": {
+    "sha256": "af41515e87ff7c3ab5f78a816c04ece8c0b53bd808f7da94d33911a67f75d1aa"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-musllinux_1_2_aarch64.whl",
+   "size": 2286629,
+   "url": "https://files.pythonhosted.org/packages/7e/78/cdbc0df3f559eee9d4a4264785829b2b8f7e602f52b5e07f63f54977a61b/usearch-2.26.4-cp310-cp310-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:14.266760Z",
+   "digests": {
+    "sha256": "6b666b0e45987322fdf6a1a654e3fd12f22df95159927f425e3430d3b047fcbf"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-musllinux_1_2_x86_64.whl",
+   "size": 2382027,
+   "url": "https://files.pythonhosted.org/packages/90/6c/bb1bc6d5cef4b906ad337120a721e7fc248a72a638d5b410792df49f2830/usearch-2.26.4-cp310-cp310-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:16.196761Z",
+   "digests": {
+    "sha256": "396ca8b28147506bddfb206f9479ea2fe4c828ed2bf057f7ba70d683347d8ac2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-win_amd64.whl",
+   "size": 343437,
+   "url": "https://files.pythonhosted.org/packages/cc/7e/faa0a937cacae4a7d647a32302faf06a5b0369421e7aad44b6a94bc6062f/usearch-2.26.4-cp310-cp310-win_amd64.whl",
+   "upload_time": "2026-10-05T18:33:18.080507Z",
+   "digests": {
+    "sha256": "5a2317b5d223d79cf5ad6c3cd3eb8a85a965e911e145a1cecde77dc5fc31be15"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp310-cp310-win_arm64.whl",
+   "size": 339099,
+   "url": "https://files.pythonhosted.org/packages/bb/c3/f68fa937b4994b5f028b3a7a9f7c7962d106b8b9f674882a9adc868d5f01/usearch-2.26.4-cp310-cp310-win_arm64.whl",
+   "upload_time": "2026-10-05T18:33:19.719911Z",
+   "digests": {
+    "sha256": "563d5b18ac94e2016f5e0fb53e9e9c9aae60c920017250357e88a2d72c3060db"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-macosx_10_9_universal2.whl",
+   "size": 868259,
+   "url": "https://files.pythonhosted.org/packages/68/7d/01ae407fa9a85e62cf2142b6820f775426e41c508444a848ddfe16e22ed1/usearch-2.26.4-cp311-cp311-macosx_10_9_universal2.whl",
+   "upload_time": "2026-10-05T18:33:21.350766Z",
+   "digests": {
+    "sha256": "098275052b90416efa0ed1a00f28053c2db2f3f239bc612f54ae77ac95613e77"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-macosx_10_9_x86_64.whl",
+   "size": 467721,
+   "url": "https://files.pythonhosted.org/packages/2b/5e/2f6d5d93a75d1572787f9db6022fe6c7c18520e988f7aede89e586c3a7e2/usearch-2.26.4-cp311-cp311-macosx_10_9_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:23.050662Z",
+   "digests": {
+    "sha256": "a4e2843379ece0cbb5cedeb6f935670d6c4935b3c0d3f7d2779922a8241d1db2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-macosx_11_0_arm64.whl",
+   "size": 450342,
+   "url": "https://files.pythonhosted.org/packages/48/73/531a20f2234c67aefe4439ed494f8c314c917de608a44ef19f49fbf27c87/usearch-2.26.4-cp311-cp311-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:33:24.526459Z",
+   "digests": {
+    "sha256": "f5a82638910f0a359089209185f4b706b080d68bee605a1077a5fe1f15ec9892"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2239117,
+   "url": "https://files.pythonhosted.org/packages/40/4e/3c2045a6164c1e19065ccaf552836507fd7093a1b095c49503bc5b2dcf29/usearch-2.26.4-cp311-cp311-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:26.593203Z",
+   "digests": {
+    "sha256": "72f03e9b067d117262040686c2abfa10151de389c2f18e61ae347ce06861c904"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2325173,
+   "url": "https://files.pythonhosted.org/packages/61/2b/54076bc4ed73ed0525ec34596c36f1ac89a8fc101bf6a785cdc64335d2a7/usearch-2.26.4-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:28.390391Z",
+   "digests": {
+    "sha256": "b6db91ecb5e38fc87195ff2aaca0ef4dc8e8265ce4513fb13e495d14a5c1a96e"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-musllinux_1_2_aarch64.whl",
+   "size": 2290875,
+   "url": "https://files.pythonhosted.org/packages/3b/21/d234eb2b4183b51cb9f7f1fef37ce5da85db1ebb091770fcc9f4e7a9c76d/usearch-2.26.4-cp311-cp311-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:30.192542Z",
+   "digests": {
+    "sha256": "a029084a139f54d6838a7252562f4570ee0cc10d5e1446c9115ffe66c21d987b"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-musllinux_1_2_x86_64.whl",
+   "size": 2384904,
+   "url": "https://files.pythonhosted.org/packages/1d/b6/7f7e7cda56bfe31d2ce458db914af5dc749b641a3415e72da917458737f4/usearch-2.26.4-cp311-cp311-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:32.216428Z",
+   "digests": {
+    "sha256": "a9ec7d99475652528f9885705e5d9c74fb91b28b39d02b47424cc41ed6020117"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-win_amd64.whl",
+   "size": 344048,
+   "url": "https://files.pythonhosted.org/packages/46/9d/a64dfa76e4925aaafe939a58294055fe78ab288594bd1f833fcc12a01ef7/usearch-2.26.4-cp311-cp311-win_amd64.whl",
+   "upload_time": "2026-10-05T18:33:33.841026Z",
+   "digests": {
+    "sha256": "b5f8da73581c67895c6388eefeaad7677c21ac1c177cb631f6b81642b1620f21"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp311-cp311-win_arm64.whl",
+   "size": 340639,
+   "url": "https://files.pythonhosted.org/packages/19/f9/aafd1e3eef3f0223bdcdf1475641365975acf089a9e0803284cc09d17d08/usearch-2.26.4-cp311-cp311-win_arm64.whl",
+   "upload_time": "2026-10-05T18:33:35.294839Z",
+   "digests": {
+    "sha256": "e60034f6149e22959db7ce22069e15ab06c808cf83e25dee2078f68db5c35f41"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-macosx_10_13_universal2.whl",
+   "size": 885863,
+   "url": "https://files.pythonhosted.org/packages/e1/05/53aa0d81cac1001e99940c15bed9012c15c6752c79cf8d557a5c9b44711c/usearch-2.26.4-cp312-cp312-macosx_10_13_universal2.whl",
+   "upload_time": "2026-10-05T18:33:37.131266Z",
+   "digests": {
+    "sha256": "7cec0d75643e4193e42c0fdf8e716973607ef61f53a9157eaeead09792be5c84"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-macosx_10_13_x86_64.whl",
+   "size": 477533,
+   "url": "https://files.pythonhosted.org/packages/e1/e1/6d5679cfb6ecbcfa2988dbc0c993f567890c371fb5c340bc12c4da95530d/usearch-2.26.4-cp312-cp312-macosx_10_13_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:38.953896Z",
+   "digests": {
+    "sha256": "96e532a2f77796dbf0cb06e9ed4c5a4b50fa09d188c87c95eaf5677dd4316b6b"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-macosx_11_0_arm64.whl",
+   "size": 454594,
+   "url": "https://files.pythonhosted.org/packages/13/5a/03da5053dd64e96298ffc60d4275570e77ba0e9e8d9109da79fe0e947711/usearch-2.26.4-cp312-cp312-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:33:40.807539Z",
+   "digests": {
+    "sha256": "356c7a19b8fc734a72ea93fdb9dc9e1013db45fa4d8b309d8cc45ce50f51898b"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2258831,
+   "url": "https://files.pythonhosted.org/packages/4e/ec/e4f37185aa7406573b0444ee15c933a063154d1d05da25bc11f365a0f93c/usearch-2.26.4-cp312-cp312-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:42.556083Z",
+   "digests": {
+    "sha256": "3baf5d7e8ae068cefb47026f924d81d05853b679766635511ae9b77969e63ebc"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2352115,
+   "url": "https://files.pythonhosted.org/packages/73/be/18d0776c763e5d21e07c5f5180491679a0cd157489a45b3dbf648f4dab38/usearch-2.26.4-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:44.529420Z",
+   "digests": {
+    "sha256": "0b353a69743b9b88214fd06458ff3c0fc9557f3c95d72886a69670622f4dc239"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-musllinux_1_2_aarch64.whl",
+   "size": 2314965,
+   "url": "https://files.pythonhosted.org/packages/33/39/1c3e9a6989b1df203ebdf890015eefd046ac7503511b6768acdc2365ea6f/usearch-2.26.4-cp312-cp312-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:46.876747Z",
+   "digests": {
+    "sha256": "b2f620c52d736a53d8ebe5e3bcbf61359496284b1c93573772861a07d298ebc2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-musllinux_1_2_x86_64.whl",
+   "size": 2411744,
+   "url": "https://files.pythonhosted.org/packages/74/05/f2e9f061b6626a06c56828fc45822ce30f49387253c77c0079cbc997e617/usearch-2.26.4-cp312-cp312-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:49.106944Z",
+   "digests": {
+    "sha256": "11ac66d6e1a4508f274874ab66de90918b7275d9273bb55291776e3d7daf67b2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-win_amd64.whl",
+   "size": 346788,
+   "url": "https://files.pythonhosted.org/packages/19/26/afaa0f24aee8b87c8a63e6229e57100ad071274063c8ff95784849f88b39/usearch-2.26.4-cp312-cp312-win_amd64.whl",
+   "upload_time": "2026-10-05T18:33:50.998143Z",
+   "digests": {
+    "sha256": "2c0569393a123996c431a62bcdeb8f66959f76d7dcec24b77dabe7955e8f7626"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp312-cp312-win_arm64.whl",
+   "size": 342614,
+   "url": "https://files.pythonhosted.org/packages/e3/86/06a128f2b7729c3436b736b0bba4f1b3d9a252968849d24b157153f00e61/usearch-2.26.4-cp312-cp312-win_arm64.whl",
+   "upload_time": "2026-10-05T18:33:52.689481Z",
+   "digests": {
+    "sha256": "46461ae9aadb3d423659555923821b5e65292caac1cd3871951416ba19ca1f78"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-macosx_10_13_universal2.whl",
+   "size": 886069,
+   "url": "https://files.pythonhosted.org/packages/27/78/abb2185d85841973d99778f3b2ae6e6d11a6f3894fc810aec68346eb3116/usearch-2.26.4-cp313-cp313-macosx_10_13_universal2.whl",
+   "upload_time": "2026-10-05T18:33:54.582455Z",
+   "digests": {
+    "sha256": "dcd0ebe64424e42b40ce5c4c38184fdf8f5b781cca0a87137ef3e1c9e6145a5d"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-macosx_10_13_x86_64.whl",
+   "size": 477665,
+   "url": "https://files.pythonhosted.org/packages/36/89/60464d4de001c5f8269d3b1a528c375d258ea194d61d7c49517a414fb70d/usearch-2.26.4-cp313-cp313-macosx_10_13_x86_64.whl",
+   "upload_time": "2026-10-05T18:33:56.221493Z",
+   "digests": {
+    "sha256": "fa2e0fd883454891e1b2877520bd8453b355a3f887546b91776bed7e3dfef70f"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-macosx_11_0_arm64.whl",
+   "size": 454635,
+   "url": "https://files.pythonhosted.org/packages/af/12/e8eb717129d34356eaf402709480fd190608f0db3de4bfd33f410e726b83/usearch-2.26.4-cp313-cp313-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:33:57.937390Z",
+   "digests": {
+    "sha256": "c91f1f81349606a95a2c87d31480c254a28fd4e7d1df65816ba87e2fb7888221"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2258541,
+   "url": "https://files.pythonhosted.org/packages/ac/d0/19bb67b93910b2d968e94123729d548325d7ea360ccc7c7b99e17286ed49/usearch-2.26.4-cp313-cp313-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:33:59.810826Z",
+   "digests": {
+    "sha256": "9c313c562f2d790b0965870e8522c5fd5727fbba48d5e797b26d44fc54fbc63c"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2352313,
+   "url": "https://files.pythonhosted.org/packages/26/61/ec2a555b0db8beddfb46447c1bb4b9276941ee8f4b7c6577c6d271cb655d/usearch-2.26.4-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:01.938621Z",
+   "digests": {
+    "sha256": "53ca36be4accee36270bcea80bdb69aa15d47ed1d303aebed636a3ec5efd8d69"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-musllinux_1_2_aarch64.whl",
+   "size": 2314211,
+   "url": "https://files.pythonhosted.org/packages/75/91/dd6b43761b1a22f3670df733b0be6c18d57e8b55ae1890fe8b1742088a11/usearch-2.26.4-cp313-cp313-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:34:03.966109Z",
+   "digests": {
+    "sha256": "bb4cebd69e97062e906b5dbcb12c4e01a743059d1b4e2eade38c55c80fb4dbbc"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-musllinux_1_2_x86_64.whl",
+   "size": 2412049,
+   "url": "https://files.pythonhosted.org/packages/56/67/68a39f7136773c06df0fba11e0764c0fef4cf0177841bcd70e1cd3c284fd/usearch-2.26.4-cp313-cp313-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:05.862261Z",
+   "digests": {
+    "sha256": "c12ad4d9d0b64cb24414d7282a3f4ab70ddee1670810e1a82a41539fb02b2f7c"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-win_amd64.whl",
+   "size": 346833,
+   "url": "https://files.pythonhosted.org/packages/d9/18/c9b4de52fc374ab8915a578e2e33c7991154c79800d8648e5282299c4bda/usearch-2.26.4-cp313-cp313-win_amd64.whl",
+   "upload_time": "2026-10-05T18:34:07.816449Z",
+   "digests": {
+    "sha256": "ae7f4edbde7b71ed642ff7f8ba53ae774654c333b1ead0a8501f23d649438fdd"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp313-cp313-win_arm64.whl",
+   "size": 342611,
+   "url": "https://files.pythonhosted.org/packages/2e/a1/fcd330e2ec96e30ad0dbbaead1c9eb1e32cbe534e93d130e6f2c0b529033/usearch-2.26.4-cp313-cp313-win_arm64.whl",
+   "upload_time": "2026-10-05T18:34:09.464332Z",
+   "digests": {
+    "sha256": "5b5a73b5945603a194ac7c3567c6df12f064f20bc630db50271d27e68c45fd60"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-macosx_10_15_universal2.whl",
+   "size": 883640,
+   "url": "https://files.pythonhosted.org/packages/5f/40/9df7972453cabf1fd8634fd9d8e449828d7459f365e14b3a858437d3150d/usearch-2.26.4-cp314-cp314-macosx_10_15_universal2.whl",
+   "upload_time": "2026-10-05T18:34:11.183559Z",
+   "digests": {
+    "sha256": "283767a58ede8f8304afa23fdd495424970d4e59455f4a930ef9b39e41392eca"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-macosx_10_15_x86_64.whl",
+   "size": 476395,
+   "url": "https://files.pythonhosted.org/packages/9d/9e/d00b86df23ce2df511aeb0ab798df6c243b27b070f1d2b740bb7bf159a25/usearch-2.26.4-cp314-cp314-macosx_10_15_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:13.072926Z",
+   "digests": {
+    "sha256": "c68a5c79c1e36f3e74cbbadc5e3f1618f8ce6aa1c620fd9c9265ee21b1ff7807"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-macosx_11_0_arm64.whl",
+   "size": 453574,
+   "url": "https://files.pythonhosted.org/packages/3b/b3/96d395eb154091098367f1289df0fa9aea21bb98864e5838c5740bcfa64a/usearch-2.26.4-cp314-cp314-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:34:14.829490Z",
+   "digests": {
+    "sha256": "74dcd0585f89d1ff80bedac4589d81f984dd05df87aa2a8796474e09d02d76c0"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2260521,
+   "url": "https://files.pythonhosted.org/packages/c8/2f/3b2115c049d71c982db813818b3f1a6d5edbed1d63bf6011f00164224341/usearch-2.26.4-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:34:16.796470Z",
+   "digests": {
+    "sha256": "3ed271f86064dc710cb06f75c61fb781d408b299da5f418bcd329df93f1b6c1d"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2353711,
+   "url": "https://files.pythonhosted.org/packages/b7/87/792b1da7f90b8d74bf9658ac2a12029499af0fefeae33541082c3821b830/usearch-2.26.4-cp314-cp314-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:18.843071Z",
+   "digests": {
+    "sha256": "279cc0dc66033f3413b179826cec87dc1f53d7639711cd32f66e2af0633d6cf3"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-musllinux_1_2_aarch64.whl",
+   "size": 2316437,
+   "url": "https://files.pythonhosted.org/packages/82/1d/daa8b82d5ed463d12b0e614806bfa8a0f66fbea64a3e0542441904dbbd36/usearch-2.26.4-cp314-cp314-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:34:20.942764Z",
+   "digests": {
+    "sha256": "cfda64ee12c5ea2ef95c650688367fbe9ebd737f595afec9779a5d197ee75328"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-musllinux_1_2_x86_64.whl",
+   "size": 2413530,
+   "url": "https://files.pythonhosted.org/packages/2e/f7/1db292ed7f3cc72c1e5d23f94e29972b88aaf7cd764b84b2fe603f4c3477/usearch-2.26.4-cp314-cp314-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:23.168043Z",
+   "digests": {
+    "sha256": "e2d6d145bec80f02382a0ac7bad80fe3324cc127363a56413adb8018563ae98e"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-macosx_10_15_universal2.whl",
+   "size": 917323,
+   "url": "https://files.pythonhosted.org/packages/18/0f/daba5b27b4f42b06b8e7b4db48eb5dad88d150719fe3b87702a7d0f9cb27/usearch-2.26.4-cp314-cp314t-macosx_10_15_universal2.whl",
+   "upload_time": "2026-10-05T18:34:28.904866Z",
+   "digests": {
+    "sha256": "1bde7ae6e206ae7bd1e87c45ab4a16e679f99d1d5858f3391154ebf0eaac7eb1"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-macosx_10_15_x86_64.whl",
+   "size": 491903,
+   "url": "https://files.pythonhosted.org/packages/32/d9/cab3baa3c049364800da44adbdbcc4ff37608ef41f8885301c5c04b85224/usearch-2.26.4-cp314-cp314t-macosx_10_15_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:30.995810Z",
+   "digests": {
+    "sha256": "6984c457d780f9c97d1ce6b4f6a267789a1e0540c8360b887d398f3e935dd93a"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-macosx_11_0_arm64.whl",
+   "size": 474107,
+   "url": "https://files.pythonhosted.org/packages/ca/a9/a81c7ff577f6f8ff715166e3b0e58826e15cfd255c2fb61dd005b82d2e23/usearch-2.26.4-cp314-cp314t-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-05T18:34:32.824171Z",
+   "digests": {
+    "sha256": "91445fdabf1b3fef70d92a2a16c1ea0f8f97d2d4700398e2995f3ca105b50485"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "size": 2266858,
+   "url": "https://files.pythonhosted.org/packages/d9/4d/f120e576f1674a0a4805551a662fa794dbea790c6e36e75de0976ff607d4/usearch-2.26.4-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-05T18:34:35.003158Z",
+   "digests": {
+    "sha256": "84ecc0b61c080e9ad6d726138a2c25d80958e283075bacf952126e53e6bf33f8"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "size": 2361640,
+   "url": "https://files.pythonhosted.org/packages/e7/11/6ad2cd7bb3d8a0a9b5b8ecb9d8f326f35c527f50f77bd0f4b1b888c2de91/usearch-2.26.4-cp314-cp314t-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:37.189219Z",
+   "digests": {
+    "sha256": "680284e9994468934f21605b36b8f4f8f453cac588e2fcffccbec22f9f14c896"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-musllinux_1_2_aarch64.whl",
+   "size": 2321942,
+   "url": "https://files.pythonhosted.org/packages/a7/84/8c9441d8ea37a68c29e6064791db8323ba469da9f566e80a15e0691ce5f2/usearch-2.26.4-cp314-cp314t-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-05T18:34:39.405668Z",
+   "digests": {
+    "sha256": "bbad80d6bb98f966af39401a1f4448ce2b7af35a4512ed346d6236679a189ece"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-musllinux_1_2_x86_64.whl",
+   "size": 2421664,
+   "url": "https://files.pythonhosted.org/packages/a2/65/15f4d34d5dd457b806a4145e25658a994656f244fa9aec8a37c79a348469/usearch-2.26.4-cp314-cp314t-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-05T18:34:41.741446Z",
+   "digests": {
+    "sha256": "4b4f9600bac5ab02e2af2b85dbe9c62b6e4923c20383e8daae12f573f26e06ae"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-win_amd64.whl",
+   "size": 375818,
+   "url": "https://files.pythonhosted.org/packages/df/a2/f1fd6147246aba556de11a08157fe4ea8488411a9d55b70cd95563e64ff2/usearch-2.26.4-cp314-cp314t-win_amd64.whl",
+   "upload_time": "2026-10-05T18:34:43.811839Z",
+   "digests": {
+    "sha256": "1735a39bb1eee33f3b3b0f4f1e458927cdc147272a02c2b768e7afbe69afeb97"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314t-win_arm64.whl",
+   "size": 361058,
+   "url": "https://files.pythonhosted.org/packages/8e/0a/50913323f2f7fc88f3e7ab885034fc530c6a7e2bee70e7bc1e8bf84bcfb4/usearch-2.26.4-cp314-cp314t-win_arm64.whl",
+   "upload_time": "2026-10-05T18:34:45.608302Z",
+   "digests": {
+    "sha256": "453bed57fde43d04f1f137c06479287848d987e79a29b366b5512bfac26b1cef"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-win_amd64.whl",
+   "size": 357152,
+   "url": "https://files.pythonhosted.org/packages/a0/6b/1816c7b5c2e4c31e129decda1dbd375612a490770b2f34493711e3ee0c99/usearch-2.26.4-cp314-cp314-win_amd64.whl",
+   "upload_time": "2026-10-05T18:34:25.065153Z",
+   "digests": {
+    "sha256": "71274da63efd0f044230bdaa85bd427f42dcfcbc3a8d10c822d8413c585b97e2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4-cp314-cp314-win_arm64.whl",
+   "size": 352527,
+   "url": "https://files.pythonhosted.org/packages/0f/db/a07510ab2f7870f7165a5c50b5e21bf84e94fbff698ca24c014a3ce0b4c6/usearch-2.26.4-cp314-cp314-win_arm64.whl",
+   "upload_time": "2026-10-05T18:34:26.755245Z",
+   "digests": {
+    "sha256": "056733c2d53508e78779b0d77ff2202817efaafcd1fd5332167a665dd919bae2"
+   }
+  },
+  {
+   "filename": "usearch-2.26.4.tar.gz",
+   "size": 1078571,
+   "url": "https://files.pythonhosted.org/packages/bc/e2/9bd4afaebc7ad0491adec953a78f0d60e11c907e087aa5a2124ee87de753/usearch-2.26.4.tar.gz",
+   "upload_time": "2026-10-05T18:34:47.478370Z",
+   "digests": {
+    "sha256": "28c7048662e6256e15f1a0543e221732e1def22db2f10ae21492d8b1a92172ce"
+   }
+  }
+ ],
+ "n_releases_total": 159
+}

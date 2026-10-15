@@ -1,0 +1,64 @@
+{
+ "package": "trulens",
+ "queried": "trulens",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/trulens/json",
+ "info": {
+  "name": "trulens",
+  "version": "2.15.0",
+  "summary": "Library to systematically track and evaluate LLM based applications.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0,>=3.10",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 3 - Alpha",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14"
+  ],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://trulens.org/getting_started/",
+   "Homepage": "https://trulens.org/",
+   "Repository": "https://github.com/truera/trulens"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "opentelemetry-exporter-otlp-proto-grpc>=1.23.0; extra == \"otlp\"",
+   "trulens-core<3.0.0,>=2.0.0",
+   "trulens-dashboard[full]<3.0.0,>=2.0.0",
+   "trulens-feedback<3.0.0,>=2.0.0",
+   "trulens-otel-semconv<3.0.0,>=2.0.0",
+   "trulens_eval<3.0.0,>=2.0.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "trulens-2.15.0-py3-none-any.whl",
+   "size": 6020,
+   "url": "https://files.pythonhosted.org/packages/09/d7/cf0550bd32931da0f131ed9f06ab26a9bf5ff9abcd98ee00360fa5e39ff7/trulens-2.15.0-py3-none-any.whl",
+   "upload_time": "2026-10-05T13:42:45.498674Z",
+   "digests": {
+    "sha256": "7cd44c989c987edb039dba51bb385d0dc1d618759b1c3d0de49728a5e54300a2"
+   }
+  },
+  {
+   "filename": "trulens-2.15.0.tar.gz",
+   "size": 6838,
+   "url": "https://files.pythonhosted.org/packages/49/88/b6157a3df546d3cc09452700a77361f48071e4d35d865d839e207020fa0a/trulens-2.15.0.tar.gz",
+   "upload_time": "2026-10-05T13:43:08.568333Z",
+   "digests": {
+    "sha256": "e932df6cc1bdc8e5013e8d6cc51b16c0b28c2e08039320c956b6b2d81c9175d7"
+   }
+  }
+ ],
+ "n_releases_total": 112
+}

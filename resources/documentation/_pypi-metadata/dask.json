@@ -1,0 +1,87 @@
+{
+ "package": "dask",
+ "queried": "dask",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/dask/json",
+ "info": {
+  "name": "dask",
+  "version": "2026.8.0",
+  "summary": "Parallel PyData with Task Scheduling",
+  "description_content_type": "text/x-rst",
+  "requires_python": ">=3.10",
+  "license_expression": "BSD-3-Clause",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Science/Research",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: Free Threading :: 1 - Unstable",
+   "Topic :: Scientific/Engineering",
+   "Topic :: System :: Distributed Computing"
+  ],
+  "keywords": "task-scheduling parallel numpy pandas pydata",
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/dask/dask/"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "click>=8.1",
+   "cloudpickle>=3.0.0",
+   "fsspec>=2021.09.0",
+   "packaging>=20.0",
+   "partd>=1.4.0",
+   "pyyaml>=5.4.1",
+   "toolz>=0.12.0",
+   "importlib_metadata>=4.13.0; python_version < \"3.12\"",
+   "numpy>=1.24; extra == \"array\"",
+   "dask[array]; extra == \"dataframe\"",
+   "pandas>=2.0; extra == \"dataframe\"",
+   "pyarrow>=16.0; extra == \"dataframe\"",
+   "distributed<2026.8.1,>=2026.8.0; extra == \"distributed\"",
+   "bokeh>=3.1.0; extra == \"diagnostics\"",
+   "jinja2>=2.10.3; extra == \"diagnostics\"",
+   "dask[array,dataframe,diagnostics,distributed]; extra == \"complete\"",
+   "lz4>=4.3.2; extra == \"complete\"",
+   "pandas[test]; extra == \"test\"",
+   "pytest; extra == \"test\"",
+   "pytest-cov; extra == \"test\"",
+   "pytest-mock; extra == \"test\"",
+   "pytest-rerunfailures; extra == \"test\"",
+   "pytest-timeout; extra == \"test\"",
+   "pytest-xdist; extra == \"test\"",
+   "pre-commit; extra == \"test\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "dask-2026.8.0-py3-none-any.whl",
+   "size": 1492182,
+   "url": "https://files.pythonhosted.org/packages/f8/3a/4fc99e788bcfa1b3b3f21abf57da45898d807d007e7f6fd1c7300904eb70/dask-2026.8.0-py3-none-any.whl",
+   "upload_time": "2026-08-24T19:21:23.997339Z",
+   "digests": {
+    "sha256": "ccc0c83a189b0398602435189771d28dad7b5773b6089bb8dce14ae732dd782c"
+   }
+  },
+  {
+   "filename": "dask-2026.8.0.tar.gz",
+   "size": 11561752,
+   "url": "https://files.pythonhosted.org/packages/33/a7/6b3c7ac32b642fbbe0821111654e0bd8cfbe88f68560bcf23cc78ab35c71/dask-2026.8.0.tar.gz",
+   "upload_time": "2026-08-24T19:21:25.906788Z",
+   "digests": {
+    "sha256": "8a94c37b5de6d869343340dc26c3c3acca7ec48a3abdabe00ea3abb1125884d5"
+   }
+  }
+ ],
+ "n_releases_total": 239
+}

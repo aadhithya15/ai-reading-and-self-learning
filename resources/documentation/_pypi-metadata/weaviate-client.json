@@ -1,0 +1,57 @@
+{
+ "package": "weaviate-client",
+ "queried": "weaviate-client",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/weaviate-client/json",
+ "info": {
+  "name": "weaviate-client",
+  "version": "4.23.1",
+  "summary": "A python native Weaviate client",
+  "description_content_type": "text/x-rst; charset=UTF-8",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "BSD 3-clause",
+  "classifiers": [],
+  "keywords": null,
+  "home_page": "https://github.com/weaviate/weaviate-python-client",
+  "project_urls": {
+   "Documentation": "https://weaviate-python-client.readthedocs.io",
+   "Homepage": "https://github.com/weaviate/weaviate-python-client",
+   "Source": "https://github.com/weaviate/weaviate-python-client",
+   "Tracker": "https://github.com/weaviate/weaviate-python-client/issues"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "httpx<0.29.0,>=0.26.0",
+   "validators<1.0.0,>=0.34.0",
+   "authlib<2.0.0,>=1.6.7",
+   "pydantic<3.0.0,>=2.12.0",
+   "grpcio<1.80.0,>=1.59.5",
+   "protobuf<7.0.0,>=4.21.6",
+   "packaging>=21.0",
+   "weaviate-agents<2.0.0,>=1.0.0; extra == \"agents\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "weaviate_client-4.23.1-py3-none-any.whl",
+   "size": 660496,
+   "url": "https://files.pythonhosted.org/packages/a1/4f/d427adf3bcb3c2859bd047e5b7a50b87065d48a0c9260f7dcc47745d1edd/weaviate_client-4.23.1-py3-none-any.whl",
+   "upload_time": "2026-09-07T08:01:23.379297Z",
+   "digests": {
+    "sha256": "d1e0c86ff86dfb4c3a483a4f58deec438274acc94f5c77570534c5572e44a53a"
+   }
+  },
+  {
+   "filename": "weaviate_client-4.23.1.tar.gz",
+   "size": 880709,
+   "url": "https://files.pythonhosted.org/packages/fc/19/71453c55e78bd971b7b0ce5c1bc35c85e0daa80dce09102f80cf21044e2e/weaviate_client-4.23.1.tar.gz",
+   "upload_time": "2026-09-07T08:01:25.133533Z",
+   "digests": {
+    "sha256": "0c0f249b5a5b813d7e98d9eb33e17a0eb06a3bff047de23a3e41311aa82feb0d"
+   }
+  }
+ ],
+ "n_releases_total": 296
+}

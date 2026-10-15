@@ -1,0 +1,63 @@
+{
+ "package": "langchain-community",
+ "queried": "langchain-community",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/langchain-community/json",
+ "info": {
+  "name": "langchain-community",
+  "version": "0.4.2",
+  "summary": "Community contributed LangChain integrations.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0.0,>=3.10.0",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://reference.langchain.com/python/langchain_community/",
+   "Homepage": "https://docs.langchain.com/",
+   "Reddit": "https://www.reddit.com/r/LangChain/",
+   "Slack": "https://www.langchain.com/join-community",
+   "Source": "https://github.com/langchain-ai/langchain-community/tree/main/libs/community",
+   "Twitter": "https://x.com/LangChainAI"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "aiohttp<4.0.0,>=3.8.3",
+   "httpx-sse<1.0.0,>=0.4.0",
+   "langchain-classic<2.0.0,>=1.0.7",
+   "langchain-core<2.0.0,>=1.4.0",
+   "langsmith<1.0.0,>=0.1.125",
+   "numpy>=1.26.2; python_version < \"3.13\"",
+   "numpy>=2.1.0; python_version >= \"3.13\"",
+   "pydantic-settings<3.0.0,>=2.10.1",
+   "pyyaml<7.0.0,>=5.3.0",
+   "requests<3.0.0,>=2.32.5",
+   "sqlalchemy<3.0.0,>=1.4.0",
+   "tenacity!=8.4.0,<10.0.0,>=8.1.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "langchain_community-0.4.2-py3-none-any.whl",
+   "size": 2364406,
+   "url": "https://files.pythonhosted.org/packages/8f/39/5d97e42a3e95dc2a6d71b2f902a3fae71786131e11d01bddb604accb0ebe/langchain_community-0.4.2-py3-none-any.whl",
+   "upload_time": "2026-05-22T19:42:57.103325Z",
+   "digests": {
+    "sha256": "84dd8c5122532394d5b6849a5fc9995ef28e4f77227daeb09f24b3d942e9e466"
+   }
+  },
+  {
+   "filename": "langchain_community-0.4.2.tar.gz",
+   "size": 33268708,
+   "url": "https://files.pythonhosted.org/packages/ea/0c/e3aca1f2b1c5b95f8b87cb2b6e81a6f20d538c07a128419dc01cef0617b6/langchain_community-0.4.2.tar.gz",
+   "upload_time": "2026-05-22T19:42:59.374472Z",
+   "digests": {
+    "sha256": "a99308160d53d7e9b5965ee665e5173709914338210089fd5788ad724432c21e"
+   }
+  }
+ ],
+ "n_releases_total": 99
+}

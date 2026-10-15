@@ -1,0 +1,69 @@
+{
+ "package": "promptfoo",
+ "queried": "promptfoo",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/promptfoo/json",
+ "info": {
+  "name": "promptfoo",
+  "version": "0.2.0",
+  "summary": "Python wrapper for the promptfoo CLI - LLM testing, red teaming, and security evaluation",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: Security",
+   "Topic :: Software Development :: Testing"
+  ],
+  "keywords": "ai, evaluation, llm, promptfoo, red-team, security, testing",
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://www.promptfoo.dev/docs",
+   "Homepage": "https://www.promptfoo.dev",
+   "Repository": "https://github.com/promptfoo/promptfoo-python"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "posthog>=3.0.0",
+   "pyyaml>=6.0.0",
+   "mypy>=1.16.0; extra == \"dev\"",
+   "pyright>=1.1.400; extra == \"dev\"",
+   "pytest>=8.4.0; extra == \"dev\"",
+   "ruff>=0.12.0; extra == \"dev\"",
+   "types-pyyaml>=6.0.0; extra == \"dev\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "promptfoo-0.2.0-py3-none-any.whl",
+   "size": 18912,
+   "url": "https://files.pythonhosted.org/packages/5a/15/aa0d50afacc25faa7683f8a439b8f514b63786045863924083c3b1de229e/promptfoo-0.2.0-py3-none-any.whl",
+   "upload_time": "2026-09-18T19:52:49.745670Z",
+   "digests": {
+    "sha256": "0cc486d7dc2295a25408a6a65abf88d7ca930e155d3417d5eeb6b44d11d449d5"
+   }
+  },
+  {
+   "filename": "promptfoo-0.2.0.tar.gz",
+   "size": 18270,
+   "url": "https://files.pythonhosted.org/packages/8b/51/2de1946d1bd17af29b1642792375baeb9faba4076e3f1a6a2648b66024ec/promptfoo-0.2.0.tar.gz",
+   "upload_time": "2026-09-18T19:52:51.393674Z",
+   "digests": {
+    "sha256": "57cbb377bc6320e41fe64396f8a92f9377210914f6559eae3c26c8ab1bfdac21"
+   }
+  }
+ ],
+ "n_releases_total": 6
+}

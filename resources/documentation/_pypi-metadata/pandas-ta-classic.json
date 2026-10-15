@@ -1,0 +1,86 @@
+{
+ "package": "pandas-ta-classic",
+ "queried": "pandas-ta-classic",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pandas-ta-classic/json",
+ "info": {
+  "name": "pandas-ta-classic",
+  "version": "0.8.32",
+  "summary": "Technical Analysis Indicators - Pandas TA Classic is an easy to use Python 3 Pandas Extension with a comprehensive collection of indicators and TA-Lib patterns.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "Natural Language :: English",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering",
+   "Topic :: Scientific/Engineering :: Information Analysis"
+  ],
+  "keywords": "technical analysis, trading, python3, pandas",
+  "home_page": null,
+  "project_urls": {
+   "Bug Tracker": "https://github.com/xgboosted/pandas-ta-classic/issues",
+   "Documentation": "https://xgboosted.github.io/pandas-ta-classic/",
+   "Homepage": "https://github.com/xgboosted/pandas-ta-classic",
+   "Repository": "https://github.com/xgboosted/pandas-ta-classic.git"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=2.0.0",
+   "pandas>=2.0.0",
+   "tqdm; extra == \"optional\"",
+   "ta-lib>=0.6.8; extra == \"oracle\"",
+   "ruff>=0.15.20; extra == \"lint\"",
+   "black>=26.5.1; extra == \"lint\"",
+   "build>=0.10.0; extra == \"publish\"",
+   "twine>=4.0.0; extra == \"publish\"",
+   "setuptools-scm>=7.0.0; extra == \"publish\"",
+   "pandas-ta-classic[test]; extra == \"dev\"",
+   "pandas-ta-classic[docs]; extra == \"dev\"",
+   "pandas-ta-classic[lint]; extra == \"dev\"",
+   "pandas-ta-classic[publish]; extra == \"dev\"",
+   "mypy>=1.0.0; extra == \"dev\"",
+   "pre-commit>=3.0.0; extra == \"dev\"",
+   "pytest>=7.0.0; extra == \"test\"",
+   "hypothesis>=6.0.0; extra == \"test\"",
+   "sphinx>=5.0.0; extra == \"docs\"",
+   "sphinx-rtd-theme>=1.0.0; extra == \"docs\"",
+   "myst-parser>=2.0.0; extra == \"docs\"",
+   "matplotlib; extra == \"docs\"",
+   "mplfinance; extra == \"docs\"",
+   "numba>=0.58.0; extra == \"performance\"",
+   "yfinance; extra == \"data\"",
+   "alpha-vantage; extra == \"data\"",
+   "backtesting; extra == \"backtest\"",
+   "vectorbt; extra == \"backtest\"",
+   "backtrader; extra == \"backtest\"",
+   "pandas-ta-classic[backtest,data]; extra == \"integration\"",
+   "pandas-ta-classic[dev,docs,optional,oracle,performance,test]; extra == \"all\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pandas_ta_classic-0.8.32-py3-none-any.whl",
+   "size": 418581,
+   "url": "https://files.pythonhosted.org/packages/aa/d0/51037bdd1ae5b8570c2717342fdaf79eed27ab460c48e57ec672635e453a/pandas_ta_classic-0.8.32-py3-none-any.whl",
+   "upload_time": "2026-09-14T09:34:08.266422Z",
+   "digests": {
+    "sha256": "e8e1ede0c13d5927d28c91dce3d5ab2c71a1fb7f2e62fb61fe95178d4ab768e0"
+   }
+  }
+ ],
+ "n_releases_total": 13
+}

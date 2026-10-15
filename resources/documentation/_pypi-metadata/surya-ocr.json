@@ -1,0 +1,64 @@
+{
+ "package": "surya-ocr",
+ "queried": "surya-ocr",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/surya-ocr/json",
+ "info": {
+  "name": "surya-ocr",
+  "version": "0.22.1",
+  "summary": "OCR, layout, reading order, and table recognition in 90+ languages.",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4,>=3.10",
+  "license_expression": null,
+  "license": "Apache-2.0",
+  "classifiers": [],
+  "keywords": "ocr, pdf, tables, text detection, text recognition",
+  "home_page": null,
+  "project_urls": {
+   "Repository": "https://github.com/datalab-to/surya"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "beautifulsoup4<5,>=4.12.0",
+   "click<9,>=8.1.8",
+   "filelock<4,>=3.16.0",
+   "filetype<2,>=1.2.0",
+   "httpx<1,>=0.27.0",
+   "huggingface-hub<2,>=1.5.0",
+   "openai<3,>=1.55.0",
+   "opencv-python-headless==4.11.0.86",
+   "pillow<11,>=10.2.0",
+   "platformdirs<5,>=4.3.6",
+   "pydantic-settings<3,>=2.1.0",
+   "pydantic<3,>=2.5.3",
+   "pypdfium2<6,>=5.10.1",
+   "python-dotenv<2,>=1.0.0",
+   "requests<3,>=2.28.0",
+   "torch<3,>=2.7.0",
+   "torchvision<1,>=0.20.0",
+   "transformers>=5.12.1"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "surya_ocr-0.22.1-py3-none-any.whl",
+   "size": 191800,
+   "url": "https://files.pythonhosted.org/packages/1c/6a/5fb9e3526a18d70d4b4047f0efe553dc7e199664cf40722d07ec3ff35351/surya_ocr-0.22.1-py3-none-any.whl",
+   "upload_time": "2026-07-20T19:31:26.244464Z",
+   "digests": {
+    "sha256": "f84cdba18b99cd8d010d19db8b89d79cdcd3d0cd4e3bdba52a473023ccd69a2d"
+   }
+  },
+  {
+   "filename": "surya_ocr-0.22.1.tar.gz",
+   "size": 25998043,
+   "url": "https://files.pythonhosted.org/packages/7d/34/05ffbb1c173d30a7a41b758d1c425c3ff0e7c97008a403db8b71615c15fd/surya_ocr-0.22.1.tar.gz",
+   "upload_time": "2026-07-20T19:31:29.567208Z",
+   "digests": {
+    "sha256": "792fc63d18cf648ed3608a3d0e3ed06ae627a31b08a8501d601bda4763ba6f9c"
+   }
+  }
+ ],
+ "n_releases_total": 94
+}

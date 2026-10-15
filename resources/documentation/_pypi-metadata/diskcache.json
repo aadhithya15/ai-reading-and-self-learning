@@ -1,0 +1,62 @@
+{
+ "package": "diskcache",
+ "queried": "diskcache",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/diskcache/json",
+ "info": {
+  "name": "diskcache",
+  "version": "5.6.3",
+  "summary": "Disk Cache -- Disk and file backed persistent cache.",
+  "description_content_type": "",
+  "requires_python": ">=3",
+  "license_expression": null,
+  "license": "Apache 2.0",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: Apache Software License",
+   "Natural Language :: English",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.5",
+   "Programming Language :: Python :: 3.6",
+   "Programming Language :: Python :: 3.7",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9",
+   "Programming Language :: Python :: Implementation :: CPython"
+  ],
+  "keywords": "",
+  "home_page": "http://www.grantjenks.com/docs/diskcache/",
+  "project_urls": {
+   "Documentation": "http://www.grantjenks.com/docs/diskcache/",
+   "Funding": "https://gum.co/diskcache",
+   "Homepage": "http://www.grantjenks.com/docs/diskcache/",
+   "Source": "https://github.com/grantjenks/python-diskcache",
+   "Tracker": "https://github.com/grantjenks/python-diskcache/issues"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": null
+ },
+ "release_files": [
+  {
+   "filename": "diskcache-5.6.3-py3-none-any.whl",
+   "size": 45550,
+   "url": "https://files.pythonhosted.org/packages/3f/27/4570e78fc0bf5ea0ca45eb1de3818a23787af9b390c0b0a0033a1b8236f9/diskcache-5.6.3-py3-none-any.whl",
+   "upload_time": "2023-08-31T06:11:58.822453Z",
+   "digests": {
+    "sha256": "5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19"
+   }
+  },
+  {
+   "filename": "diskcache-5.6.3.tar.gz",
+   "size": 67916,
+   "url": "https://files.pythonhosted.org/packages/3f/21/1c1ffc1a039ddcc459db43cc108658f32c57d271d7289a2794e401d0fdb6/diskcache-5.6.3.tar.gz",
+   "upload_time": "2023-08-31T06:12:00.316130Z",
+   "digests": {
+    "sha256": "2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc"
+   }
+  }
+ ],
+ "n_releases_total": 84
+}

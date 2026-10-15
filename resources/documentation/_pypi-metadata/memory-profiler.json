@@ -1,0 +1,57 @@
+{
+ "package": "memory-profiler",
+ "queried": "memory-profiler",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/memory-profiler/json",
+ "info": {
+  "name": "memory-profiler",
+  "version": "0.61.0",
+  "summary": "A module for monitoring memory usage of a python program",
+  "description_content_type": "",
+  "requires_python": ">=3.5",
+  "license_expression": null,
+  "license": "BSD",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: BSD License",
+   "Operating System :: POSIX",
+   "Operating System :: Unix",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Topic :: Software Development"
+  ],
+  "keywords": "",
+  "home_page": "https://github.com/pythonprofilers/memory_profiler",
+  "project_urls": {
+   "Homepage": "https://github.com/pythonprofilers/memory_profiler"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "psutil"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "memory_profiler-0.61.0-py3-none-any.whl",
+   "size": 31803,
+   "url": "https://files.pythonhosted.org/packages/49/26/aaca612a0634ceede20682e692a6c55e35a94c21ba36b807cc40fe910ae1/memory_profiler-0.61.0-py3-none-any.whl",
+   "upload_time": "2022-11-15T17:57:27.031808Z",
+   "digests": {
+    "sha256": "400348e61031e3942ad4d4109d18753b2fb08c2f6fb8290671c5513a34182d84"
+   }
+  },
+  {
+   "filename": "memory_profiler-0.61.0.tar.gz",
+   "size": 35935,
+   "url": "https://files.pythonhosted.org/packages/b2/88/e1907e1ca3488f2d9507ca8b0ae1add7b1cd5d3ca2bc8e5b329382ea2c7b/memory_profiler-0.61.0.tar.gz",
+   "upload_time": "2022-11-15T17:57:28.994274Z",
+   "digests": {
+    "sha256": "4e5b73d7864a1d1292fb76a03e82a3e78ef934d06828a698d9dada76da2067b0"
+   }
+  }
+ ],
+ "n_releases_total": 58
+}

@@ -1,0 +1,62 @@
+{
+ "package": "pdfminer.six",
+ "queried": "pdfminer.six",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pdfminer.six/json",
+ "info": {
+  "name": "pdfminer.six",
+  "version": "20260107",
+  "summary": "PDF parser and analyzer",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Environment :: Console",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Science/Research",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Text Processing"
+  ],
+  "keywords": "layout analysis, pdf converter, pdf parser, text mining",
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://github.com/pdfminer/pdfminer.six"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "charset-normalizer>=2.0.0",
+   "cryptography>=36.0.0",
+   "Pillow; extra == \"image\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pdfminer_six-20260107-py3-none-any.whl",
+   "size": 6592252,
+   "url": "https://files.pythonhosted.org/packages/20/8b/28c4eaec9d6b036a52cb44720408f26b1a143ca9bce76cc19e8f5de00ab4/pdfminer_six-20260107-py3-none-any.whl",
+   "upload_time": "2026-01-07T13:29:10.742517Z",
+   "digests": {
+    "sha256": "366585ba97e80dffa8f00cebe303d2f381884d8637af4ce422f1df3ef38111a9"
+   }
+  },
+  {
+   "filename": "pdfminer_six-20260107.tar.gz",
+   "size": 8512094,
+   "url": "https://files.pythonhosted.org/packages/34/a4/5cec1112009f0439a5ca6afa8ace321f0ab2f48da3255b7a1c8953014670/pdfminer_six-20260107.tar.gz",
+   "upload_time": "2026-01-07T13:29:12.937407Z",
+   "digests": {
+    "sha256": "96bfd431e3577a55a0efd25676968ca4ce8fd5b53f14565f85716ff363889602"
+   }
+  }
+ ],
+ "n_releases_total": 37
+}

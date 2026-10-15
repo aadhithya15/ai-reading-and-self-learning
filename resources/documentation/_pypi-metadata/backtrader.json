@@ -1,0 +1,54 @@
+{
+ "package": "backtrader",
+ "queried": "backtrader",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/backtrader/json",
+ "info": {
+  "name": "backtrader",
+  "version": "1.9.78.123",
+  "summary": "BackTesting Engine",
+  "description_content_type": "",
+  "requires_python": "",
+  "license_expression": null,
+  "license": "GPLv3+",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Financial and Insurance Industry",
+   "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.2",
+   "Programming Language :: Python :: 3.3",
+   "Programming Language :: Python :: 3.4",
+   "Programming Language :: Python :: 3.5",
+   "Programming Language :: Python :: 3.6",
+   "Programming Language :: Python :: 3.7",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Software Development"
+  ],
+  "keywords": "trading,development",
+  "home_page": "https://github.com/mementum/backtrader",
+  "project_urls": {
+   "Download": "https://github.com/mementum/backtrader/tarball/1.9.78.123",
+   "Homepage": "https://github.com/mementum/backtrader"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "matplotlib ; extra == 'plotting'"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "backtrader-1.9.78.123-py2.py3-none-any.whl",
+   "size": 419517,
+   "url": "https://files.pythonhosted.org/packages/f3/ef/328c6ec332435f63b3e18febd263686b8ba07e990676a862cc8522ba38f5/backtrader-1.9.78.123-py2.py3-none-any.whl",
+   "upload_time": "2023-04-19T14:13:18.842786Z",
+   "digests": {
+    "sha256": "9a07a516b0de9155539a35c56e9404d8711dd7020b3d37b30495e83e1b9d5dfd"
+   }
+  }
+ ],
+ "n_releases_total": 5
+}

@@ -1,0 +1,48 @@
+{
+ "package": "reflexion",
+ "queried": "reflexion",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/reflexion/json",
+ "info": {
+  "name": "reflexion",
+  "version": "0.0.1",
+  "summary": "",
+  "description_content_type": null,
+  "requires_python": "",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 1 - Planning",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Natural Language :: English",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.3",
+   "Programming Language :: Python :: 3.4",
+   "Programming Language :: Python :: 3.5",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "",
+  "home_page": "https://github.com/blackelk/reflexion",
+  "project_urls": {
+   "Homepage": "https://github.com/blackelk/reflexion"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": null
+ },
+ "release_files": [
+  {
+   "filename": "reflexion-0.0.1-py3-none-any.whl",
+   "size": 2583,
+   "url": "https://files.pythonhosted.org/packages/c1/a8/6a17567085869c2fdf489d5f66fbf505fbac28fec4c6a4bfb6af4ca1714b/reflexion-0.0.1-py3-none-any.whl",
+   "upload_time": "2017-12-07T00:23:55.088468Z",
+   "digests": {
+    "sha256": "736bd4869d05cb22add16f42176b9b7cb573fffb103efe6a0c4e7443b5302252"
+   }
+  }
+ ],
+ "n_releases_total": 1
+}

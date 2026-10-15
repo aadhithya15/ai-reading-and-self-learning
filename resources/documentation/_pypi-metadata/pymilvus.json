@@ -1,0 +1,75 @@
+{
+ "package": "pymilvus",
+ "queried": "pymilvus",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pymilvus/json",
+ "info": {
+  "name": "pymilvus",
+  "version": "3.0.2",
+  "summary": "Python SDK for Milvus",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": null,
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": "milvus, sdk, similarity search, vector database",
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://milvus.io",
+   "Issues": "https://github.com/milvus-io/pymilvus/issues",
+   "Repository": "https://github.com/milvus-io/pymilvus"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "cachetools>=5.0.0",
+   "grpcio!=1.68.0,!=1.68.1,!=1.69.0,!=1.70.0,!=1.70.1,!=1.71.0,!=1.72.1,!=1.73.0,>=1.66.2; python_version < \"3.14\"",
+   "grpcio>=1.75.1; python_version >= \"3.14\"",
+   "orjson>=3.10.15",
+   "pandas>=1.2.4",
+   "protobuf>=5.27.2",
+   "python-dotenv<2.0.0,>=1.0.1",
+   "requests>=2.20.0",
+   "xxhash>=3.0.0; extra == \"bloom-filter\"",
+   "azure-storage-blob; extra == \"bulk-writer\"",
+   "minio>=7.0.0; extra == \"bulk-writer\"",
+   "ml-dtypes; extra == \"bulk-writer\"",
+   "pyarrow>=12.0.0; extra == \"bulk-writer\"",
+   "requests; extra == \"bulk-writer\"",
+   "urllib3; extra == \"bulk-writer\"",
+   "milvus-lite>=2.4.0; sys_platform != \"win32\" and extra == \"milvus-lite\"",
+   "setuptools<82; python_version < \"3.10\" and extra == \"milvus-lite\"",
+   "pymilvus-model>=0.3.0; extra == \"model\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pymilvus-3.0.2-py3-none-any.whl",
+   "size": 417694,
+   "url": "https://files.pythonhosted.org/packages/88/76/7155ce419d3a4525571b27e317c80b2f69b874ce75bdecfb9ffe3fe3b6ab/pymilvus-3.0.2-py3-none-any.whl",
+   "upload_time": "2026-09-18T08:54:12.848996Z",
+   "digests": {
+    "sha256": "0ec7ca3a7d24d2ce13b2610c577f0978b08f461176222ea4dc1440375efc1cea"
+   }
+  },
+  {
+   "filename": "pymilvus-3.0.2.tar.gz",
+   "size": 376724,
+   "url": "https://files.pythonhosted.org/packages/bb/27/2707d1dba764495f3d54ae75a28e07f9e6090da224598df3551153ce07f2/pymilvus-3.0.2.tar.gz",
+   "upload_time": "2026-09-18T08:54:14.014678Z",
+   "digests": {
+    "sha256": "607ac1bcc96719c1716e0027d4a59c6411ad783fb934cbe0618b6d6c0831550d"
+   }
+  }
+ ],
+ "n_releases_total": 148
+}

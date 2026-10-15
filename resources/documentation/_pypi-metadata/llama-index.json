@@ -1,0 +1,56 @@
+{
+ "package": "llama-index",
+ "queried": "llama-index",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/llama-index/json",
+ "info": {
+  "name": "llama-index",
+  "version": "0.14.25",
+  "summary": "Interface between LLMs and your data",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4.0,>=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: Software Development :: Libraries :: Application Frameworks",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "LLM, NLP, RAG, data, devtools, index, retrieval",
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://docs.llamaindex.ai/en/stable/",
+   "Homepage": "https://llamaindex.ai",
+   "Repository": "https://github.com/run-llama/llama_index"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "llama-index-core<0.15.0,>=0.14.25",
+   "llama-index-embeddings-openai<0.7,>=0.6.0",
+   "llama-index-llms-openai<0.8,>=0.7.0",
+   "nltk>=3.9.3"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "llama_index-0.14.25-py3-none-any.whl",
+   "size": 6382,
+   "url": "https://files.pythonhosted.org/packages/11/3e/b549fcbeb990cbc271a185b32d719830c3328c9e37ffe0bda8160c803ec9/llama_index-0.14.25-py3-none-any.whl",
+   "upload_time": "2026-09-21T16:22:20.056831Z",
+   "digests": {
+    "sha256": "e5ddd3cc21705f54fd6495113307637059ca9f57c2c8251d1041f67936319e64"
+   }
+  },
+  {
+   "filename": "llama_index-0.14.25.tar.gz",
+   "size": 7832,
+   "url": "https://files.pythonhosted.org/packages/c4/ee/6821137066c61558d4b4aa0c7e99962538d6fd93d15732afd7a3cd6b86cf/llama_index-0.14.25.tar.gz",
+   "upload_time": "2026-09-21T16:22:21.028467Z",
+   "digests": {
+    "sha256": "242269bf0dec5f73733572d10866b34aba86f049549fd97612f554461f549e68"
+   }
+  }
+ ],
+ "n_releases_total": 505
+}

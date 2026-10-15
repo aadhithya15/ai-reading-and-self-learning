@@ -1,0 +1,74 @@
+{
+ "package": "backtesting",
+ "queried": "backtesting",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/backtesting/json",
+ "info": {
+  "name": "backtesting",
+  "version": "0.6.6",
+  "summary": "Backtest trading strategies in Python",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.9",
+  "license_expression": null,
+  "license": "AGPL-3.0",
+  "classifiers": [
+   "Framework :: Jupyter",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3 :: Only",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering :: Visualization"
+  ],
+  "keywords": "algo, algorithmic, ashi, backtest, backtesting, bitcoin, bokeh, bonds, candle, candlestick, cboe, chart, cme, commodities, crash, crypto, currency, doji, drawdown, equity, etf, ethereum, exchange, finance, financial, forecast, forex, fund, futures, fx, fxpro, gold, heiken, historical, indicator, invest, investing, investment, macd, market, mechanical, money, oanda, ohlc, ohlcv, order, price, profit, quant, quantitative, rsi, silver, simulation, stocks, strategy, ticker, trader, trading, tradingview, usd",
+  "home_page": "https://kernc.github.io/backtesting.py/",
+  "project_urls": {
+   "Documentation": "https://kernc.github.io/backtesting.py/doc/backtesting/",
+   "Homepage": "https://kernc.github.io/backtesting.py/",
+   "Source": "https://github.com/kernc/backtesting.py/",
+   "Tracker": "https://github.com/kernc/backtesting.py/issues"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy>=1.17.0",
+   "pandas!=0.25.0,>=0.25.0",
+   "bokeh!=3.0.*,!=3.2.*,>=3.0.0",
+   "pdoc3; extra == \"doc\"",
+   "jupytext>=1.3; extra == \"doc\"",
+   "nbconvert; extra == \"doc\"",
+   "ipykernel; extra == \"doc\"",
+   "jupyter_client; extra == \"doc\"",
+   "matplotlib; extra == \"test\"",
+   "scikit-learn; extra == \"test\"",
+   "sambo; extra == \"test\"",
+   "tqdm; extra == \"test\"",
+   "ipywidgets; extra == \"test\"",
+   "flake8; extra == \"dev\"",
+   "coverage; extra == \"dev\"",
+   "mypy; extra == \"dev\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "backtesting-0.6.6-py3-none-any.whl",
+   "size": 190843,
+   "url": "https://files.pythonhosted.org/packages/44/31/cac88cccbe547adb9f2b4f589c833a394f357ce04c28eff14f334d656b06/backtesting-0.6.6-py3-none-any.whl",
+   "upload_time": "2026-07-22T14:39:23.626152Z",
+   "digests": {
+    "sha256": "d2fc29ab6e10fbf44b05570720cef144d6d0d2ec8e183977114f2be9c5089b78"
+   }
+  },
+  {
+   "filename": "backtesting-0.6.6.tar.gz",
+   "size": 197242,
+   "url": "https://files.pythonhosted.org/packages/be/20/235f1785fe312793b33449e448cb71b1a20af7bf9b526327bb24dbd3f5fd/backtesting-0.6.6.tar.gz",
+   "upload_time": "2026-07-22T14:39:24.890953Z",
+   "digests": {
+    "sha256": "844af11c961fa0f47bfddb04b448416f93b02b731faadfa3df8b98a44081fd0b"
+   }
+  }
+ ],
+ "n_releases_total": 27
+}

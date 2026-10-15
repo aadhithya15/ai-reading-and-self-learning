@@ -1,0 +1,63 @@
+{
+ "package": "ragflow",
+ "queried": "ragflow",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/ragflow/json",
+ "info": {
+  "name": "ragflow",
+  "version": "0.0.1",
+  "summary": "Efficient Document-Based QA with Retrieval-Augmented Generation (RAG) and Large Language Models (LLM).",
+  "description_content_type": "text/markdown",
+  "requires_python": "",
+  "license_expression": null,
+  "license": "Apache 2.0",
+  "classifiers": [
+   "Development Status :: 4 - Beta",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9",
+   "Topic :: Scientific/Engineering",
+   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "",
+  "home_page": "https://github.com/breezedeus/ragflow",
+  "project_urls": {
+   "Homepage": "https://github.com/breezedeus/ragflow"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "click",
+   "tqdm",
+   "pip-tools ; extra == 'dev'",
+   "pytest ; extra == 'dev'"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "ragflow-0.0.1-py3-none-any.whl",
+   "size": 1490,
+   "url": "https://files.pythonhosted.org/packages/65/f9/d2e22312e1812c5f971f01289111b8bdadf411d8c2bda969be727cc2021a/ragflow-0.0.1-py3-none-any.whl",
+   "upload_time": "2023-11-20T03:25:38.263861Z",
+   "digests": {
+    "sha256": "fb0bc816aaf473f6a3908791187d3492ef92f2a2ff7625deed3a10ce7d1df2dc"
+   }
+  },
+  {
+   "filename": "ragflow-0.0.1.tar.gz",
+   "size": 2398,
+   "url": "https://files.pythonhosted.org/packages/73/d5/68292806f962aef917673505a0d766a81aa963b05e818009dab1fb1f6be3/ragflow-0.0.1.tar.gz",
+   "upload_time": "2023-11-20T03:25:49.076860Z",
+   "digests": {
+    "sha256": "5c7be4b3b458503563325ff5654e4afde245688fed31e93821b949245199ba0e"
+   }
+  }
+ ],
+ "n_releases_total": 1
+}

@@ -1,0 +1,208 @@
+{
+ "package": "litellm",
+ "queried": "litellm",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/litellm/json",
+ "info": {
+  "name": "litellm",
+  "version": "1.105.1",
+  "summary": "Library to easily interface with LLM API providers",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": "<3.15,>=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Documentation": "https://docs.litellm.ai",
+   "Homepage": "https://litellm.ai",
+   "Repository": "https://github.com/BerriAI/litellm"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "fastuuid<1.0,>=0.14.0",
+   "filelock<4.0,>=3.16.1",
+   "httpx[http2]<1.0,>=0.28.0",
+   "openai<3.0.0,>=2.20.0",
+   "python-dotenv<2.0,>=1.0.0",
+   "pyyaml<7.0,>=6.0.3",
+   "packaging>=24.0",
+   "importlib-metadata<9.0,>=8.0.0",
+   "tiktoken<1.0,>=0.8.0; python_full_version < \"3.14\"",
+   "tiktoken<1.0,>=0.12.0; python_full_version >= \"3.14\"",
+   "tokenizers<1.0,>=0.21.0",
+   "huggingface-hub<2.0,>=0.34.0",
+   "click<9.0,>=8.0.0",
+   "jinja2<4.0,>=3.1.6",
+   "aiohttp<4.0,>=3.14.2",
+   "pydantic<3.0.0,>=2.11.0; python_full_version < \"3.14\"",
+   "pydantic<3.0.0,>=2.12.0; python_full_version >= \"3.14\"",
+   "pydantic-settings<3.0,>=2.14.1",
+   "jsonschema<5.0,>=4.0.0",
+   "boto3<2.0,>=1.43.1",
+   "gunicorn<24.0,>=23.0.0; extra == \"proxy\"",
+   "uvicorn<1.0,>=0.33.0; extra == \"proxy\"",
+   "granian<3.0,>=2.7.4; extra == \"proxy\"",
+   "uvloop<1.0,>=0.22.1; sys_platform != \"win32\" and extra == \"proxy\"",
+   "fastapi<1.0,>=0.136.3; extra == \"proxy\"",
+   "starlette<2.0,>=1.0.1; extra == \"proxy\"",
+   "backoff<3.0,>=2.2.1; extra == \"proxy\"",
+   "pyyaml<7.0,>=6.0.3; extra == \"proxy\"",
+   "rq<3.0,>=2.7.0; extra == \"proxy\"",
+   "orjson<4.0,>=3.11.6; extra == \"proxy\"",
+   "hiredis<4.0,>=3.0.0; extra == \"proxy\"",
+   "apscheduler<4.0,>=3.11.2; extra == \"proxy\"",
+   "fastapi-sso<1.0,>=0.19.0; extra == \"proxy\"",
+   "pyjwt<3.0,>=2.13.0; extra == \"proxy\"",
+   "python-multipart<1.0,>=0.0.27; extra == \"proxy\"",
+   "cryptography<51.0,>=49.0.0; extra == \"proxy\"",
+   "pynacl<2.0,>=1.6.2; extra == \"proxy\"",
+   "websockets<16.0,>=15.0.1; extra == \"proxy\"",
+   "boto3<2.0,>=1.43.1; extra == \"proxy\"",
+   "azure-identity<2.0,>=1.25.2; extra == \"proxy\"",
+   "azure-storage-blob<13.0,>=12.28.0; extra == \"proxy\"",
+   "mcp<3,>=2.2.0; extra == \"proxy\"",
+   "httpx2<3,>=2.5.0; extra == \"proxy\"",
+   "pydantic<3,>=2.12.0; extra == \"proxy\"",
+   "litellm-proxy-extras==0.4.105; extra == \"proxy\"",
+   "litellm-enterprise==0.1.73; extra == \"proxy\"",
+   "restrictedpython<9.0,>=8.5; extra == \"proxy\"",
+   "rich<14.0,>=13.9.4; extra == \"proxy\"",
+   "inquirerpy<1.0,>=0.3.4; extra == \"proxy\"",
+   "tomlkit<1.0,>=0.13.3; extra == \"proxy\"",
+   "polars<2.0,>=1.38.1; extra == \"proxy\"",
+   "soundfile<1.0,>=0.12.1; extra == \"proxy\"",
+   "pyroscope-io<1.0,>=0.8.16; sys_platform != \"win32\" and extra == \"proxy\"",
+   "expression<6.0,>=5.6.0; extra == \"proxy\"",
+   "rich<14.0,>=13.9.4; extra == \"cli\"",
+   "pyyaml<7.0,>=6.0.3; extra == \"cli\"",
+   "requests<3.0,>=2.32.0; extra == \"cli\"",
+   "inquirerpy<1.0,>=0.3.4; extra == \"cli\"",
+   "keyring<26.0,>=25.6.0; extra == \"cli\"",
+   "tomlkit<1.0,>=0.13.3; extra == \"cli\"",
+   "prisma<1.0,>=0.11.0; extra == \"extra-proxy\"",
+   "psycopg<4.0,>=3.2; extra == \"extra-proxy\"",
+   "psycopg-binary<4.0,>=3.2; extra == \"extra-proxy\"",
+   "azure-identity<2.0,>=1.25.2; extra == \"extra-proxy\"",
+   "azure-keyvault-secrets<5.0,>=4.10.0; extra == \"extra-proxy\"",
+   "google-cloud-kms<3.0,>=2.24.2; extra == \"extra-proxy\"",
+   "google-cloud-iam<3.0,>=2.19.1; extra == \"extra-proxy\"",
+   "resend<3.0,>=2.23.0; extra == \"extra-proxy\"",
+   "redisvl<1.0,>=0.4.1; extra == \"extra-proxy\"",
+   "a2a-sdk<2.0,>=1.1.0; extra == \"extra-proxy\"",
+   "numpydoc<2.0,>=1.8.0; extra == \"utils\"",
+   "diskcache<6.0,>=5.6.3; extra == \"caching\"",
+   "mcp<3,>=2.2.0; extra == \"mcp\"",
+   "httpx2<3,>=2.5.0; extra == \"mcp\"",
+   "pydantic<3,>=2.12.0; extra == \"mcp\"",
+   "python3-saml<2.0,>=1.16.0; extra == \"saml\"",
+   "semantic-router<1.0,>=0.1.15; python_full_version < \"3.14\" and extra == \"semantic-router\"",
+   "aurelio-sdk<1.0,>=0.0.19; python_full_version < \"3.14\" and extra == \"semantic-router\"",
+   "mlflow<4.0,>=3.11.1; extra == \"mlflow\"",
+   "grpcio==1.78.0; extra == \"grpc\"",
+   "google-cloud-speech<3.0,>=2.40.0; extra == \"stt-vertex-chirp\"",
+   "nvidia-riva-client>=2.15.0; extra == \"stt-nvidia-riva\"",
+   "soundfile>=0.12.1; extra == \"stt-nvidia-riva\"",
+   "audioread>=3.0.1; extra == \"stt-nvidia-riva\"",
+   "numpy>=1.26.0; extra == \"stt-nvidia-riva\"",
+   "google-cloud-aiplatform<2.0,>=1.133.0; extra == \"google\"",
+   "aws-sdk-bedrock-runtime[awscrt]<0.12.0,>=0.10.0; python_full_version >= \"3.12\" and extra == \"bedrock-realtime\"",
+   "google-cloud-aiplatform<2.0,>=1.133.0; extra == \"proxy-runtime\"",
+   "google-cloud-speech<3.0,>=2.40.0; extra == \"proxy-runtime\"",
+   "google-genai<2.0,>=1.37.0; extra == \"proxy-runtime\"",
+   "anthropic[vertex]<1.0,>=0.84.0; extra == \"proxy-runtime\"",
+   "grpcio==1.78.0; extra == \"proxy-runtime\"",
+   "prometheus-client<1.0,>=0.20.0; extra == \"proxy-runtime\"",
+   "langfuse<5.0,>=4.7; extra == \"proxy-runtime\"",
+   "opentelemetry-api==1.33.1; extra == \"proxy-runtime\"",
+   "opentelemetry-sdk==1.33.1; extra == \"proxy-runtime\"",
+   "opentelemetry-exporter-otlp==1.33.1; extra == \"proxy-runtime\"",
+   "opentelemetry-instrumentation-fastapi==0.54b1; extra == \"proxy-runtime\"",
+   "ddtrace<5.0,>=4.8.2; extra == \"proxy-runtime\"",
+   "sentry-sdk<3.0,>=2.21.0; extra == \"proxy-runtime\"",
+   "mangum<1.0,>=0.17.0; extra == \"proxy-runtime\"",
+   "azure-ai-contentsafety<2.0,>=1.0.0; extra == \"proxy-runtime\"",
+   "azure-storage-file-datalake<13.0,>=12.20.0; extra == \"proxy-runtime\"",
+   "pypdf<7.0,>=6.16.1; extra == \"proxy-runtime\"",
+   "llm-sandbox<1.0,>=0.3.39; extra == \"proxy-runtime\"",
+   "detect-secrets<2.0,>=1.5.0; extra == \"proxy-runtime\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-macosx_10_12_x86_64.whl",
+   "size": 38069260,
+   "url": "https://files.pythonhosted.org/packages/d7/71/72b0e4c54a8fb0e10a35adb611f2f03febc27ac4fdf9b372c4f4a7d53442/litellm-1.105.1-cp310-abi3-macosx_10_12_x86_64.whl",
+   "upload_time": "2026-10-14T04:27:50.741914Z",
+   "digests": {
+    "sha256": "633886584ffb6421485349376f2c1666d4854fecc3ab8b1cdb24537817d4e1cc"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-macosx_11_0_arm64.whl",
+   "size": 36430187,
+   "url": "https://files.pythonhosted.org/packages/40/3b/a060486a4cb637d2aff7bedd2d9bdd807793cf8820153bca74fd14d7cbd4/litellm-1.105.1-cp310-abi3-macosx_11_0_arm64.whl",
+   "upload_time": "2026-10-14T04:27:55.416750Z",
+   "digests": {
+    "sha256": "3253da7d4967e367fb7e4e404b598a26037c45ba6d67a79356a81d3f8b9f9f3a"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "size": 37752535,
+   "url": "https://files.pythonhosted.org/packages/75/05/52960a61798299aaf333d0010d1010a55099aa22bdedea3958672a4ce571/litellm-1.105.1-cp310-abi3-manylinux_2_28_aarch64.whl",
+   "upload_time": "2026-10-14T04:27:59.691140Z",
+   "digests": {
+    "sha256": "beb5044645144308b39560049c0f68875ad7de07e681ad0b73e2bc6c3705ba61"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-manylinux_2_28_x86_64.whl",
+   "size": 38775911,
+   "url": "https://files.pythonhosted.org/packages/07/1d/44e5c54df750ccb610285c778f92651794534a480dcce730eaf9d0aa8b31/litellm-1.105.1-cp310-abi3-manylinux_2_28_x86_64.whl",
+   "upload_time": "2026-10-14T04:28:03.870665Z",
+   "digests": {
+    "sha256": "f3d743c2d274c6537f7341213607c927c486676012a9d94412a8a8ccbe2f51f1"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "size": 37873313,
+   "url": "https://files.pythonhosted.org/packages/f9/4c/ee5ce0ac611f595da18e01b613dbac6af241c5142c0e08765e5b29737605/litellm-1.105.1-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-10-14T04:28:08.943373Z",
+   "digests": {
+    "sha256": "d0392f5e773ab4bdb15daf2856d89afce74dc8b7e6d802f52060a23778ef650b"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "size": 38907646,
+   "url": "https://files.pythonhosted.org/packages/19/5d/6b44374c4ec2a297072fd331694c98dd7463407f17129b173d472c89c080/litellm-1.105.1-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-10-14T04:28:14.409075Z",
+   "digests": {
+    "sha256": "d422f4fa44b424c541276bf55355b3650e2db01c08922f250baaf61eeaf788cf"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1-cp310-abi3-win_amd64.whl",
+   "size": 39775121,
+   "url": "https://files.pythonhosted.org/packages/36/10/05865e564be95fa2e5d14bf94667a0d00684341f193645dde9ebaf5495cd/litellm-1.105.1-cp310-abi3-win_amd64.whl",
+   "upload_time": "2026-10-14T04:28:19.755096Z",
+   "digests": {
+    "sha256": "e2b46bc884b1aa7299a238158f7ff3f3dad49821a0dcfa4a77a54cf38e78bac2"
+   }
+  },
+  {
+   "filename": "litellm-1.105.1.tar.gz",
+   "size": 20321773,
+   "url": "https://files.pythonhosted.org/packages/1f/ce/083565ef5a988c27ac4e9f63f36b4289397a59a41be83931619eed9d76e3/litellm-1.105.1.tar.gz",
+   "upload_time": "2026-10-14T04:28:23.557134Z",
+   "digests": {
+    "sha256": "f1a274db0b2bcc78c34ed34c06df2c1dcd0dc038469193684927f6bb2cab2d97"
+   }
+  }
+ ],
+ "n_releases_total": 933
+}

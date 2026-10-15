@@ -1,0 +1,75 @@
+{
+ "package": "zarr",
+ "queried": "zarr",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/zarr/json",
+ "info": {
+  "name": "zarr",
+  "version": "3.4.1",
+  "summary": "An implementation of chunked, compressed, N-dimensional arrays for Python",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.12",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 6 - Mature",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Information Technology",
+   "Intended Audience :: Science/Research",
+   "Operating System :: Unix",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "Python, compressed, ndimensional-arrays, zarr",
+  "home_page": null,
+  "project_urls": {
+   "Discussions": "https://github.com/zarr-developers/zarr-python/discussions",
+   "changelog": "https://zarr.readthedocs.io/en/stable/release-notes.html",
+   "documentation": "https://zarr.readthedocs.io/",
+   "homepage": "https://github.com/zarr-developers/zarr-python",
+   "issues": "https://github.com/zarr-developers/zarr-python/issues"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "donfig>=0.8",
+   "google-crc32c>=1.5",
+   "msgspec>=0.19",
+   "numcodecs>=0.16",
+   "numpy>=2",
+   "packaging>=22.0",
+   "typing-extensions>=4.14",
+   "cast-value-rs>=0.4.2; extra == \"cast-value-rs\"",
+   "typer; extra == \"cli\"",
+   "cupy-cuda12x; sys_platform != \"darwin\" and extra == \"gpu\"",
+   "universal-pathlib; extra == \"optional\"",
+   "fsspec>=2023.10.0; extra == \"remote\"",
+   "obstore>=0.5.1; extra == \"remote\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "zarr-3.4.1-py3-none-any.whl",
+   "size": 405257,
+   "url": "https://files.pythonhosted.org/packages/a6/82/0dbc9bc77b49cfb9268dc2b2b1dcd04346c8c7ed52e272b76a628a941656/zarr-3.4.1-py3-none-any.whl",
+   "upload_time": "2026-10-08T17:14:23.926703Z",
+   "digests": {
+    "sha256": "38b540578a119352bdce02a720d7bfd99846e77f0728c58b1bab3d1f547526a0"
+   }
+  },
+  {
+   "filename": "zarr-3.4.1.tar.gz",
+   "size": 923257,
+   "url": "https://files.pythonhosted.org/packages/3e/62/e8a36a4b65f01499c7aefcf103aabba0c37c018bf135fbf179f6ed2f01a0/zarr-3.4.1.tar.gz",
+   "upload_time": "2026-10-08T17:14:25.972101Z",
+   "digests": {
+    "sha256": "b34bda11ceb199c81ee78ecd42cd02f46c7f67a6d8a1e9bc501cafd5a1795356"
+   }
+  }
+ ],
+ "n_releases_total": 121
+}

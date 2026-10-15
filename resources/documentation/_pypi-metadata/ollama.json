@@ -1,0 +1,50 @@
+{
+ "package": "ollama",
+ "queried": "ollama",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/ollama/json",
+ "info": {
+  "name": "ollama",
+  "version": "0.6.3",
+  "summary": "The official Python client for Ollama.",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.8",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "homepage": "https://ollama.com",
+   "issues": "https://github.com/ollama/ollama-python/issues",
+   "repository": "https://github.com/ollama/ollama-python"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "httpx>=0.27",
+   "pydantic>=2.9"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "ollama-0.6.3-py3-none-any.whl",
+   "size": 16603,
+   "url": "https://files.pythonhosted.org/packages/4d/64/87505d9e006461233c21c8e66dc1ecee49c996090584b216abd0dd4a8322/ollama-0.6.3-py3-none-any.whl",
+   "upload_time": "2026-09-29T01:26:50.451319Z",
+   "digests": {
+    "sha256": "6a20bc42c1a5f889295d7ec490d35e5132fc31f339561530f43a8abd4dbfe508"
+   }
+  },
+  {
+   "filename": "ollama-0.6.3.tar.gz",
+   "size": 56868,
+   "url": "https://files.pythonhosted.org/packages/b8/97/eeafe65594e4f4b25e443e068ef7d83aa3105b023e12e1c408c38669fc07/ollama-0.6.3.tar.gz",
+   "upload_time": "2026-09-29T01:26:51.906735Z",
+   "digests": {
+    "sha256": "41fc49a8095c4a75939c4c1f8582e4d0671692fb6eac2a5a7ede8c9872b67096"
+   }
+  }
+ ],
+ "n_releases_total": 36
+}

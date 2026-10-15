@@ -1,0 +1,81 @@
+{
+ "package": "quantstats",
+ "queried": "quantstats",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/quantstats/json",
+ "info": {
+  "name": "quantstats",
+  "version": "0.0.86",
+  "summary": "Portfolio analytics for quants",
+  "description_content_type": "text/markdown",
+  "requires_python": ">=3.10",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "Intended Audience :: Financial and Insurance Industry",
+   "Intended Audience :: Science/Research",
+   "License :: OSI Approved :: Apache Software License",
+   "Operating System :: OS Independent",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Topic :: Office/Business :: Financial",
+   "Topic :: Office/Business :: Financial :: Investment",
+   "Topic :: Scientific/Engineering",
+   "Topic :: Scientific/Engineering :: Information Analysis",
+   "Topic :: Scientific/Engineering :: Mathematics",
+   "Topic :: Software Development :: Libraries",
+   "Topic :: Software Development :: Libraries :: Python Modules"
+  ],
+  "keywords": "algo-trading, algorithmic-trading, algotrading, finance, plotting, portfolio, quant, quantitative-analysis, quantitative-trading, visualization",
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://github.com/ranaroussi/quantstats/blob/main/CHANGELOG.md",
+   "Documentation": "https://github.com/ranaroussi/quantstats",
+   "Homepage": "https://github.com/ranaroussi/quantstats",
+   "Repository": "https://github.com/ranaroussi/quantstats"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "matplotlib>=3.7.0",
+   "numpy>=1.24.0",
+   "pandas>=2.0.0",
+   "python-dateutil>=2.8.0",
+   "scipy>=1.11.0",
+   "seaborn>=0.13.0",
+   "tabulate>=0.9.0",
+   "yfinance>=0.2.40",
+   "pyright>=1.1.0; extra == \"dev\"",
+   "pytest-cov>=4.0.0; extra == \"dev\"",
+   "pytest>=7.0.0; extra == \"dev\"",
+   "ruff>=0.1.0; extra == \"dev\"",
+   "plotly>=5.0.0; extra == \"plotly\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "quantstats-0.0.86-py3-none-any.whl",
+   "size": 96762,
+   "url": "https://files.pythonhosted.org/packages/d8/46/3d9304b888c5e67e00e3ad814e06ab08b21c0386e14ba5d08daceaab9b31/quantstats-0.0.86-py3-none-any.whl",
+   "upload_time": "2026-09-27T19:41:42.612553Z",
+   "digests": {
+    "sha256": "4cfb157c8228cbb47681d6a81767d465fbc2bdf529643dd7e836479d2165efd6"
+   }
+  },
+  {
+   "filename": "quantstats-0.0.86.tar.gz",
+   "size": 99113,
+   "url": "https://files.pythonhosted.org/packages/3c/5a/a859727babc25df8e42e5d2d0d928de5652be7bf1d20a768ecc58add2d3c/quantstats-0.0.86.tar.gz",
+   "upload_time": "2026-09-27T19:41:43.759050Z",
+   "digests": {
+    "sha256": "eb348e342410f0abb9b7a457f524df703dc337ed075303b842eaba220a11c7e1"
+   }
+  }
+ ],
+ "n_releases_total": 82
+}

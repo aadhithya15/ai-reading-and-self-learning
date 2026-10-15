@@ -1,0 +1,85 @@
+{
+ "package": "APScheduler",
+ "queried": "apscheduler",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/apscheduler/json",
+ "info": {
+  "name": "APScheduler",
+  "version": "3.11.3",
+  "summary": "In-process task scheduler with Cron-like capabilities",
+  "description_content_type": "text/x-rst",
+  "requires_python": ">=3.8",
+  "license_expression": null,
+  "license": "MIT",
+  "classifiers": [
+   "Development Status :: 5 - Production/Stable",
+   "Intended Audience :: Developers",
+   "License :: OSI Approved :: MIT License",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9"
+  ],
+  "keywords": "scheduling, cron",
+  "home_page": null,
+  "project_urls": {
+   "Changelog": "https://apscheduler.readthedocs.io/en/3.x/versionhistory.html",
+   "Documentation": "https://apscheduler.readthedocs.io/en/3.x/",
+   "Issue tracker": "https://github.com/agronholm/apscheduler/issues",
+   "Source code": "https://github.com/agronholm/apscheduler"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "tzlocal>=3.0",
+   "backports.zoneinfo; python_version < \"3.9\"",
+   "etcd3; extra == \"etcd\"",
+   "protobuf<=3.21.0; extra == \"etcd\"",
+   "gevent; extra == \"gevent\"",
+   "pymongo>=3.0; extra == \"mongodb\"",
+   "redis>=3.0; extra == \"redis\"",
+   "rethinkdb>=2.4.0; extra == \"rethinkdb\"",
+   "sqlalchemy>=1.4; extra == \"sqlalchemy\"",
+   "tornado>=4.3; extra == \"tornado\"",
+   "twisted; extra == \"twisted\"",
+   "kazoo; extra == \"zookeeper\"",
+   "APScheduler[etcd,mongodb,redis,rethinkdb,sqlalchemy,tornado,zookeeper]; extra == \"test\"",
+   "pytest; extra == \"test\"",
+   "pytest-timeout; extra == \"test\"",
+   "anyio>=4.5.2; extra == \"test\"",
+   "PySide6; platform_python_implementation == \"CPython\" and extra == \"test\"",
+   "gevent; python_version < \"3.14\" and extra == \"test\"",
+   "pytz; extra == \"test\"",
+   "twisted; python_version < \"3.14\" and extra == \"test\"",
+   "packaging; extra == \"doc\"",
+   "sphinx; extra == \"doc\"",
+   "sphinx-rtd-theme>=1.3.0; extra == \"doc\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "apscheduler-3.11.3-py3-none-any.whl",
+   "size": 66024,
+   "url": "https://files.pythonhosted.org/packages/42/c9/8638db32514dbb9157b3d82680c6faea89283523edf9ed2415ea3884f2ae/apscheduler-3.11.3-py3-none-any.whl",
+   "upload_time": "2026-06-28T19:39:20.982686Z",
+   "digests": {
+    "sha256": "bbeb2ec02d23d3c06a6c07ed7f0f3939ada6680eb121fae809a69bb42c537a30"
+   }
+  },
+  {
+   "filename": "apscheduler-3.11.3.tar.gz",
+   "size": 110312,
+   "url": "https://files.pythonhosted.org/packages/8c/6b/eeff360196bb20b312c9e762a820fd1b2c6d809466c755ef57863478e454/apscheduler-3.11.3.tar.gz",
+   "upload_time": "2026-06-28T19:39:22.493945Z",
+   "digests": {
+    "sha256": "cd2fcc9330039a81a5893472ad49facf23a6d5604cbe1d918c835c6de7834d5a"
+   }
+  }
+ ],
+ "n_releases_total": 59
+}

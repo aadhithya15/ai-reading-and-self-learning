@@ -1,0 +1,38 @@
+{
+ "package": "hnswlib",
+ "queried": "hnswlib",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/hnswlib/json",
+ "info": {
+  "name": "hnswlib",
+  "version": "0.8.0",
+  "summary": "hnswlib",
+  "description_content_type": "",
+  "requires_python": "",
+  "license_expression": null,
+  "license": "",
+  "classifiers": [],
+  "keywords": "",
+  "home_page": "https://github.com/yurymalkov/hnsw",
+  "project_urls": {
+   "Homepage": "https://github.com/yurymalkov/hnsw"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "hnswlib-0.8.0.tar.gz",
+   "size": 36206,
+   "url": "https://files.pythonhosted.org/packages/cf/7a/1a9b1405f2eb59515f06c3074750b03e0e96edf7fee0f6dd6df81d9c21d7/hnswlib-0.8.0.tar.gz",
+   "upload_time": "2023-12-03T04:16:17.550931Z",
+   "digests": {
+    "sha256": "cb6d037eedebb34a7134e7dc78966441dfd04c9cf5ee93911be911ced951c44c"
+   }
+  }
+ ],
+ "n_releases_total": 11
+}

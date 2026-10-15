@@ -1,0 +1,59 @@
+{
+ "package": "pytesseract",
+ "queried": "pytesseract",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/pytesseract/json",
+ "info": {
+  "name": "pytesseract",
+  "version": "0.3.13",
+  "summary": "Python-tesseract is a python wrapper for Google's Tesseract-OCR",
+  "description_content_type": "text/x-rst",
+  "requires_python": ">=3.8",
+  "license_expression": null,
+  "license": "Apache License 2.0",
+  "classifiers": [
+   "License :: OSI Approved :: Apache Software License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3 :: Only",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9",
+   "Programming Language :: Python :: Implementation :: CPython",
+   "Programming Language :: Python :: Implementation :: PyPy"
+  ],
+  "keywords": "python-tesseract OCR Python",
+  "home_page": "https://github.com/madmaze/pytesseract",
+  "project_urls": {
+   "Homepage": "https://github.com/madmaze/pytesseract"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "packaging>=21.3",
+   "Pillow>=8.0.0"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "pytesseract-0.3.13-py3-none-any.whl",
+   "size": 14705,
+   "url": "https://files.pythonhosted.org/packages/7a/33/8312d7ce74670c9d39a532b2c246a853861120486be9443eebf048043637/pytesseract-0.3.13-py3-none-any.whl",
+   "upload_time": "2024-08-16T02:36:10.090408Z",
+   "digests": {
+    "sha256": "7a99c6c2ac598360693d83a416e36e0b33a67638bb9d77fdcac094a3589d4b34"
+   }
+  },
+  {
+   "filename": "pytesseract-0.3.13.tar.gz",
+   "size": 17689,
+   "url": "https://files.pythonhosted.org/packages/9f/a6/7d679b83c285974a7cb94d739b461fa7e7a9b17a3abfd7bf6cbc5c2394b0/pytesseract-0.3.13.tar.gz",
+   "upload_time": "2024-08-16T02:33:56.762649Z",
+   "digests": {
+    "sha256": "4bf5f880c99406f52a3cfc2633e42d9dc67615e69d8a509d74867d3baddb5db9"
+   }
+  }
+ ],
+ "n_releases_total": 28
+}

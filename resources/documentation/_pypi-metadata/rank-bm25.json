@@ -1,0 +1,48 @@
+{
+ "package": "rank-bm25",
+ "queried": "rank-bm25",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/rank-bm25/json",
+ "info": {
+  "name": "rank-bm25",
+  "version": "0.2.2",
+  "summary": "Various BM25 algorithms for document ranking",
+  "description_content_type": "text/markdown",
+  "requires_python": "",
+  "license_expression": null,
+  "license": "Apache2.0",
+  "classifiers": [],
+  "keywords": "",
+  "home_page": "https://github.com/dorianbrown/rank_bm25",
+  "project_urls": {
+   "Homepage": "https://github.com/dorianbrown/rank_bm25"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "numpy",
+   "pytest ; extra == 'dev'"
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "rank_bm25-0.2.2-py3-none-any.whl",
+   "size": 8584,
+   "url": "https://files.pythonhosted.org/packages/2a/21/f691fb2613100a62b3fa91e9988c991e9ca5b89ea31c0d3152a3210344f9/rank_bm25-0.2.2-py3-none-any.whl",
+   "upload_time": "2022-02-16T12:10:50.626909Z",
+   "digests": {
+    "sha256": "7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae"
+   }
+  },
+  {
+   "filename": "rank_bm25-0.2.2.tar.gz",
+   "size": 8347,
+   "url": "https://files.pythonhosted.org/packages/fc/0a/f9579384aa017d8b4c15613f86954b92a95a93d641cc849182467cf0bb3b/rank_bm25-0.2.2.tar.gz",
+   "upload_time": "2022-02-16T12:10:52.196236Z",
+   "digests": {
+    "sha256": "096ccef76f8188563419aaf384a02f0ea459503fdf77901378d4fd9d87e5e51d"
+   }
+  }
+ ],
+ "n_releases_total": 4
+}

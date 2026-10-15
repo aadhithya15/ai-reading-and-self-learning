@@ -1,0 +1,141 @@
+{
+ "package": "temporalio",
+ "queried": "temporalio",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/temporalio/json",
+ "info": {
+  "name": "temporalio",
+  "version": "1.34.0",
+  "summary": "Temporal.io Python SDK",
+  "description_content_type": "text/markdown; charset=UTF-8; variant=GFM",
+  "requires_python": ">=3.10",
+  "license_expression": "MIT",
+  "license": null,
+  "classifiers": [
+   "License :: OSI Approved :: MIT License",
+   "Programming Language :: Python :: 3.10",
+   "Programming Language :: Python :: 3.11",
+   "Programming Language :: Python :: 3.12",
+   "Programming Language :: Python :: 3.13",
+   "Programming Language :: Python :: 3.14"
+  ],
+  "keywords": "temporal, workflow",
+  "home_page": null,
+  "project_urls": {
+   "Bug Tracker": "https://github.com/temporalio/sdk-python/issues",
+   "Documentation": "https://docs.temporal.io/docs/python",
+   "Homepage": "https://github.com/temporalio/sdk-python",
+   "Repository": "https://github.com/temporalio/sdk-python"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "nexus-rpc==1.4.0",
+   "protobuf<8.0.0,>=3.20",
+   "python-dateutil<3,>=2.8.2; python_full_version < \"3.11\"",
+   "types-protobuf<8.0.0,>=3.20",
+   "typing-extensions<5,>=4.2.0",
+   "aioboto3>=10.4.0; extra == \"aioboto3\"",
+   "types-aioboto3[s3]>=10.4.0; extra == \"aioboto3\"",
+   "opentelemetry-api<2,>=1.26; extra == \"cloud-run-worker-otel\"",
+   "opentelemetry-sdk<2,>=1.26; extra == \"cloud-run-worker-otel\"",
+   "opentelemetry-exporter-otlp-proto-grpc<2,>=1.11.1; extra == \"cloud-run-worker-otel\"",
+   "protobuf<7; extra == \"cloud-run-worker-otel\"",
+   "deepagents<0.8,>=0.7; python_full_version >= \"3.11\" and extra == \"deepagents\"",
+   "langchain<2,>=1.3.14; python_full_version >= \"3.11\" and extra == \"deepagents\"",
+   "langchain-core<2,>=1.5.0; python_full_version >= \"3.11\" and extra == \"deepagents\"",
+   "google-adk<3,>=2.8.0; extra == \"google-adk\"",
+   "mcp<2,>=1.24; extra == \"google-adk\"",
+   "google-genai<3.0.0,>=2.21.0; extra == \"google-genai\"",
+   "grpcio<2,>=1.48.2; extra == \"grpc\"",
+   "opentelemetry-api<2,>=1.26; extra == \"lambda-worker-otel\"",
+   "opentelemetry-sdk<2,>=1.26; extra == \"lambda-worker-otel\"",
+   "opentelemetry-exporter-otlp-proto-grpc<2,>=1.11.1; extra == \"lambda-worker-otel\"",
+   "opentelemetry-semantic-conventions<1,>=0.40b0; extra == \"lambda-worker-otel\"",
+   "opentelemetry-sdk-extension-aws<3,>=2.0.0; extra == \"lambda-worker-otel\"",
+   "langgraph>=1.1.0; extra == \"langgraph\"",
+   "langsmith<0.13,>=0.7.34; extra == \"langsmith\"",
+   "openai-agents<0.20,>=0.19.2; extra == \"openai-agents\"",
+   "mcp<2,>=1.9.4; extra == \"openai-agents\"",
+   "opentelemetry-api<2,>=1.26; extra == \"opentelemetry\"",
+   "opentelemetry-sdk<2,>=1.26; extra == \"opentelemetry\"",
+   "pydantic<3,>=2.0.0; extra == \"pydantic\"",
+   "strands-agents>=1.51.0; extra == \"strands-agents\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-macosx_10_12_x86_64.whl",
+   "size": 14064102,
+   "url": "https://files.pythonhosted.org/packages/3c/71/e55380e7820819357afada375d4e5c33d141bb94a08fda35aa0551b4369b/temporalio-1.34.0-cp310-abi3-macosx_10_12_x86_64.whl",
+   "upload_time": "2026-09-30T20:22:35.601063Z",
+   "digests": {
+    "sha256": "87118447ad13e1062b79bfc8b44b1695e8328ac9c6be1776e426e87b501b135a"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-macosx_11_0_arm64.whl",
+   "size": 13763219,
+   "url": "https://files.pythonhosted.org/packages/db/78/356c8e2f0ec1678b757d4c5e8a1b0b1c65b15b8afb2335ad2944c158ea10/temporalio-1.34.0-cp310-abi3-macosx_11_0_arm64.whl",
+   "upload_time": "2026-09-30T20:22:38.774263Z",
+   "digests": {
+    "sha256": "023fff9cd9dd21860061e003880dcf95250700f5afab96c030c9cb258504dab8"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+   "size": 14121901,
+   "url": "https://files.pythonhosted.org/packages/e9/00/4a4b4e018c4c12b4691211aca1d97db8707ed4c9e31f40dcf09784c9913d/temporalio-1.34.0-cp310-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+   "upload_time": "2026-09-30T20:22:41.428956Z",
+   "digests": {
+    "sha256": "cdb6e2fb525ea5635afa4a3f1ae4c992c16dbe29dc92939a85153baeb69d95a2"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "size": 14457183,
+   "url": "https://files.pythonhosted.org/packages/c1/20/b032d4a0df51d466fd929d8205e1288e83d97a890f021479f43af9bd6f9b/temporalio-1.34.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+   "upload_time": "2026-09-30T20:22:44.215092Z",
+   "digests": {
+    "sha256": "540761f738bdfe5cb5bd7240b659e116a0b5094b94282aef09b8d8c2d66e9c52"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "size": 14179836,
+   "url": "https://files.pythonhosted.org/packages/b6/0d/b08ffeca93bbc29200a5bd85a45cca3c6be0a123de605ecd1798b617df4f/temporalio-1.34.0-cp310-abi3-musllinux_1_2_aarch64.whl",
+   "upload_time": "2026-09-30T20:22:47.474914Z",
+   "digests": {
+    "sha256": "87647f87f42ecd45efb675642e2ec8ca34aa42359f5968f31f5391f1db5ebcbe"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "size": 14570248,
+   "url": "https://files.pythonhosted.org/packages/81/55/acde4d1b7c9f23434e263752ef0a3ef58adeb3b95ef8472607414798dfaa/temporalio-1.34.0-cp310-abi3-musllinux_1_2_x86_64.whl",
+   "upload_time": "2026-09-30T20:22:50.569989Z",
+   "digests": {
+    "sha256": "71caa4b9061628b22a457c87c3b16da40f7ac6ac1a26ece9aa1ee6b4934404d7"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0-cp310-abi3-win_amd64.whl",
+   "size": 15415684,
+   "url": "https://files.pythonhosted.org/packages/cc/c5/6bdc3b02ec483093a71e9f887e8a50ae20fcc79e0578ed7435a81d4271b1/temporalio-1.34.0-cp310-abi3-win_amd64.whl",
+   "upload_time": "2026-09-30T20:22:53.342898Z",
+   "digests": {
+    "sha256": "03bd86561188c18d88425178bc690fe0791104b78566dcebd98f59cbdbce0952"
+   }
+  },
+  {
+   "filename": "temporalio-1.34.0.tar.gz",
+   "size": 3163890,
+   "url": "https://files.pythonhosted.org/packages/13/85/9ece6f400552ed21951c8c5c534056e7d015cb065e3384470ec23ac24f28/temporalio-1.34.0.tar.gz",
+   "upload_time": "2026-09-30T20:22:56.056658Z",
+   "digests": {
+    "sha256": "6453cb20e18df485e16578b22c82a9c4bcb1cf7eedd94147dfd373551d80f5b6"
+   }
+  }
+ ],
+ "n_releases_total": 55
+}

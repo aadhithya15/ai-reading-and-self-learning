@@ -1,0 +1,94 @@
+{
+ "package": "graphiti-core",
+ "queried": "graphiti-core",
+ "retrieved_date": "2026-10-14",
+ "source_url": "https://pypi.org/pypi/graphiti-core/json",
+ "info": {
+  "name": "graphiti-core",
+  "version": "0.30.2",
+  "summary": "A temporal graph building library",
+  "description_content_type": "text/markdown",
+  "requires_python": "<4,>=3.10",
+  "license_expression": "Apache-2.0",
+  "license": null,
+  "classifiers": [],
+  "keywords": null,
+  "home_page": null,
+  "project_urls": {
+   "Homepage": "https://help.getzep.com/graphiti/graphiti/overview",
+   "Repository": "https://github.com/getzep/graphiti"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "requires_dist": [
+   "neo4j>=5.26.0",
+   "numpy>=1.0.0",
+   "openai>=1.91.0",
+   "posthog>=3.0.0",
+   "pydantic>=2.11.5",
+   "python-dotenv>=1.0.1",
+   "tenacity>=9.0.0",
+   "anthropic>=0.49.0; extra == \"anthropic\"",
+   "anthropic>=0.49.0; extra == \"dev\"",
+   "boto3>=1.39.16; extra == \"dev\"",
+   "falkordb<2.0.0,>=1.1.2; extra == \"dev\"",
+   "google-genai>=1.8.0; extra == \"dev\"",
+   "groq>=0.2.0; extra == \"dev\"",
+   "ipykernel>=6.29.5; extra == \"dev\"",
+   "jupyterlab>=4.2.4; extra == \"dev\"",
+   "kuzu>=0.11.3; extra == \"dev\"",
+   "langchain-anthropic>=0.2.4; extra == \"dev\"",
+   "langchain-aws>=0.2.29; extra == \"dev\"",
+   "langchain-openai>=0.2.6; extra == \"dev\"",
+   "langgraph>=1.0.10; extra == \"dev\"",
+   "langsmith>=0.1.108; extra == \"dev\"",
+   "opensearch-py>=3.0.0; extra == \"dev\"",
+   "opentelemetry-sdk>=1.20.0; extra == \"dev\"",
+   "pyright>=1.1.404; extra == \"dev\"",
+   "pytest-asyncio>=0.24.0; extra == \"dev\"",
+   "pytest-xdist>=3.6.1; extra == \"dev\"",
+   "pytest>=8.3.3; extra == \"dev\"",
+   "ruff>=0.7.1; extra == \"dev\"",
+   "sentence-transformers>=3.2.1; extra == \"dev\"",
+   "transformers>=4.45.2; extra == \"dev\"",
+   "voyageai>=0.2.3; extra == \"dev\"",
+   "falkordb<2.0.0,>=1.1.2; extra == \"falkordb\"",
+   "falkordblite>=0.5.0; python_version >= \"3.12\" and extra == \"falkordblite\"",
+   "redis<9; python_version >= \"3.12\" and extra == \"falkordblite\"",
+   "gliner2>=1.2.0; python_version >= \"3.11\" and extra == \"gliner2\"",
+   "google-genai>=1.62.0; extra == \"google-genai\"",
+   "groq>=0.2.0; extra == \"groq\"",
+   "kuzu>=0.11.3; extra == \"kuzu\"",
+   "boto3>=1.39.16; extra == \"neo4j-opensearch\"",
+   "opensearch-py>=3.0.0; extra == \"neo4j-opensearch\"",
+   "boto3>=1.39.16; extra == \"neptune\"",
+   "langchain-aws>=0.2.29; extra == \"neptune\"",
+   "opensearch-py>=3.0.0; extra == \"neptune\"",
+   "sentence-transformers>=3.2.1; extra == \"sentence-transformers\"",
+   "opentelemetry-api>=1.20.0; extra == \"tracing\"",
+   "opentelemetry-sdk>=1.20.0; extra == \"tracing\"",
+   "voyageai>=0.2.3; extra == \"voyageai\""
+  ]
+ },
+ "release_files": [
+  {
+   "filename": "graphiti_core-0.30.2-py3-none-any.whl",
+   "size": 363163,
+   "url": "https://files.pythonhosted.org/packages/13/19/7ee37826a9dff81eb4d242a785c4ca76d2d510528dd52fc7dd10fb45d9cd/graphiti_core-0.30.2-py3-none-any.whl",
+   "upload_time": "2026-09-08T20:39:12.422311Z",
+   "digests": {
+    "sha256": "97674a49514130db175faecf23221ce9338240be3cbe13a7e23e5a5033892b9f"
+   }
+  },
+  {
+   "filename": "graphiti_core-0.30.2.tar.gz",
+   "size": 6978112,
+   "url": "https://files.pythonhosted.org/packages/4a/a1/3e0fe119b6f3116ef7671ae1b2d98ef70655ac634d9914e748b5f97ecacb/graphiti_core-0.30.2.tar.gz",
+   "upload_time": "2026-09-08T20:39:14.590490Z",
+   "digests": {
+    "sha256": "b8ac6999705d350ebb53d799505d49b76f5d74c20265a09df4094645b5d8ada9"
+   }
+  }
+ ],
+ "n_releases_total": 194
+}
