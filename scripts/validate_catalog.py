@@ -45,8 +45,13 @@ PRIORITIES = {"P1", "P2", "P3"}
 WORKSTREAMS = {f"{i:02d}" for i in range(1, 15)}
 REQUIRED_MANIFEST_KEYS = ["asset_id", "component_ids", "category", "original_url",
                           "retrieval_date", "local_path", "file_size_bytes", "sha256",
+                          "local_git_blob_sha", "upstream_git_blob_sha",
                           "license_spdx_detected", "redistribution_status", "status",
                           "verification_limits", "access_limits"]
+# Renamed in manifest 1.2. The old single field was ambiguous: it held the SHA of
+# the *upstream* Git object, which for symlinked upstream paths is not a hash of
+# the bundled bytes at all.
+LEGACY_MANIFEST_KEYS = ["git_blob_sha"]
 CATEGORIES = {"papers", "documentation", "code-examples", "configurations",
               "benchmark-descriptions", "diagrams", "licenses"}
 LINK_RX = re.compile(r"\[[^\]]*\]\(([^)\s]+)\)")
@@ -191,6 +196,41 @@ def check_manifest(rep: Report) -> dict:
 
     sha_bad = [a["asset_id"] for a in assets if not re.match(r"^[0-9a-f]{64}$", str(a.get("sha256", "")))]
     rep.err(f"sha256 not a 64-char hex digest for: {sha_bad[:10]}") if sha_bad else rep.ok("every sha256 is a 64-char hex digest")
+
+    legacy = [(a.get("asset_id"), k) for a in assets for k in LEGACY_MANIFEST_KEYS if k in a]
+    rep.err(f"{len(legacy)} assets still use the ambiguous pre-1.2 key(s), e.g. {legacy[:4]}") if legacy \
+        else rep.ok("no asset uses the ambiguous pre-1.2 'git_blob_sha' key")
+
+    # local_git_blob_sha must be a usable hash of the bundled bytes for every asset.
+    lb_bad = [a["asset_id"] for a in assets if not re.match(r"^[0-9a-f]{40}$", str(a.get("local_git_blob_sha", "")))]
+    rep.err(f"local_git_blob_sha is not a 40-char hex SHA-1 for: {lb_bad[:10]}") if lb_bad \
+        else rep.ok("every local_git_blob_sha is a 40-char hex SHA-1")
+
+    # upstream_git_blob_sha is provenance: either null with a recorded reason, or a
+    # 40-char hex SHA-1. Null is expected for package-registry metadata records.
+    ub_null_no_note = [a["asset_id"] for a in assets
+                       if a.get("upstream_git_blob_sha") is None and not a.get("upstream_git_blob_sha_note")]
+    ub_bad = [a["asset_id"] for a in assets
+              if a.get("upstream_git_blob_sha") is not None
+              and not re.match(r"^[0-9a-f]{40}$", str(a.get("upstream_git_blob_sha")))]
+    rep.err(f"upstream_git_blob_sha is null with no recorded reason for: {ub_null_no_note[:10]}") if ub_null_no_note \
+        else rep.ok(f"every null upstream_git_blob_sha carries a recorded reason "
+                    f"({sum(1 for a in assets if a.get('upstream_git_blob_sha') is None)} registry-metadata assets)")
+    rep.err(f"upstream_git_blob_sha is not a 40-char hex SHA-1 for: {ub_bad[:10]}") if ub_bad \
+        else rep.ok("every non-null upstream_git_blob_sha is a 40-char hex SHA-1")
+
+    # Where the upstream path is a symlink the two hashes legitimately differ, and
+    # the record must say so and name the target.
+    sym = [a for a in assets if a.get("upstream_path_is_symlink")]
+    sym_bad = [a["asset_id"] for a in sym
+               if not a.get("upstream_symlink_target") or not a.get("upstream_git_blob_sha_note")]
+    rep.err(f"symlink-flagged assets missing a target or an explanation: {sym_bad}") if sym_bad \
+        else rep.ok(f"all {len(sym)} symlink-flagged assets record their upstream target and an explanation")
+    diff = [a["asset_id"] for a in assets
+            if a.get("upstream_git_blob_sha") and a.get("local_git_blob_sha")
+            and a["upstream_git_blob_sha"] != a["local_git_blob_sha"] and not a.get("upstream_path_is_symlink")]
+    rep.err(f"assets whose upstream and local blob SHAs differ without a recorded reason: {diff}") \
+        if diff else rep.ok("no unexplained upstream/local blob SHA differences")
 
     size_bad = [a["asset_id"] for a in assets if not isinstance(a.get("file_size_bytes"), int) or a["file_size_bytes"] < 0]
     rep.err(f"file_size_bytes not a non-negative int for: {size_bad[:10]}") if size_bad else rep.ok("file_size_bytes valid on every asset")
